@@ -1,0 +1,482 @@
+﻿=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\about\About.jsx
+
+const About = () => {
+  return <div>About</div>;
+};
+export default About;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\about\Careers.jsx
+
+const Careers = () => {
+  return <div>Careers</div>;
+};
+export default Careers;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\about\Certifications.jsx
+
+const Certifications = () => {
+  return <div>Certifications</div>;
+};
+export default Certifications;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\about\Contact.jsx
+
+const Contact = () => {
+  return <div>Contact</div>;
+};
+export default Contact;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\about\RequestQuote.jsx
+
+const RequestQuote = () => {
+  return <div>Request a Quote</div>;
+};
+export default RequestQuote;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\capabilities\AllManufacturing.jsx
+
+const AllManufacturing = () => {
+  return <div>All Manufacturing</div>;
+};
+export default AllManufacturing;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\capabilities\AluminumExtrusions.jsx
+
+const AluminumExtrusions = () => {
+  return <div>Aluminum Extrusions</div>;
+};
+export default AluminumExtrusions;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\capabilities\Assemblies.jsx
+
+const Assemblies = () => {
+  return <div>Assemblies</div>;
+};
+export default Assemblies;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\capabilities\Capabilities.jsx
+
+import React from "react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Typography } from "@/components/typography";
+
+const capabilitiesData = [
+  {
+    title: "EXTRUSIONS",
+    description:
+      "Zetwerk manufactures high-quality extrusions produced using a range of aluminum alloys, with cross-sections that are as complex as customers require.",
+    imageUrl: "https://via.placeholder.com/300x200?text=Extrusions",
+  },
+  {
+    title: "DIE CASTING",
+    description:
+      "Zetwerk provides high-quality die-cast components produced using a range of materials including aluminum, zinc, copper, brass, and bronze alloys.",
+    imageUrl: "https://via.placeholder.com/300x200?text=Die+Casting",
+  },
+  {
+    title: "CNC MACHINING",
+    description:
+      "Zetwerk provides high-quality, tight toleranced components machined from bar stock. Zetwerk also finishes as-cast and as-forged components.",
+    imageUrl: "https://via.placeholder.com/300x200?text=CNC+Machining",
+  },
+  {
+    title: "FORGING",
+    description:
+      "Zetwerk offers a variety of forging types, including drop forging, hot/cold forging, rolled ring forging, and press forging.",
+    imageUrl: "https://via.placeholder.com/300x200?text=Forging",
+  },
+  {
+    title: "INJECTION MOLDING",
+    description:
+      "Injection molding can produce parts in a wide range of sizes and complexity. Small features, intricate geometries, and thin walls can be captured with ease.",
+    imageUrl: "https://via.placeholder.com/300x200?text=Injection+Molding",
+  },
+  {
+    title: "SHEET METAL STAMPING",
+    description:
+      "Zetwerk produces custom sheet metal stampings in a wide range of custom materials.",
+    imageUrl: "https://via.placeholder.com/300x200?text=Sheet+Metal+Stamping",
+  },
+  {
+    title: "PROTOTYPING AND PRE-PRODUCTION",
+    description:
+      "Zetwerk helps companies and entrepreneurs around the world manufacture prototypes for their businesses.",
+    imageUrl: "https://via.placeholder.com/300x200?text=Prototyping",
+  },
+  {
+    title: "INVESTMENT CASTING",
+    description:
+      "Zetwerk produces investment cast components using carbon steel, low-alloy steel, and stainless steel grades, in addition to a wide variety of non-ferrous metals.",
+    imageUrl: "https://via.placeholder.com/300x200?text=Investment+Casting",
+  },
+  {
+    title: "ASSEMBLIES",
+    description:
+      "With large flexible layout factories, Zetwerk is able to set up dedicated assembly lines as per the volume requirements for a wide variety of electro-mechanical products and assemblies.",
+    imageUrl: "https://via.placeholder.com/300x200?text=Assemblies",
+  },
+];
+
+const Capabilities = () => {
+  return (
+    <section className="py-12">
+      <div className="container mx-auto">
+        <Typography variant="h2" className="text-center mb-8">
+          OUR CAPABILITIES
+        </Typography>
+        <Typography
+          variant="body1"
+          className="text-center mb-12 max-w-3xl mx-auto"
+        >
+          With our worldwide network of owned, operated, and partner
+          manufacturing plants, we can have components built to your
+          specification at your doorstep with industry-best lead times. These
+          are just a few of Zetwerk's manufacturing capabilities.
+        </Typography>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {capabilitiesData.map((capability, index) => (
+            <CapabilityCard key={index} {...capability} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+const CapabilityCard = ({ title, description, imageUrl }) => {
+  return (
+    <Card className="overflow-hidden">
+      <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
+      <CardHeader>
+        <CardTitle>{title}</CardTitle>
+      </CardHeader>
+      <CardContent>
+        <CardDescription>{description}</CardDescription>
+      </CardContent>
+      <CardFooter>
+        <Button variant="outline">Learn More</Button>
+      </CardFooter>
+    </Card>
+  );
+};
+
+export default Capabilities;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\capabilities\CNCMachining.jsx
+
+const CNCMachining = () => {
+  return <div>CNC Machining</div>;
+};
+export default CNCMachining;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\capabilities\DieCasting.jsx
+
+const DieCasting = () => {
+  return <div>Die Casting</div>;
+};
+export default DieCasting;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\capabilities\Forging.jsx
+
+const Forging = () => {
+  return <div>Forging</div>;
+};
+export default Forging;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\capabilities\InjectionMolding.jsx
+
+const InjectionMolding = () => {
+  return <div>Injection Molding</div>;
+};
+export default InjectionMolding;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\capabilities\InvestmentCasting.jsx
+
+const InvestmentCasting = () => {
+  return <div>Investment Casting</div>;
+};
+export default InvestmentCasting;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\capabilities\PrototypingPreproduction.jsx
+
+const PrototypingPreproduction = () => {
+  return <div>Prototyping and Preproduction</div>;
+};
+export default PrototypingPreproduction;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\capabilities\SheetMetalStamping.jsx
+
+const SheetMetalStamping = () => {
+  return <div>Sheet Metal Stamping</div>;
+};
+export default SheetMetalStamping;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\industries\AerospaceDefense.jsx
+
+const AerospaceDefense = () => {
+  return <div>Aerospace & Defense</div>;
+};
+export default AerospaceDefense;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\industries\AllIndustries.jsx
+
+const AllIndustries = () => {
+  return <div>All Industries</div>;
+};
+export default AllIndustries;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\industries\Automotive.jsx
+
+const Automotive = () => {
+  return <div>Automotive</div>;
+};
+export default Automotive;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\industries\ConstructionIndustrial.jsx
+
+const ConstructionIndustrial = () => {
+  return <div>Construction & Industrial</div>;
+};
+export default ConstructionIndustrial;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\industries\ConsumerProductsElectronicsAppliances.jsx
+
+const ConsumerProductsElectronicsAppliances = () => {
+  return <div>Consumer Products, Electronics & Appliances</div>;
+};
+export default ConsumerProductsElectronicsAppliances;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\industries\EnergyUtilities.jsx
+
+const EnergyUtilities = () => {
+  return <div>Energy & Utilities</div>;
+};
+export default EnergyUtilities;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\industries\Industries.jsx
+
+const Industries = () => {
+  return <div>Industries</div>;
+};
+export default Industries;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\industries\Infrastructure.jsx
+
+const Infrastructure = () => {
+  return <div>Infrastructure</div>;
+};
+export default Infrastructure;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\industries\Machinery.jsx
+
+const Machinery = () => {
+  return <div>Machinery</div>;
+};
+export default Machinery;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\industries\SolarProjects.jsx
+
+const SolarProjects = () => {
+  return <div>Solar Projects</div>;
+};
+export default SolarProjects;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\login\CustomerLogin.jsx
+
+const CustomerLogin = () => {
+  return <div>Customer Login</div>;
+};
+export default CustomerLogin;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\login\SupplierLogin.jsx
+
+const SupplierLogin = () => {
+  return <div>Supplier Login</div>;
+};
+export default SupplierLogin;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\manufacturing-services\AllManufacturingServices.jsx
+
+const AllManufacturingServices = () => {
+  return <div>All Manufacturing Services</div>;
+};
+export default AllManufacturingServices;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\manufacturing-services\HowZetwerk.jsx
+
+const HowZetwerk = () => {
+  return <div>How Zetwerk</div>;
+};
+export default HowZetwerk;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\manufacturing-services\ManagedSupplyChain.jsx
+
+const ManagedSupplyChain = () => {
+  return <div>Managed Supply Chain</div>;
+};
+export default ManagedSupplyChain;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\manufacturing-services\ManufacturingServices.jsx
+
+const ManufacturingServices = () => {
+  return <div>Manufacturing Services</div>;
+};
+export default ManufacturingServices;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\manufacturing-services\ProjectManagement.jsx
+
+const ProjectManagement = () => {
+  return <div>Project Management</div>;
+};
+export default ProjectManagement;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\manufacturing-services\QualityControl.jsx
+
+const QualityControl = () => {
+  return <div>Quality Control</div>;
+};
+export default QualityControl;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\manufacturing-services\ZetwerkManagedInventory.jsx
+
+const ZetwerkManagedInventory = () => {
+  return <div>Zetwerk Managed Inventory</div>;
+};
+export default ZetwerkManagedInventory;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\resources\CustomerResources.jsx
+
+const CustomerResources = () => {
+  return <div>Customer Resources</div>;
+};
+export default CustomerResources;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\resources\KnowledgeBase.jsx
+
+const KnowledgeBase = () => {
+  return <div>Knowledge Base</div>;
+};
+export default KnowledgeBase;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\resources\MediaResources.jsx
+
+const MediaResources = () => {
+  return <div>Media Resources</div>;
+};
+export default MediaResources;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\resources\Resources.jsx
+
+const Resources = () => {
+  return <div>Resources</div>;
+};
+export default Resources;
+
+
+=======================================================================
+C:\My-Projects\Fastners-new\client-new\src\pages\Home.jsx
+
+import About from "@/components/about";
+import Capabilities from "@/components/capabilities";
+import HeroSection from "@/components/hero";
+import Industries from "@/components/industries";
+
+const Home = () => {
+  return (
+    <div>
+      <HeroSection></HeroSection>
+      <Capabilities></Capabilities>
+      <About></About>
+      <Industries></Industries>
+    </div>
+  );
+};
+
+export default Home;
+
+
