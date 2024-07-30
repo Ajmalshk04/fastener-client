@@ -5,7 +5,7 @@ export default function ForgotPassword() {
   return (
     <>
       <div className="container relative grid h-svh flex-col items-center justify-center lg:max-w-none lg:grid-cols-2 lg:px-0 ">
-        <div className=" hidden h-full flex-col p-10 text-white dark:border-r lg:flex bg-gradient-to-br from-blue-500 from-10% via-blue-300 via-30% to-gray-950 to-60%">
+        <div className=" hidden h-full flex-col p-10 text-gray-900 dark:text-white  dark:border-r lg:flex bg-gradient-to-br from-blue-500 from-10% via-blue-300 via-30% to-white dark:to-gray-950 to-60%">
           <div className=" flex items-center text-lg font-medium">
             <svg
               xmlns="http://www.w3.org/2000/svg"

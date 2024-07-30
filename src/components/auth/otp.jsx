@@ -5,8 +5,8 @@ import OtpForm from "@/components/auth/components/otp-form";
 export default function Otp() {
   return (
     <>
-      <div className="container grid h-svh flex-col items-center justify-center bg-primary-foreground lg:max-w-none lg:px-0">
-        <div className="mx-auto flex w-full flex-col justify-center space-y-2 sm:w-[480px] lg:p-8">
+      <div className=" h-[80vh] flex items-center justify-center  text-gray-900 dark:text-white  dark:border-r lg:flex bg-gradient-to-br from-blue-500 from-10% via-blue-300 via-30% to-white dark:to-gray-950 to-60%">
+        <div className="mx-10 lg:mx-auto flex w-full flex-col justify-center space-y-2 sm:w-[480px] lg:p-8">
           <div className="mb-4 flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ export default function Otp() {
             </svg>
             <h1 className="text-xl font-medium">Verify OTP</h1>
           </div>
-          <Card className="p-6">
+          <Card className="p-6 ">
             <div className="mb-2 flex flex-col space-y-2 text-left">
               <h1 className="text-md font-semibold tracking-tight">
                 Two-factor Authentication

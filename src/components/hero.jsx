@@ -127,21 +127,21 @@ export function HeroSection() {
             <p className="mb-8">{section.description}</p>
             <Carousel
               opts={{ align: "start" }}
-              className="max-w-4xl"
+              className="max-w-4xl z-10"
               plugins={[
                 Autoplay({
                   delay: 2000,
                 }),
               ]}
             >
-              <CarouselContent>
+              <CarouselContent className="z-10">
                 {section.items.map((item, itemIndex) => (
-                  <CarouselItem key={itemIndex} className="basis-1/5">
-                    <div className="p-1">
+                  <CarouselItem key={itemIndex} className="basis-1/5 z-auto">
+                    <div className="">
                       <a href={item.link}>
-                        <Card className="bg-opacity-0 border-none shadow-none">
-                          <CardContent className="flex flex-col aspect-square items-center justify-center p-2 text-center bg-opacity-10">
-                            <div className="icon-wrapper">
+                        <Card className="bg-opacity-0 border-none shadow-none z-0">
+                          <CardContent className="flex flex-col aspect-square items-center justify-center p-2 text-center bg-opacity-10 z-10">
+                            <div className="icon-wrapper z-0">
                               <img src={dummyImageUrl} alt={item.title} />
                             </div>
                             <span className="text-sm font-semibold mt-2">
