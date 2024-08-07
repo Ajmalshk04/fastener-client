@@ -1,3 +1,52 @@
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Layout from "./components/Layout";
+// import Home from "./pages/Home";
+// import About from "./pages/about/about";
+// import CapabilitiesRoutes from "./routes/CapabilitiesRoutes";
+// import IndustriesRoutes from "./routes/IndustriesRoutes";
+// import LoginRoutes from "./routes/LogInRoutes";
+// import ManufacturingServicesRoutes from "./routes/ManufacturingServicesRoutes";
+// import WhyUs from "./pages/why-us/why-us";
+// import ProtectedRoute from "./components/auth/ProtectedRoute";
+// import CustomerDashboard from "./components/Customer/CustomerDashboard";
+// import SupplierDashboard from "./components/Supplier/SupplierDashboard";
+// import AdminDashboard from "./components/Dashboard/AdminDashboard";
+
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={<Layout />}>
+//           <Route index element={<Home />} />
+//           <Route path="about/*" element={<About />} />
+//           <Route path="why-us/*" element={<WhyUs />} />
+//           <Route path="capabilities/*" element={<CapabilitiesRoutes />} />
+//           <Route path="industries/*" element={<IndustriesRoutes />} />
+//           <Route path="auth/*" element={<LoginRoutes />} />
+//           <Route element={<ProtectedRoute allowedRoles={["customer"]} />}>
+//             <Route path="/customer/dashboard" element={<CustomerDashboard />} />
+//           </Route>
+
+//           <Route element={<ProtectedRoute allowedRoles={["supplier"]} />}>
+//             <Route path="/supplier/dashboard" element={<SupplierDashboard />} />
+//           </Route>
+
+//           <Route element={<ProtectedRoute allowedRoles={["admin"]} />}>
+//             <Route path="/admin/dashboard" element={<AdminDashboard />} />
+//           </Route>
+//           <Route
+//             path="manufacturing-services/*"
+//             element={<ManufacturingServicesRoutes />}
+//           />
+//         </Route>
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// }
+
+// export default App;
+//======================================================================
+import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
@@ -7,26 +56,79 @@ import IndustriesRoutes from "./routes/IndustriesRoutes";
 import LoginRoutes from "./routes/LogInRoutes";
 import ManufacturingServicesRoutes from "./routes/ManufacturingServicesRoutes";
 import WhyUs from "./pages/why-us/why-us";
+import CustomerProtectedRoute from "./components/auth/CustomerProtectedRoute";
+import SupplierProtectedRoute from "./components/auth/SupplierProtectedRoute";
+import AdminProtectedRoute from "./components/auth/AdminProtectedRoute";
+import PublicRoute from "./components/auth/PublicRoute";
+import Dashboard from "./components/Supplier/components/Dashboard";
+import PartnerOnboarding from "./components/Supplier/components/FirsetStep";
+
+const CustomerDashboard = lazy(() =>
+  import("./components/Customer/CustomerDashboard")
+);
+const SupplierDashboard = lazy(() =>
+  import("./components/Supplier/SupplierDashboard")
+);
+const AdminDashboard = lazy(() =>
+  import("./components/Dashboard/AdminDashboard")
+);
+const Unauthorized = lazy(() => import("./components/Unauthorized"));
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about/*" element={<About />} />
-          <Route path="why-us/*" element={<WhyUs />} />
-          <Route path="capabilities/*" element={<CapabilitiesRoutes />} />
-          <Route path="industries/*" element={<IndustriesRoutes />} />
-          <Route path="auth/*" element={<LoginRoutes />} />
-          <Route
-            path="manufacturing-services/*"
-            element={<ManufacturingServicesRoutes />}
-          />
-        </Route>
-      </Routes>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="about/*" element={<About />} />
+            <Route path="why-us/*" element={<WhyUs />} />
+            <Route path="capabilities/*" element={<CapabilitiesRoutes />} />
+            <Route path="industries/*" element={<IndustriesRoutes />} />
+            <Route
+              path="manufacturing-services/*"
+              element={<ManufacturingServicesRoutes />}
+            />
+
+            {/* Public routes (redirect if authenticated) */}
+            <Route element={<PublicRoute />}>
+              <Route path="auth/*" element={<LoginRoutes />} />
+            </Route>
+
+            {/* Protected routes */}
+            <Route element={<CustomerProtectedRoute />}>
+              <Route
+                path="/customer/dashboard"
+                element={<CustomerDashboard />}
+              />
+            </Route>
+
+            <Route element={<SupplierProtectedRoute />}>
+              <Route path="/supplier/dashboard" element={<SupplierDashboard />}>
+                <Route
+                  path="/supplier/dashboard/home"
+                  element={<Dashboard />}
+                />
+                <Route
+                  index
+                  path="partner-onboarding"
+                  element={<PartnerOnboarding />}
+                />
+              </Route>
+            </Route>
+
+            <Route element={<AdminProtectedRoute />}>
+              <Route path="/admin/dashboard" element={<AdminDashboard />} />
+            </Route>
+
+            {/* Unauthorized route */}
+            <Route path="/unauthorized" element={<Unauthorized />} />
+          </Route>
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 }
 
 export default App;
+//====================================

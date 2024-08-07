@@ -14,6 +14,7 @@
 // import { Input } from "@/components/ui/input";
 // import { PinInput, PinInputField } from "@/components/custom/pin-input";
 // import { Separator } from "@/components/ui/separator";
+// import { selectEmail } from "@/store/features/auth/authSelectors";
 
 // const formSchema = z.object({
 //   otp: z.string().min(1, { message: "Please enter your OTP code." }),
@@ -55,17 +56,27 @@
 //                       onComplete={() => setDisabledBtn(false)}
 //                       onIncomplete={() => setDisabledBtn(true)}
 //                     >
-//                       {Array.from({ length: 6 }, (_, i) => (
-//                         <PinInputField
-//                           key={i}
-//                           component={Input}
-//                           className={`text-center w-10 h-10 ${
-//                             form.getFieldState("otp").invalid
-//                               ? "border-red-500"
-//                               : ""
-//                           }`}
-//                         />
-//                       ))}
+//                       {Array.from({ length: 7 }, (_, i) => {
+//                         if (i === 3)
+//                           return (
+//                             <Separator
+//                               key={i}
+//                               orientation="vertical"
+//                               className="h-10 mx-2"
+//                             />
+//                           );
+//                         return (
+//                           <PinInputField
+//                             key={i}
+//                             component={Input}
+//                             className={`text-center w-10 h-10 ${
+//                               form.getFieldState("otp").invalid
+//                                 ? "border-red-500"
+//                                 : ""
+//                             }`}
+//                           />
+//                         );
+//                       })}
 //                     </PinInput>
 //                   </FormControl>
 //                   <FormMessage />
@@ -85,7 +96,7 @@
 //     </div>
 //   );
 // }
-//=======================================
+//=====================================================
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -102,28 +113,27 @@ import {
 import { Input } from "@/components/ui/input";
 import { PinInput, PinInputField } from "@/components/custom/pin-input";
 import { Separator } from "@/components/ui/separator";
+import { useAuth } from "@/hooks/useAuth";
+
+import { useSelector } from "react-redux";
+import { selectEmail } from "@/store/features/auth/authSelectors";
 
 const formSchema = z.object({
-  otp: z.string().min(1, { message: "Please enter your OTP code." }),
+  otp: z.string().length(6, { message: "OTP must be 6 digits." }), // Adjust if necessary
 });
 
 export default function OtpForm({ className, ...props }) {
-  const [isLoading, setIsLoading] = useState(false);
   const [disabledBtn, setDisabledBtn] = useState(true);
-
+  const { handleVerifyOTP, isVerifyingOTP, verifyOTPError } = useAuth();
+  const email = useSelector(selectEmail);
+  console.log(email);
   const form = useForm({
     resolver: zodResolver(formSchema),
     defaultValues: { otp: "" },
   });
 
   function onSubmit(data) {
-    setIsLoading(true);
-    console.log({ data });
-
-    setTimeout(() => {
-      form.reset();
-      setIsLoading(false);
-    }, 2000);
+    handleVerifyOTP({ email, otp: data.otp });
   }
 
   return (
@@ -173,10 +183,13 @@ export default function OtpForm({ className, ...props }) {
             <Button
               className="mt-4 w-full"
               disabled={disabledBtn}
-              loading={isLoading}
+              loading={isVerifyingOTP}
             >
               Verify
             </Button>
+            {verifyOTPError && (
+              <p className="text-red-500 mt-2">{verifyOTPError.message}</p>
+            )}
           </div>
         </form>
       </Form>

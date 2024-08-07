@@ -91,8 +91,7 @@ import React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils";
-import { LoaderCircle } from "lucide-react";
-
+import { Loader } from "lucide-react";
 const buttonVariants = cva(
   "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
   {
@@ -146,15 +145,20 @@ const Button = React.forwardRef(function Button(
       ref={ref}
       {...props}
     >
-      {((leftSection && loading) ||
+      {/* {((leftSection && loading) ||
         (!leftSection && !rightSection && loading)) && (
-        <LoaderCircle className="mr-2 h-4 w-4 animate-spin" />
-      )}
+        <Loader className="mr-2 h-4 w-4 animate-spin" />
+      )} */}
+      {loading &&
+        !leftSection &&
+        !rightSection && ( // Show loader if loading and no sections
+          <Loader className="mr-2 h-4 w-4 animate-spin" />
+        )}
       {!loading && leftSection && <div className="mr-2">{leftSection}</div>}
       {children}
       {!loading && rightSection && <div className="ml-2">{rightSection}</div>}
       {rightSection && loading && (
-        <LoaderCircle className="ml-2 h-4 w-4 animate-spin" />
+        <Loader className="ml-2 h-4 w-4 animate-spin" />
       )}
     </Comp>
   );

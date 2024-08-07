@@ -23,11 +23,10 @@ export default function SignIn2() {
             <h1 className="text-xl font-medium">Sign up as Suppliers</h1>
           </div>
           <Card className="p-6">
-            <div className="flex flex-col space-y-2 text-left">
-              <h1 className="text-2xl font-semibold tracking-tight">Login</h1>
-              <p className="text-sm text-muted-foreground">
-                Enter your email and password below <br />
-                to log into your account
+            <div className="flex flex-col space-y-2 text-left mb-2">
+              <h1 className="text-2xl font-semibold tracking-tight">Sign Up</h1>
+              <p className="text-sm text-muted-foreground ">
+                Enter your Details below to Register your account
               </p>
             </div>
             <SignUpForm />

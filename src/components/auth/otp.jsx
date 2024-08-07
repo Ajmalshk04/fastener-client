@@ -1,8 +1,17 @@
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import OtpForm from "@/components/auth/components/otp-form";
+import { useSelector } from "react-redux";
+import { selectEmail } from "@/store/features/auth/authSelectors";
+import { useAuth } from "@/hooks/useAuth";
 
 export default function Otp() {
+  const email = useSelector(selectEmail);
+  const { handleResendOTP } = useAuth();
+  const handleResend = () => {
+    handleResendOTP(email);
+  };
+  console.log("<<<<<<<<<<<<<<", email);
   return (
     <>
       <div className=" h-[80vh] flex items-center justify-center  text-gray-900 dark:text-white  dark:border-r lg:flex bg-gradient-to-br from-blue-500 from-10% via-blue-300 via-30% to-white dark:to-gray-950 to-60%">
@@ -35,12 +44,12 @@ export default function Otp() {
             <OtpForm />
             <p className="mt-4 px-8 text-center text-sm text-muted-foreground">
               Haven't received it?{" "}
-              <Link
-                to="/resent-new-code"
-                className="underline underline-offset-4 hover:text-primary"
+              <span
+                onClick={handleResend}
+                className="underline underline-offset-4 hover:text-primary cursor-pointer"
               >
                 Resend a new code.
-              </Link>
+              </span>
               .
             </p>
           </Card>

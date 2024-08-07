@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import { z } from "zod";
@@ -16,24 +15,28 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/custom/button";
 import { PasswordInput } from "@/components/custom/password-input";
 import { cn } from "@/lib/utils";
+import { useAuth } from "@/hooks/useAuth";
+import { useDispatch } from "react-redux";
+import { setEmail } from "@/store/features/auth/authSlice";
 
 const formSchema = z.object({
   email: z
     .string()
-    .min(1, { message: "Please enter your email" })
+    .min(3, { message: "Please enter your email" })
     .email({ message: "Invalid email address" }),
   password: z
     .string()
     .min(1, {
       message: "Please enter your password",
     })
-    .min(7, {
+    .min(4, {
       message: "Password must be at least 7 characters long",
     }),
 });
 
 export function UserAuthForm({ className, ...props }) {
-  const [isLoading, setIsLoading] = useState(false);
+  const dispatch = useDispatch();
+  const { handleSignIn, isSigningIn, signInError } = useAuth();
 
   const form = useForm({
     resolver: zodResolver(formSchema),
@@ -43,14 +46,10 @@ export function UserAuthForm({ className, ...props }) {
     },
   });
 
-  function onSubmit(data) {
-    setIsLoading(true);
-    console.log(data);
-
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
-  }
+  const onSubmit = (data) => {
+    handleSignIn(data);
+    dispatch(setEmail(data.email));
+  };
 
   return (
     <div className={cn("grid gap-6", className)} {...props}>
@@ -91,9 +90,13 @@ export function UserAuthForm({ className, ...props }) {
                 </FormItem>
               )}
             />
-            <Button className="mt-2 text-white" loading={isLoading}>
+            <Button className="mt-2 text-white" loading={isSigningIn}>
               Login
             </Button>
+
+            {signInError && (
+              <div className="text-red-500 text-sm">{signInError.message}</div>
+            )}
 
             <div className="relative my-2">
               <div className="absolute inset-0 flex items-center">
