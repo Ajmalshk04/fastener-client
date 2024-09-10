@@ -6,7 +6,7 @@ import { Typography } from "@/components/typography";
 
 const Footer = () => {
   return (
-    <Card className="rounded-none border-t ">
+    <Card className="rounded-none border border-t">
       <CardContent className="p-8">
         <FooterContent />
         <Separator className="my-6" />

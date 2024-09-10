@@ -113,6 +113,7 @@
 //=============================================
 import { useDispatch, useSelector } from "react-redux";
 import { useMutation } from "@tanstack/react-query";
+import { jwtDecode } from "jwt-decode";
 import {
   resendOTP,
   signIn,
@@ -121,6 +122,7 @@ import {
 } from "../api/services/authService";
 import {
   clearAuth,
+  // setId,
   setIsAuthenticated,
   setRole,
   setToken,
@@ -139,10 +141,14 @@ export const useAuth = () => {
     // Check for token in localStorage on component mount
     const token = localStorage.getItem("token");
     if (token) {
-      setAuthenticated(true);
+      const decodedToken = jwtDecode(token);
+      const role = decodedToken.role;
+      // const cId = decodedToken.id;
       dispatch(setIsAuthenticated(true));
       dispatch(setToken(token));
-      dispatch(setRole(localStorage.getItem("role")));
+      dispatch(setRole(role));
+      // dispatch(setId(cId));
+      localStorage.setItem("role", role);
     }
   }, []);
 
@@ -150,14 +156,17 @@ export const useAuth = () => {
     mutationFn: signIn,
     onSuccess: (data) => {
       if (data.success) {
-        localStorage.setItem("token", data.token);
-        localStorage.setItem("role", data.role);
-        dispatch(setToken(data.token));
-        dispatch(setRole(data.role));
+        const token = data.token;
+        const decodedToken = jwtDecode(token);
+        const role = decodedToken.role; // Extract role from token
+        localStorage.setItem("token", token);
+        localStorage.setItem("role", role);
+        dispatch(setToken(token));
+        dispatch(setRole(role));
         dispatch(setIsAuthenticated(true));
         setAuthenticated(true);
         // Navigate based on role
-        switch (data.role) {
+        switch (role) {
           case "customer":
             navigate("/customer/dashboard");
             break;
@@ -168,7 +177,7 @@ export const useAuth = () => {
             navigate("/admin/dashboard");
             break;
           default:
-            console.error("Unknown role:", data.role);
+            console.error("Unknown role:", role);
             navigate("/");
         }
       } else {

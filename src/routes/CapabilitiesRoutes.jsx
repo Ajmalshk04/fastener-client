@@ -1,3 +1,4 @@
+import LoadingSpinner from "@/components/LoadingSpinner.jsx";
 import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 
@@ -31,7 +32,13 @@ const InvestmentCasting = lazy(() =>
 );
 
 const CapabilitiesRoutes = () => (
-  <Suspense fallback={<div>Loading...</div>}>
+  <Suspense
+    fallback={
+      <div>
+        <LoadingSpinner size="medium" />
+      </div>
+    }
+  >
     <Routes>
       <Route index path="capabilities" element={<Capabilities />} />
       <Route path="all-manufacturing" element={<AllManufacturing />} />

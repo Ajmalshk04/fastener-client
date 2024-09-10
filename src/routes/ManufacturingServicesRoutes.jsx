@@ -1,3 +1,4 @@
+import LoadingSpinner from "@/components/LoadingSpinner";
 import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 
@@ -24,7 +25,13 @@ const ManagedLogistics = lazy(() =>
 );
 
 const ManufacturingServicesRoutes = () => (
-  <Suspense fallback={<div>Loading...</div>}>
+  <Suspense
+    fallback={
+      <div>
+        <LoadingSpinner size="medium" />
+      </div>
+    }
+  >
     <Routes>
       <Route index path="all" element={<AllManufacturingServices />} />
       <Route path="project-management" element={<ProjectManagement />} />

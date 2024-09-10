@@ -1,3 +1,5 @@
+import ResetPasswordPage from "@/components/auth/ResetPassword";
+import LoadingSpinner from "@/components/LoadingSpinner";
 import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 
@@ -19,7 +21,13 @@ const ForgotPassword = lazy(() =>
 const VerifyOtp = lazy(() => import("@/components/auth/otp.jsx"));
 
 const LoginRoutes = () => (
-  <Suspense fallback={<div>Loading...</div>}>
+  <Suspense
+    fallback={
+      <div>
+        <LoadingSpinner size="medium" />
+      </div>
+    }
+  >
     <Routes>
       <Route path="customer/sign-in" element={<CustomerSignIn />} />
       <Route path="customer/sign-up" element={<CustomerSignUp />} />
@@ -27,6 +35,7 @@ const LoginRoutes = () => (
       <Route path="supplier/sign-up" element={<SupplierSignUp />} />
       <Route path="forgot-password" element={<ForgotPassword />} />
       <Route path="verify-otp" element={<VerifyOtp />} />
+      <Route path="reset-password" element={<ResetPasswordPage />} />
     </Routes>
   </Suspense>
 );
