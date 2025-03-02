@@ -1682,7 +1682,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import Typography from "@/components/custom/Typography"; 
+import Typography from "@/components/custom/typography"; 
 import { injectionMoldingData } from "@/data/injectionMolding";
 
 // Dynamic Component
