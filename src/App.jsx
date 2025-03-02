@@ -50,7 +50,7 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
-import About from "./pages/about/about";
+// import About from "./pages/about/about";
 import CapabilitiesRoutes from "./routes/CapabilitiesRoutes";
 import IndustriesRoutes from "./routes/IndustriesRoutes";
 import LoginRoutes from "./routes/LogInRoutes";
@@ -74,6 +74,12 @@ import UserListTable from "./components/Dashboard/components/UserTable";
 import SupplierListTable from "./components/Dashboard/components/SuppliersTable";
 import ProjectListTable from "./components/Dashboard/components/ProjectsTable";
 import ProjectDetailsPage from "./components/Customer/ProjectDetails";
+import QuotationManagement from "./components/Dashboard/components/QuotationManagement";
+import AdminProjectUpdates from "./components/Dashboard/components/AdminProjectUpdates";
+import Industries from "./components/industries";
+import AllManufacturingServices from "./pages/manufacturing-services/AllManufacturingServices";
+import About from "./components/about";
+import MyOrderDetail from "./components/Supplier/components/MyOrderDetail";
 
 const CustomerDashboard = lazy(() =>
   import("./components/Customer/CustomerDashboard")
@@ -103,11 +109,15 @@ function App() {
             <Route path="about/*" element={<About />} />
             <Route path="why-us/*" element={<WhyUs />} />
             <Route path="capabilities/*" element={<CapabilitiesRoutes />} />
-            <Route path="industries/*" element={<IndustriesRoutes />} />
+            <Route path="industries/*" element={<Industries />} />
             <Route
               path="manufacturing-services/*"
-              element={<ManufacturingServicesRoutes />}
+              element={<AllManufacturingServices />}
             />
+            {/* <Route
+              path="manufacturing-services/*"
+              element={<ManufacturingServicesRoutes />}
+            /> */}
 
             {/* Public routes (redirect if authenticated) */}
             <Route element={<PublicRoute />}>
@@ -139,6 +149,7 @@ function App() {
                 <Route path="profile" element={<SuppliersProfile />} />
                 <Route path="job-board" element={<JobBoard />} />
                 <Route path="my-orders" element={<MyOrdersTable />} />
+                <Route path="my-orders/:orderId" element={<MyOrderDetail />} />
                 <Route path="support" element={<Support />} />
               </Route>
             </Route>
@@ -149,6 +160,8 @@ function App() {
                 <Route path="users" element={<UserListTable />} />
                 <Route path="suppliers" element={<SupplierListTable />} />
                 <Route path="projects" element={<ProjectListTable />} />
+                <Route path="quotation" element={<QuotationManagement />} />
+                <Route path="project-updates" element={<AdminProjectUpdates />} />
               </Route>
             </Route>
 

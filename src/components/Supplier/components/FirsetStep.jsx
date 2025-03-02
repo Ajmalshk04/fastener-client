@@ -1,6 +1,3 @@
-import { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import CompetenciesModal from "./CompetenciesModal";
 import {
   Card,
   CardHeader,
@@ -10,16 +7,30 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
-import SelectCompetencies from "./SelectCompetencies";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "@/hooks/useAuth";
+import axiosInstance from "@/api/client";
+import { useQuery } from "@tanstack/react-query";
+import CompetencyDialog from "./CompetenciesModal";
+import { useState } from "react";
 
 const PartnerOnboarding = () => {
   const navigate = useNavigate();
-  const [competencies, setCompetencies] = useState([]);
+  const [isDialogOpen, setDialogOpen] = useState(false);
+  const { token } = useAuth();
 
-  const handleCompetenciesChange = (newCompetencies) => {
-    setCompetencies(newCompetencies);
-  };
+  const { data, isLoading, error } = useQuery({
+    queryKey: ["manufacturingCapabilities"],
+    queryFn: async () => {
+      const response = await axiosInstance.get("/suppliers/capabilities", {
+        headers: { Authorization: `Bearer ${token}` },
+      });
+      return response.manufacturingCapabilities || [];
+    },
+  });
+
+  const handleDialogOpen = () => setDialogOpen(true);
+  const handleDialogClose = () => setDialogOpen(false);
 
   return (
     <div className="container mx-auto p-6 flex flex-col gap-6">
@@ -49,9 +60,17 @@ const PartnerOnboarding = () => {
               </p>
             </CardContent>
             <CardFooter>
-              <SelectCompetencies
-                onCompetenciesChange={handleCompetenciesChange}
-              />
+            <div className="flex justify-end mb-4">
+                  <Button variant="outline" onClick={handleDialogOpen}>
+                    Edit Competencies
+                  </Button>
+                </div>
+            <CompetencyDialog 
+        open={isDialogOpen} 
+        onClose={handleDialogClose} 
+        capabilities={data} 
+        isLoading={isLoading}
+      />
             </CardFooter>
           </Card>
           <div className="flex items-center justify-center">

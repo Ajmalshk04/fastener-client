@@ -75,7 +75,26 @@ const AccountDetails = () => {
     setEditedUser({ ...user });
   };
 
-  const handleInputChange = (e, section) => {
+  // const handleInputChange = (e, section) => {
+  //   const { name, value } = e.target;
+  //   if (section === "profile") {
+  //     setEditedUser((prev) => ({ ...prev, [name]: value }));
+  //   } else if (section === "billing") {
+  //     setEditedProfile((prev) => ({
+  //       ...prev,
+  //       billingAddress: { ...prev.billingAddress, [name]: value },
+  //     }));
+  //   } else if (section === "shipping") {
+  //     setEditedProfile((prev) => ({
+  //       ...prev,
+  //       shippingAddresses: prev.shippingAddresses.map((address, index) =>
+  //         index === 0 ? { ...address, [name]: value } : address
+  //       ),
+  //     }));
+  //   }
+  // };
+
+  const handleInputChange = (e, section, index = 0) => {
     const { name, value } = e.target;
     if (section === "profile") {
       setEditedUser((prev) => ({ ...prev, [name]: value }));
@@ -85,12 +104,17 @@ const AccountDetails = () => {
         billingAddress: { ...prev.billingAddress, [name]: value },
       }));
     } else if (section === "shipping") {
-      setEditedProfile((prev) => ({
-        ...prev,
-        shippingAddresses: prev.shippingAddresses.map((address, index) =>
-          index === 0 ? { ...address, [name]: value } : address
-        ),
-      }));
+      setEditedProfile((prev) => {
+        const updatedShippingAddresses = [...(prev.shippingAddresses || [{}])];
+        updatedShippingAddresses[index] = {
+          ...(updatedShippingAddresses[index] || {}),
+          [name]: value
+        };
+        return {
+          ...prev,
+          shippingAddresses: updatedShippingAddresses
+        };
+      });
     }
   };
 
@@ -189,27 +213,19 @@ const AccountDetails = () => {
   ];
 
   const renderBillingFields = () => {
-    if (!editedProfile || !editedProfile.billingAddress) return null;
-
-    const billingAddress = editedProfile.billingAddress;
-
+    const billingAddress = editedProfile?.billingAddress || {};
+  
     return (
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {billingFields.map((field) => (
           <div key={field.name} className="space-y-2">
             <Label htmlFor={`billing${field.name}`}>{field.label}</Label>
-            {isEditing.billing ? (
-              <Input
-                id={`billing${field.name}`}
-                name={field.name}
-                value={billingAddress[field.name] || ""}
-                onChange={(e) => handleInputChange(e, "billing")}
-              />
-            ) : (
-              <p className="text-sm text-gray-500">
-                {billingAddress[field.name]}
-              </p>
-            )}
+            <Input
+              id={`billing${field.name}`}
+              name={field.name}
+              value={billingAddress[field.name] || ""}
+              onChange={(e) => handleInputChange(e, "billing")}
+            />
           </div>
         ))}
       </div>
@@ -225,27 +241,25 @@ const AccountDetails = () => {
   ];
 
   const renderShippingFields = () => {
-    if (!editedProfile || !editedProfile.shippingAddresses) return null;
-
+    const shippingAddresses = editedProfile?.shippingAddresses?.length 
+      ? editedProfile.shippingAddresses 
+      : [{}];
+  
     return (
       <div className="space-y-4">
-        {editedProfile.shippingAddresses.map((address, index) => (
+        {shippingAddresses.map((address, index) => (
           <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {shippingFields.map((field) => (
               <div key={field.name} className="space-y-2">
                 <Label htmlFor={`shipping${field.name}-${index}`}>
                   {field.label}
                 </Label>
-                {isEditing.shipping ? (
-                  <Input
-                    id={`shipping${field.name}-${index}`}
-                    name={field.name}
-                    value={address[field.name] || ""}
-                    onChange={(e) => handleInputChange(e, "shipping")}
-                  />
-                ) : (
-                  <p className="text-sm text-gray-500">{address[field.name]}</p>
-                )}
+                <Input
+                  id={`shipping${field.name}-${index}`}
+                  name={field.name}
+                  value={address[field.name] || ""}
+                  onChange={(e) => handleInputChange(e, "shipping", index)}
+                />
               </div>
             ))}
           </div>
@@ -253,7 +267,7 @@ const AccountDetails = () => {
       </div>
     );
   };
-
+  
   if (loading) {
     return <div>Loading...</div>;
   }

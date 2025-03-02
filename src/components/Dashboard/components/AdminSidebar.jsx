@@ -16,6 +16,7 @@ import {
   User,
   UserRoundCog,
   Briefcase,
+  NotebookPen,
 } from "lucide-react";
 
 const navItems = [
@@ -42,6 +43,18 @@ const navItems = [
     icon: Briefcase,
     variant: "ghost",
     path: "/admin/dashboard/projects",
+  },
+  {
+    title: "Quotations",
+    icon: NotebookPen,
+    variant: "ghost",
+    path: "/admin/dashboard/quotation",
+  },
+  {
+    title: "Project Quotations Updates",
+    icon: NotebookPen,
+    variant: "ghost",
+    path: "/admin/dashboard/project-updates",
   },
 ];
 

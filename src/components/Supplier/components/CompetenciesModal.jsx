@@ -1,3 +1,4 @@
+
 import {
   Dialog,
   DialogContent,
@@ -7,7 +8,7 @@ import {
 
 import CompetenciesOptionsSelect from "./competenciesOptionsSelect";
 
-const CompetencyDialog = ({ open, onClose }) => {
+const CompetencyDialog = ({ open, onClose, capabilities, isLoading }) => {
   return (
     <Dialog open={open} onOpenChange={onClose}>
       <DialogContent className="max-w-5xl flex flex-col p-0">
@@ -16,7 +17,11 @@ const CompetencyDialog = ({ open, onClose }) => {
         </DialogHeader>
 
         <div className="p-6">
-          <CompetenciesOptionsSelect />
+          {isLoading ? (
+            <p>Loading capabilities...</p>
+          ) : (
+            <CompetenciesOptionsSelect initialCapabilities={capabilities} />
+          )}
         </div>
       </DialogContent>
     </Dialog>

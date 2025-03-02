@@ -129,7 +129,7 @@ const CreateNewQuote = () => {
             name: file.name,
             downloadUrl: file.downloadURL,
           })),
-          customer: decodedToken.id,
+          user: decodedToken.id,
           requirements: {
             material,
             process,

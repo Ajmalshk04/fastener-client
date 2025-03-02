@@ -19,10 +19,10 @@ const ProjectDetailsPage = () => {
   const [project, setProject] = useState(null);
 
   useEffect(() => {
-    if (location.state && location.state.project) {
-      setProject(location.state.project);
+    if (location?.state && location?.state?.project) {
+      setProject(location?.state?.project);
     }
-  }, [location.state, navigate]);
+  }, [location?.state, navigate]);
 
   if (!project) {
     return null; // Or you could return a loading indicator here if you prefer
@@ -39,12 +39,13 @@ const ProjectDetailsPage = () => {
       </Button>
       <Card className="w-full">
         <CardHeader>
-          <CardTitle className="text-2xl font-bold">{project.title}</CardTitle>
-          <CardDescription>{project.description}</CardDescription>
+          <CardTitle className="text-2xl font-bold">{project?.title}</CardTitle>
+          <CardDescription>{project?.description}</CardDescription>
           <p>
-            <Badge variant="outline" className="mt-2">
-              {project.status}
-            </Badge>
+          <Badge variant="outline" className="mt-2">
+  {project?.status === "AVAILABLE" || project?.status === "QUOTED" ? "ORDERED" : project?.status}
+</Badge>
+
           </p>
         </CardHeader>
         <CardContent>
@@ -52,10 +53,10 @@ const ProjectDetailsPage = () => {
             <div>
               <h3 className="text-lg font-semibold mb-2">Requirements</h3>
               <ul className="space-y-1">
-                {Object.entries(project.requirements).map(([key, value]) => (
+                {Object?.entries(project?.requirements)?.map(([key, value]) => (
                   <li key={key}>
                     <span className="font-medium">
-                      {key.charAt(0).toUpperCase() + key.slice(1)}:
+                      {key?.charAt(0)?.toUpperCase() + key?.slice(1)}:
                     </span>{" "}
                     {value}
                   </li>
@@ -67,48 +68,46 @@ const ProjectDetailsPage = () => {
               <ul className="space-y-1">
                 <li>
                   <span className="font-medium">Created At:</span>{" "}
-                  {new Date(project.createdAt).toLocaleString()}
+                  {new Date(project?.createdAt)?.toLocaleString()}
                 </li>
                 <li>
                   <span className="font-medium">Updated At:</span>{" "}
-                  {new Date(project.updatedAt).toLocaleString()}
+                  {new Date(project?.updatedAt)?.toLocaleString()}
                 </li>
-                {project.deliveryDate && (
+                {project?.deliveryDate && (
                   <li>
                     <span className="font-medium">Delivery Date:</span>{" "}
-                    {new Date(project.deliveryDate).toLocaleString()}
+                    {new Date(project?.deliveryDate)?.toLocaleString()}
                   </li>
                 )}
               </ul>
             </div>
           </div>
-
           <Separator className="my-4" />
-
           <div>
             <h3 className="text-lg font-semibold mb-2">Files</h3>
-            {project.files && project.files.length > 0 ? (
+            {project?.files && project?.files?.length > 0 ? (
               <ul className="space-y-2">
-                {project.files.map((file, index) => (
+                {project?.files?.map((file, index) => (
                   <li key={index} className="flex items-center">
                     <FileIcon className="mr-2" size={20} />
                     <a
-                      href={file.downloadUrl}
+                      href={file?.downloadUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-blue-600 hover:underline"
                     >
-                      {file.name}
+                      {file?.name}
                     </a>
                   </li>
                 ))}
               </ul>
             ) : (
-              <p>No files attached to this project.</p>
+              <p>No files attached to this project?.</p>
             )}
           </div>
 
-          {project.customer && (
+          {project?.customer && (
             <>
               <Separator className="my-4" />
               <div>
@@ -117,11 +116,11 @@ const ProjectDetailsPage = () => {
                 </h3>
                 <p>
                   <span className="font-medium">Billing Address:</span>{" "}
-                  {`${project.customer.billingAddress.addressLine1}, ${project.customer.billingAddress.city}, ${project.customer.billingAddress.state}, ${project.customer.billingAddress.country} ${project.customer.billingAddress.zipCode}`}
+                  {`${project?.customer?.billingAddress?.addressLine1}, ${project?.customer?.billingAddress?.city}, ${project?.customer?.billingAddress?.state}, ${project?.customer?.billingAddress?.country} ${project?.customer?.billingAddress?.zipCode}`}
                 </p>
                 <p>
                   <span className="font-medium">Preferred Payment Method:</span>{" "}
-                  {project.customer.preferredPaymentMethod}
+                  {project?.customer?.preferredPaymentMethod}
                 </p>
               </div>
             </>

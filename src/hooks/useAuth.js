@@ -144,6 +144,7 @@ export const useAuth = () => {
       const decodedToken = jwtDecode(token);
       const role = decodedToken.role;
       // const cId = decodedToken.id;
+      setAuthenticated(true)
       dispatch(setIsAuthenticated(true));
       dispatch(setToken(token));
       dispatch(setRole(role));

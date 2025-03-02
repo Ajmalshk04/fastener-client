@@ -1,0 +1,225 @@
+﻿=======================================================================
+E:\My-Projects\Fastners-new\client-new\src\routes\CapabilitiesRoutes.jsx
+
+import LoadingSpinner from "@/components/LoadingSpinner.jsx";
+import { lazy, Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
+
+const AllManufacturing = lazy(() =>
+  import("../pages/capabilities/AllManufacturing.jsx")
+);
+
+const Capabilities = lazy(() =>
+  import("../pages/capabilities/Capabilities.jsx")
+);
+const CNCMachining = lazy(() =>
+  import("../pages/capabilities/CNCMachining.jsx")
+);
+const SheetMetalStamping = lazy(() =>
+  import("../pages/capabilities/SheetMetalStamping.jsx")
+);
+const Assemblies = lazy(() => import("../pages/capabilities/Assemblies.jsx"));
+const AluminumExtrusions = lazy(() =>
+  import("../pages/capabilities/AluminumExtrusions.jsx")
+);
+const Forging = lazy(() => import("../pages/capabilities/Forging.jsx"));
+const PrototypingPreproduction = lazy(() =>
+  import("../pages/capabilities/PrototypingPreproduction.jsx")
+);
+const DieCasting = lazy(() => import("../pages/capabilities/DieCasting.jsx"));
+const InjectionMolding = lazy(() =>
+  import("../pages/capabilities/InjectionMolding.jsx")
+);
+const InvestmentCasting = lazy(() =>
+  import("../pages/capabilities/InvestmentCasting.jsx")
+);
+
+const CapabilitiesRoutes = () => (
+  <Suspense
+    fallback={
+      <div>
+        <LoadingSpinner size="medium" />
+      </div>
+    }
+  >
+    <Routes>
+      <Route index path="capabilities" element={<Capabilities />} />
+      <Route path="all-manufacturing" element={<AllManufacturing />} />
+      <Route path="cnc-machining" element={<CNCMachining />} />
+      <Route path="sheet-metal-stamping" element={<SheetMetalStamping />} />
+      <Route path="assemblies" element={<Assemblies />} />
+      <Route path="aluminum-extrusions" element={<AluminumExtrusions />} />
+      <Route path="forging" element={<Forging />} />
+      <Route
+        path="prototyping-preproduction"
+        element={<PrototypingPreproduction />}
+      />
+      <Route path="die-casting" element={<DieCasting />} />
+      <Route path="injection-molding" element={<InjectionMolding />} />
+      <Route path="investment-casting" element={<InvestmentCasting />} />
+    </Routes>
+  </Suspense>
+);
+
+export default CapabilitiesRoutes;
+
+
+=======================================================================
+E:\My-Projects\Fastners-new\client-new\src\routes\IndustriesRoutes.jsx
+
+import LoadingSpinner from "@/components/LoadingSpinner";
+import { lazy, Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
+
+const AllIndustries = lazy(() => import("../pages/industries/AllIndustries"));
+const ConstructionIndustrial = lazy(() =>
+  import("../pages/industries/ConstructionIndustrial")
+);
+const Machinery = lazy(() => import("../pages/industries/Machinery"));
+const EnergyUtilities = lazy(() =>
+  import("../pages/industries/EnergyUtilities")
+);
+const SolarProjects = lazy(() => import("../pages/industries/SolarProjects"));
+const ConsumerProductsElectronicsAppliances = lazy(() =>
+  import("../pages/industries/ConsumerProductsElectronicsAppliances")
+);
+const AerospaceDefense = lazy(() =>
+  import("../pages/industries/AerospaceDefense")
+);
+const Automotive = lazy(() => import("../pages/industries/Automotive"));
+const Infrastructure = lazy(() => import("../pages/industries/Infrastructure"));
+
+const IndustriesRoutes = () => (
+  <Suspense
+    fallback={
+      <div>
+        <LoadingSpinner size="medium" />
+      </div>
+    }
+  >
+    <Routes>
+      <Route index path="all" element={<AllIndustries />} />
+      <Route
+        path="construction-industrial"
+        element={<ConstructionIndustrial />}
+      />
+      <Route path="machinery" element={<Machinery />} />
+      <Route path="energy-utilities" element={<EnergyUtilities />} />
+      <Route path="solar-projects" element={<SolarProjects />} />
+      <Route
+        path="consumer-products-electronics-appliances"
+        element={<ConsumerProductsElectronicsAppliances />}
+      />
+      <Route path="aerospace-defense" element={<AerospaceDefense />} />
+      <Route path="automotive" element={<Automotive />} />
+      <Route path="infrastructure" element={<Infrastructure />} />
+    </Routes>
+  </Suspense>
+);
+
+export default IndustriesRoutes;
+
+
+=======================================================================
+E:\My-Projects\Fastners-new\client-new\src\routes\LogInRoutes.jsx
+
+import ResetPasswordPage from "@/components/auth/ResetPassword";
+import LoadingSpinner from "@/components/LoadingSpinner";
+import { lazy, Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
+
+const CustomerSignIn = lazy(() =>
+  import("@/components/auth/customer-sign-in.jsx")
+);
+const SupplierSignIn = lazy(() =>
+  import("@/components/auth/supplier-sign-in.jsx")
+);
+const CustomerSignUp = lazy(() =>
+  import("@/components/auth/customer-sign-up.jsx")
+);
+const SupplierSignUp = lazy(() =>
+  import("@/components/auth/supplier-sign-up.jsx")
+);
+const ForgotPassword = lazy(() =>
+  import("@/components/auth/forgot-password.jsx")
+);
+const VerifyOtp = lazy(() => import("@/components/auth/otp.jsx"));
+
+const LoginRoutes = () => (
+  <Suspense
+    fallback={
+      <div>
+        <LoadingSpinner size="medium" />
+      </div>
+    }
+  >
+    <Routes>
+      <Route path="customer/sign-in" element={<CustomerSignIn />} />
+      <Route path="customer/sign-up" element={<CustomerSignUp />} />
+      <Route path="supplier/sign-in" element={<SupplierSignIn />} />
+      <Route path="supplier/sign-up" element={<SupplierSignUp />} />
+      <Route path="forgot-password" element={<ForgotPassword />} />
+      <Route path="verify-otp" element={<VerifyOtp />} />
+      <Route path="reset-password" element={<ResetPasswordPage />} />
+    </Routes>
+  </Suspense>
+);
+
+export default LoginRoutes;
+
+
+=======================================================================
+E:\My-Projects\Fastners-new\client-new\src\routes\ManufacturingServicesRoutes.jsx
+
+import LoadingSpinner from "@/components/LoadingSpinner";
+import { lazy, Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
+
+const AllManufacturingServices = lazy(() =>
+  import("../pages/manufacturing-services/AllManufacturingServices")
+);
+const ProjectManagement = lazy(() =>
+  import("../pages/manufacturing-services/ProjectManagement")
+);
+const ManagedSupplyChain = lazy(() =>
+  import("../pages/manufacturing-services/ManagedSupplyChain")
+);
+const HowZetwerk = lazy(() =>
+  import("../pages/manufacturing-services/HowZetwerk")
+);
+const QualityControl = lazy(() =>
+  import("../pages/manufacturing-services/QualityControl")
+);
+const ZetwerkManagedInventory = lazy(() =>
+  import("../pages/manufacturing-services/ZetwerkManagedInventory")
+);
+const ManagedLogistics = lazy(() =>
+  import("../pages/manufacturing-services/ManagedLogistics.jsx")
+);
+
+const ManufacturingServicesRoutes = () => (
+  <Suspense
+    fallback={
+      <div>
+        <LoadingSpinner size="medium" />
+      </div>
+    }
+  >
+    <Routes>
+      <Route index path="all" element={<AllManufacturingServices />} />
+      <Route path="project-management" element={<ProjectManagement />} />
+      <Route path="managed-supply-chain" element={<ManagedSupplyChain />} />
+      <Route path="how-we" element={<HowZetwerk />} />
+      <Route path="quality-control" element={<QualityControl />} />
+      <Route
+        path="zetwerk-managed-inventory"
+        element={<ZetwerkManagedInventory />}
+      />
+      <Route path="managed-logistics" element={<ManagedLogistics />} />
+    </Routes>
+  </Suspense>
+);
+
+export default ManufacturingServicesRoutes;
+
+
