@@ -141,63 +141,63 @@ const MyOrderDetail = () => {
           </div>
         </CardHeader>
         <CardContent>
-          <div className="flex flex-col gap-4 py-4">
-            <div className="flex flex-col gap-4">
+          <div className="flex flex-col  gap-2 py-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Order ID:</span>
               <span>{order._id}</span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Project Description:</span>
               <span>{order.project?.description || "N/A"}</span>
             </div>
             <div className="grid grid-cols-3">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Unit Price:</span>
               <span>${order.unitPrice?.toLocaleString() || "N/A"}</span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Quantity:</span>
               <span>{order.quantity || "N/A"}</span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Subtotal:</span>
               <span>${order.subtotal?.toLocaleString() || "N/A"}</span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Taxes:</span>
               <span>${order.taxes?.toLocaleString() || "N/A"}</span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Shipping Cost:</span>
               <span>${order.shippingCost?.toLocaleString() || "N/A"}</span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Total Price:</span>
               <span>${order.totalPrice?.toLocaleString() || "N/A"}</span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Currency:</span>
               <span>{order.currency || "N/A"}</span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Lead Time:</span>
               <span>{order.leadTime || "N/A"} days</span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Valid Until:</span>
               <span>
                 {new Date(order.validUntil).toLocaleDateString() || "N/A"}
               </span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Created At:</span>
               <span>{new Date(order.createdAt).toLocaleString() || "N/A"}</span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Updated At:</span>
               <span>{new Date(order.updatedAt).toLocaleString() || "N/A"}</span>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col ">
               <span className="font-semibold">Project Status:</span>
               <OrderStatus status={order.project?.status} />
             </div>
