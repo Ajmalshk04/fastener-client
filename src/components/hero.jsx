@@ -8,6 +8,22 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
+// Import images for "Advanced Manufacturing Solutions"
+import ThreeDPrintingImg from "/src/assets/1584.jpg";
+import LaserCuttingImg from "/src/assets/4465.jpg";
+import RoboticAutomationImg from "/src/assets/133.jpg";
+import PrecisionWeldingImg from "/src/assets/119.jpg";
+import SurfaceTreatmentImg from "/src/assets/20130.jpg";
+import ToolDieMakingImg from "/src/assets/3953.jpg";
+
+// Import images for "Industries We Serve"
+import AutomotiveImg from "/src/assets/596.jpg";
+import MedicalDevicesImg from "/src/assets/14029.jpg";
+import RenewableEnergyImg from "/src/assets/2148907418.jpg";
+import TelecommunicationsImg from "/src/assets/194.jpg";
+import FoodProcessingImg from "/src/assets/13411.jpg";
+import RoboticsImg from "/src/assets/2149408315.jpg";
+
 const heroData = [
   {
     title: "Advanced Manufacturing Solutions",
@@ -16,27 +32,27 @@ const heroData = [
     items: [
       {
         title: "3D Printing",
-        imageUrl: "/src/assets/1584.jpg", 
+        image: ThreeDPrintingImg,
       },
       {
         title: "Laser Cutting",
-        imageUrl: "/src/assets/4465.jpg",
+        image: LaserCuttingImg,
       },
       {
         title: "Robotic Automation",
-        imageUrl: "/src/assets/133.jpg", // Assuming this might represent robotics
+        image: RoboticAutomationImg,
       },
       {
         title: "Precision Welding",
-        imageUrl: "/src/assets/119.jpg", // Welding-related image
+        image: PrecisionWeldingImg,
       },
       {
         title: "Surface Treatment",
-        imageUrl: "/src/assets/20130.jpg", // General manufacturing image as placeholder
+        image: SurfaceTreatmentImg,
       },
       {
         title: "Tool & Die Making",
-        imageUrl: "/src/assets/3953.jpg", // General manufacturing image as placeholder
+        image: ToolDieMakingImg,
       },
     ],
   },
@@ -46,27 +62,27 @@ const heroData = [
     items: [
       {
         title: "Automotive",
-        imageUrl: "/src/assets/596.jpg",
+        image: AutomotiveImg,
       },
       {
         title: "Medical Devices",
-        imageUrl: "/src/assets/14029.jpg", // Medical-related image
+        image: MedicalDevicesImg,
       },
       {
         title: "Renewable Energy",
-        imageUrl: "/src/assets/2148907418.jpg", // Wind turbines or renewable energy image
+        image: RenewableEnergyImg,
       },
       {
         title: "Telecommunications",
-        imageUrl: "/src/assets/194.jpg", // Placeholder for telecommunications
+        image: TelecommunicationsImg,
       },
       {
         title: "Food Processing",
-        imageUrl: "/src/assets/13411.jpg", // Placeholder for food processing
+        image: FoodProcessingImg,
       },
       {
         title: "Robotics",
-        imageUrl: "/src/assets/2149408315.jpg", // Another robotics-related image
+        image: RoboticsImg,
       },
     ],
   },
@@ -75,7 +91,7 @@ const heroData = [
 export function HeroSection() {
   return (
     <div className="hero-section mx-40 flex flex-col md:flex-row gap-2 mt-14">
-      <div className="left-section md:w-1/2 mb-8 md:mb-0 flex flex-col justify-center px-16 ">
+      <div className="left-section md:w-1/2 mb-8 md:mb-0 flex flex-col justify-center px-16">
         <h1 className="text-3xl font-bold mb-4">X COMPANY INNOVATION</h1>
         <p className="mb-8">
           X Company delivers state-of-the-art manufacturing solutions, ensuring precision, efficiency, and reliability for all your production needs.
@@ -107,7 +123,11 @@ export function HeroSection() {
                       <Card className="bg-opacity-0 border-none shadow-none z-0">
                         <CardContent className="flex flex-col aspect-square items-center justify-center p-2 text-center bg-opacity-10 z-10">
                           <div className="icon-wrapper z-0">
-                            <img src={item.imageUrl} alt={item.title} className="w-44 h-36 object-cover" />
+                            <img
+                              src={item.image}
+                              alt={item.title}
+                              className="w-44 h-36 object-cover"
+                            />
                           </div>
                           <span className="text-sm font-semibold mt-2">
                             {item.title}
