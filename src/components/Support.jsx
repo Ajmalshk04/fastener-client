@@ -40,7 +40,7 @@ const Support = () => {
             <p className="text-sm mb-4">
               Our support team is available during the following hours:
             </p>
-            <ul className="list-disc list-inside text-sm space-y-4">
+            <ul className="list-disc pl-4 pt-2 text-sm space-y-4">
               <li>
                 Monday to Friday: 10:00 AM - 6:00 PM (Mumbai/Kolkata Time)
               </li>

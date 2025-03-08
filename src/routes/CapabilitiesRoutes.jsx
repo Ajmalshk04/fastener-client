@@ -7,7 +7,7 @@ const AllManufacturing = lazy(() =>
 );
 
 const Capabilities = lazy(() =>
-  import("../pages/capabilities/Capabilities.jsx")
+  import("../components/capabilities.jsx")
 );
 const CNCMachining = lazy(() =>
   import("../pages/capabilities/CNCMachining.jsx")

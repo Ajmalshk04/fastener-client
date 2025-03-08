@@ -9,16 +9,16 @@ export const headerData = [
         title: "Sheet Metal Stamping",
         link: "/capabilities/sheet-metal-stamping",
       },
-      // { title: "Assemblies", link: "/capabilities/assemblies" },
+      { title: "Assemblies", link: "/capabilities/assemblies" },
       // {
       //   title: "Aluminum Extrusions",
       //   link: "/capabilities/aluminum-extrusions",
       // },
-      // { title: "Forging", link: "/capabilities/forging" },
-      // {
-      //   title: "Prototyping and Preproduction",
-      //   link: "/capabilities/prototyping-preproduction",
-      // },
+      { title: "Forging", link: "/capabilities/forging" },
+      {
+        title: "Prototyping and Preproduction",
+        link: "/capabilities/prototyping-preproduction",
+      },
       { title: "Die Casting", link: "/capabilities/die-casting" },
       { title: "Injection Molding", link: "/capabilities/injection-molding" },
       // { title: "Investment Casting", link: "/capabilities/investment-casting" },

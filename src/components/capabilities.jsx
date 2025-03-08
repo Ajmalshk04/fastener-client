@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Card,
   CardContent,
@@ -14,56 +13,56 @@ const capabilitiesData = [
   {
     title: "EXTRUSIONS",
     description:
-      "Zetwerk manufactures high-quality extrusions produced using a range of aluminum alloys, with cross-sections that are as complex as customers require.",
-    imageUrl: "https://via.placeholder.com/300x200?text=Extrusions",
+      "X delivers top-notch extrusions crafted from various aluminum alloys, tailored to meet even the most intricate cross-sectional demands of clients.",
+    imageUrl: "/src/assets/EXTRUSIONS.jpg",
   },
   {
     title: "DIE CASTING",
     description:
-      "Zetwerk provides high-quality die-cast components produced using a range of materials including aluminum, zinc, copper, brass, and bronze alloys.",
-    imageUrl: "https://via.placeholder.com/300x200?text=Die+Casting",
+      "X produces premium die-cast parts using an assortment of materials such as aluminum, zinc, copper, brass, and bronze alloys.",
+    imageUrl: "/src/assets/DIECASTING.jpg",
   },
   {
     title: "CNC MACHINING",
     description:
-      "Zetwerk provides high-quality, tight toleranced components machined from bar stock. Zetwerk also finishes as-cast and as-forged components.",
-    imageUrl: "https://via.placeholder.com/300x200?text=CNC+Machining",
+      "X offers precisely machined, high-quality components from bar stock, along with finishing services for as-cast and as-forged parts.",
+    imageUrl: "/src/assets/CNCMACHINING.jpg",
   },
   {
     title: "FORGING",
     description:
-      "Zetwerk offers a variety of forging types, including drop forging, hot/cold forging, rolled ring forging, and press forging.",
-    imageUrl: "https://via.placeholder.com/300x200?text=Forging",
+      "X provides a range of forging techniques, including drop forging, hot/cold forging, rolled ring forging, and press forging.",
+    imageUrl: "/src/assets/FORGING.jpg",
   },
   {
     title: "INJECTION MOLDING",
     description:
-      "Injection molding can produce parts in a wide range of sizes and complexity. Small features, intricate geometries, and thin walls can be captured with ease.",
-    imageUrl: "https://via.placeholder.com/300x200?text=Injection+Molding",
+      "With injection molding, X creates parts of varying sizes and complexities, effortlessly capturing small details, intricate shapes, and thin walls.",
+    imageUrl: "/src/assets/INJECTIONMOLDING.jpg",
   },
   {
     title: "SHEET METAL STAMPING",
     description:
-      "Zetwerk produces custom sheet metal stampings in a wide range of custom materials.",
-    imageUrl: "https://via.placeholder.com/300x200?text=Sheet+Metal+Stamping",
+      "X crafts custom sheet metal stampings using a diverse selection of tailored materials.",
+    imageUrl: "/src/assets/SHEETMETALSTAMPING.jpg",
   },
   {
     title: "PROTOTYPING AND PRE-PRODUCTION",
     description:
-      "Zetwerk helps companies and entrepreneurs around the world manufacture prototypes for their businesses.",
-    imageUrl: "https://via.placeholder.com/300x200?text=Prototyping",
+      "X supports businesses and innovators globally by manufacturing prototypes to bring their ideas to life.",
+    imageUrl: "/src/assets/PROTOTYPINGANDPRE-PRODUCTION.jpg",
   },
   {
     title: "INVESTMENT CASTING",
     description:
-      "Zetwerk produces investment cast components using carbon steel, low-alloy steel, and stainless steel grades, in addition to a wide variety of non-ferrous metals.",
-    imageUrl: "https://via.placeholder.com/300x200?text=Investment+Casting",
+      "X creates investment cast parts using carbon steel, low-alloy steel, stainless steel, and a broad array of non-ferrous metals.",
+    imageUrl: "/src/assets/INVESTMENTCASTING.jpg",
   },
   {
     title: "ASSEMBLIES",
     description:
-      "With large flexible layout factories, Zetwerk is able to set up dedicated assembly lines as per the volume requirements for a wide variety of electro-mechanical products and assemblies.",
-    imageUrl: "https://via.placeholder.com/300x200?text=Assemblies",
+      "Equipped with spacious, adaptable factories, X establishes dedicated assembly lines to meet volume needs for a wide range of electro-mechanical products and assemblies.",
+    imageUrl: "/src/assets/ASSEMBLIES.jpg",
   },
 ];
 
@@ -78,10 +77,7 @@ const Capabilities = () => {
           variant="body1"
           className="text-center mb-12 max-w-3xl mx-auto"
         >
-          With our worldwide network of owned, operated, and partner
-          manufacturing plants, we can have components built to your
-          specification at your doorstep with industry-best lead times. These
-          are just a few of Zetwerk's manufacturing capabilities.
+          Leveraging our global network of owned, operated, and partnered manufacturing facilities, X delivers components built to your specifications right to your door, with industry-leading turnaround times. Here’s a glimpse of X’s manufacturing expertise.
         </Typography>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {capabilitiesData.map((capability, index) => (
@@ -104,7 +100,7 @@ const CapabilityCard = ({ title, description, imageUrl }) => {
         <CardDescription>{description}</CardDescription>
       </CardContent>
       <CardFooter>
-        <Button variant="outline">Learn More</Button>
+        {/* <Button variant="outline">Learn More</Button> */}
       </CardFooter>
     </Card>
   );

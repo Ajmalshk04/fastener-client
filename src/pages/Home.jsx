@@ -1,7 +1,7 @@
 import About from "@/components/about";
 import Capabilities from "@/components/capabilities";
 import HeroSection from "@/components/hero";
-import Industries from "@/components/industries";
+// import Industries from "@/components/industries";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <HeroSection></HeroSection>
       <Capabilities></Capabilities>
       <About></About>
-      <Industries></Industries>
+      {/* <Industries></Industries> */}
     </div>
   );
 };

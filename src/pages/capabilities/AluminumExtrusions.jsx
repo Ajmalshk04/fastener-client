@@ -69,7 +69,7 @@
 //           <h3 className="text-xl font-medium">
 //             Benefits of Aluminum Extrusions
 //           </h3>
-//           <ul className="list-disc list-inside mt-2 text-gray-700">
+//           <ul className="list-disc pl-4 pt-2 mt-2 text-gray-700">
 //             {aluminumExtrusionsData.benefits.map((benefit, index) => (
 //               <li key={index}>{benefit}</li>
 //             ))}
@@ -91,7 +91,7 @@
 //         {/* Secondary Operations */}
 //         <div className="mt-4">
 //           <h3 className="text-xl font-medium">Secondary Operations</h3>
-//           <ul className="list-disc list-inside mt-2 text-gray-700">
+//           <ul className="list-disc pl-4 pt-2 mt-2 text-gray-700">
 //             {aluminumExtrusionsData.secondaryOperations.map(
 //               (operation, index) => (
 //                 <li key={index}>{operation}</li>
@@ -103,7 +103,7 @@
 //         {/* Surface Finishes */}
 //         <div className="mt-4">
 //           <h3 className="text-xl font-medium">Surface Finishes</h3>
-//           <ul className="list-disc list-inside mt-2 text-gray-700">
+//           <ul className="list-disc pl-4 pt-2 mt-2 text-gray-700">
 //             {aluminumExtrusionsData.surfaceFinishes.map((finish, index) => (
 //               <li key={index}>{finish}</li>
 //             ))}
@@ -113,7 +113,7 @@
 //         {/* Certifications */}
 //         <div className="mt-4">
 //           <h3 className="text-xl font-medium">Certifications and Compliance</h3>
-//           <ul className="list-disc list-inside mt-2 text-gray-700">
+//           <ul className="list-disc pl-4 pt-2 mt-2 text-gray-700">
 //             {aluminumExtrusionsData.certifications.map((cert, index) => (
 //               <li key={index}>{cert}</li>
 //             ))}
@@ -249,7 +249,7 @@ const AluminumExtrusionsPage = () => {
           </h2>
         </CardHeader>
         <CardContent>
-          <ul className="list-disc list-inside mt-2 text-gray-700">
+          <ul className="list-disc pl-4 pt-2 mt-2 text-gray-700">
             {aluminumExtrusionsData.benefits.map((benefit, index) => (
               <li key={index}>{benefit}</li>
             ))}
@@ -279,7 +279,7 @@ const AluminumExtrusionsPage = () => {
           <h2 className="text-2xl font-semibold">Secondary Operations</h2>
         </CardHeader>
         <CardContent>
-          <ul className="list-disc list-inside mt-2 text-gray-700">
+          <ul className="list-disc pl-4 pt-2 mt-2 text-gray-700">
             {aluminumExtrusionsData.secondaryOperations.map(
               (operation, index) => (
                 <li key={index}>{operation}</li>
@@ -295,7 +295,7 @@ const AluminumExtrusionsPage = () => {
           <h2 className="text-2xl font-semibold">Custom Surface Finishes</h2>
         </CardHeader>
         <CardContent>
-          <ul className="list-disc list-inside mt-2 text-gray-700">
+          <ul className="list-disc pl-4 pt-2 mt-2 text-gray-700">
             {aluminumExtrusionsData.surfaceFinishes.map((finish, index) => (
               <li key={index}>{finish}</li>
             ))}
@@ -311,7 +311,7 @@ const AluminumExtrusionsPage = () => {
           </h2>
         </CardHeader>
         <CardContent>
-          <ul className="list-disc list-inside mt-2 text-gray-700">
+          <ul className="list-disc pl-4 pt-2 mt-2 text-gray-700">
             {aluminumExtrusionsData.certifications.map((cert, index) => (
               <li key={index}>{cert}</li>
             ))}

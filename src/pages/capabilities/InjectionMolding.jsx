@@ -2,7 +2,7 @@
 // import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 // import { Separator } from "@/components/ui/separator";
 // import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-// import Typography from "@/components/custom/Typography"; 
+// import Typography from "@/components/custom/Typography";
 
 // function InjectionMolding() {
 //   return (
@@ -155,7 +155,7 @@
 //             Custom Plastic Injection Molding Materials
 //           </Typography>
 //           <Typography className="mt-2"><strong>Rigid Plastic Materials:</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>ABS (acrylonitrile butadiene styrene):</strong> High-strength general-purpose engineering plastic, used for many commercial products.</li>
 //             <li><strong>ASA (acrylonitrile styrene acrylate):</strong> A material very similar to ABS with higher resistance to fading and better suited for outdoor use.</li>
 //             <li><strong>CA (cellulose acetate):</strong> Typically used in eyeglasses and film, CA is a flexible clear material that can be used in food contact.</li>
@@ -198,7 +198,7 @@
 //           <Typography className="mt-2">
 //             Manufacturing elastomeric parts can be accomplished through injection molding, transfer molding, or compression molding. When getting a quote through X, our team can help you decide the best method depending on the part geometry, estimated annual volume, and the type of material required.
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>EPDM (ethylene propylene diene monomer rubber (Viton)):</strong> One of the highest performing rubber elastomers with high heat resistance, chemical resistance, and moisture sealing properties. EPDM is commonly found in automotive seals, gaskets, O-rings, and electrical insulators.</li>
 //             <li><strong>PEBA (polyether block amide):</strong> A soft, flexible, plastic or elastomer used for medical devices such as catheters. PEBA foams are used for padding, shoe insoles, and sports equipment. PEBA is resistant to moisture and UV exposure.</li>
 //             <li><strong>PVC (polyvinyl chloride (Shore A)):</strong> A soft rubber-like, general use elastomer, that is common in outdoor products, protective films, and mats. Shore A rubber-like PVC requires plasticizers to improve its flexibility from its typical rigid state. PVC is flame retardant due to self-extinguishing properties.</li>
@@ -213,7 +213,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Custom Injection Mold Finishes
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Standard Finish:</strong> Moldmaker's choice of finish. Typically SPI B-2, depending on geometry and drafts. Interior, non-cosmetic faces, are typically as-machined.</li>
 //             <li><strong>SPI Finishes:</strong> Range of Society of Plastics Industry (SPI) finishes from Grade 3 diamond / high polish to 320 stone low polish. Finishes include: SPI A-1, SPI A-2, SPI A-3, SPI B-1, SPI B-2, SPI B-3, SPI C-1, SPI C-2, SPI C-3, SPI D-1, SPI D-2, and SPI D-3</li>
 //             <li><strong>MoldTech Finishes (Mold Texturing):</strong> Range of finishes including matte, swirls, lines, and patterns. Our most common texture finishes include: MoldTech MT11010, MoldTech MT11020, and MoldTech MT11030. Other textured finishes can be added by request.</li>
@@ -260,7 +260,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Applications and Advantages of Injection Molding
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Rapid Prototyping:</strong> Low-cost tooling allows for rapid injection molding to be produced in as fast as 10 business days at affordable prices.</li>
 //             <li><strong>Production Parts:</strong> Injection molding can be the ideal process for low-volume production molding of 250 units to mass production molding of over 1,000,000 units. Plastic injection parts will generally perform better than the same part CNC machined or 3D printed using the same material. Careful selection of the resins allow for a wide range of properties and solvent compatibility. Molds are CNC machined to high precision, high tolerances and are able to produce thousands of identical parts with very small and intricate details.</li>
 //             <li><strong>Range of Industries and Certifications:</strong> We offer ISO 9001, AS9100, ISO 13485, UL, ITAR, and ISO 7 and 8 Medical Clean Room molding.</li>
@@ -301,7 +301,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Why Use X Injection Mold Services?
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Endless Options:</strong> Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order.</li>
 //             <li><strong>Easy to Use:</strong> Get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping.</li>
 //             <li><strong>Vetted Network:</strong> We are ISO 9001:2015, ISO 13485, and AS9100D certified. Only the top shops that apply to become Suppliers make it through our qualification process.</li>
@@ -324,7 +324,7 @@
 //           <Typography className="mt-2">
 //             This service is ideal for molding projects that require parts to be expedited and delivered as quickly as possible. With X’s quick turn injection molding, you can take advantage of benefits such as:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Dozens of production-grade material options to choose from</li>
 //             <li>A variety of mold finishing options including polished and textured finishes</li>
 //             <li>Up to 2,500 shots per mold</li>
@@ -387,7 +387,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Material Families Available
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>ABS | Acrylonitrile Butadiene Styrene</li>
 //             <li>PC-ABS | Polycarbonate-Acrylonitrile Butadiene Styrene</li>
 //             <li>ASA | Acrylonitrile Styrene Acrylate</li>
@@ -462,7 +462,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Why Choose X for Injection Molding?
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Endless Options:</strong> Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order.</li>
 //             <li><strong>Expert Help:</strong> Our experts help get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping.</li>
 //             <li><strong>Vetted Network:</strong> We are ISO 9001:2015, ISO 13485, and AS9100D certified. Only the top shops that apply to become Suppliers make it through our qualification process.</li>
@@ -491,7 +491,7 @@
 //           <Typography className="mt-2">
 //             Sometimes it can be challenging to determine whether or not you should start with Prototype Molding or jump straight into Production Molding. X understands every project is unique, and our experts will work with you to make an informed decision. There are a few characteristics that Prototype Molding may be best suited for:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Low-cost Tooling:</strong> Tooling used is optimized for smaller runs and is typically made of cheaper materials, is less complex, and thus less expensive to produce.</li>
 //             <li><strong>Fast:</strong> Whether you are rapid prototyping or simply have a tight deadline to meet, the prototype mold process allows for quicker turnaround with parts in your hand in as little as 10 business days!</li>
 //             <li><strong>Limited Volume:</strong> Ideal for projects where a limited run of high-quality parts is needed. Great for quantities up to 10,000-50,000 depending on tooling used.</li>
@@ -592,7 +592,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Why Choose X for Prototype Tooling?
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Endless Options:</strong> Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order.</li>
 //             <li><strong>Expert Help:</strong> Our experts help get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping.</li>
 //             <li><strong>Vetted Network:</strong> We are ISO 9001:2015, ISO 13485, and AS9100D certified. Only the top shops that apply to become Suppliers make it through our qualification process.</li>
@@ -615,7 +615,7 @@
 //           <Typography className="mt-2">
 //             Our production injection mold tooling services complement many of our other services, such as prototype molding and bridge tooling, which our customers use to get to a production-ready stage. Below are just some of the advantages you can expect by working with X on your high-volume production needs:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Your project managed:</strong> We remove the headaches caused by handling all the complexities related to high-volume production. Leave the sourcing, tool design, fabrication, problem-solving, logistics, and more to us!</li>
 //             <li><strong>Effective communication:</strong> Avoid the commotion of dealing with many different contact points to get the answers you need. A team of project managers and industry experts will be dedicated to you to keep communication simple and work to build a lasting relationship from start to finish!</li>
 //             <li><strong>World-class lead times:</strong> Our manufacturing network enables us to offer some of the fastest possible lead times in the industry. Our broad reach and capabilities allow us to optimize your production path to hit milestones in a matter of weeks, not months.</li>
@@ -640,7 +640,7 @@
 //           <Typography className="mt-2">
 //             X is ITAR-registered and certified to ISO 9001:2015, AS9100D, IATF 16949:2016 and ISO 13485:2016. Our diverse manufacturing suppliers have the certifications you require.
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>ITAR Registered</li>
 //             <li>ISO 9001</li>
 //             <li>AS9100</li>
@@ -697,7 +697,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Why Choose X for Your Tooling Needs?
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Endless Options:</strong> Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order.</li>
 //             <li><strong>Expert Help:</strong> Our experts help get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping.</li>
 //             <li><strong>Vetted Network:</strong> We are ISO 9001:2015, ISO 13485, IATF 16949:2016 and AS9100D certified. Only the top shops that apply to become Suppliers make it through our qualification process.</li>
@@ -726,7 +726,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             X's Overmolding Finishes
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>SPI Finishes:</strong> Range of finishes from Grade 3 diamond / high polish to 320 stone low polish. Finishes include: SPI A-1 SPI A-2 SPI A-3 SPI B-1 SPI B-2 SPI B-3 SPI C-1 SPI C-2 SPI C-3 SPI D-1 SPI D-2 SPI D-3</li>
 //             <li><strong>As Molded:</strong> No secondary polishing or grinding. Part will show tooling marks.</li>
 //             <li><strong>Other Mold Texturing:</strong> X can match other mold textures upon request.</li>
@@ -734,7 +734,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Overmolding Design Tips
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Wall thicknesses between 0.060" to 0.120" (1.5 mm-3 mm) generally provide the best bonding.</li>
 //             <li>Keeping radii between 0.020" or 0.5mm minimum in corners reduces localized stresses.</li>
 //             <li>If the part requires the use of thick TPE sections, they should be cored out to minimize shrinkage problems, reduce the part weight and lower cycle time.</li>
@@ -758,7 +758,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Why Choose X for Overmolding?
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Endless Options:</strong> Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order.</li>
 //             <li><strong>Easy to Use:</strong> Get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping.</li>
 //             <li><strong>Vetted Network:</strong> We are ISO 9001:2015, AS9100D, and ISO 13485 certified. Only the top molding shops that apply to become Suppliers make it through our qualification process.</li>
@@ -781,7 +781,7 @@
 //           <Typography className="mt-2">
 //             Insert Molding is an injection molding process that works especially well for parts that have threaded holes. It can also help you create better wheels, pulleys, fan blades, and other similar parts. Done correctly, insert molding can help:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Eliminate assembly:</strong> You can make insert molded parts all at once instead of having to do assembly after the fact.</li>
 //             <li><strong>Reduce costs:</strong> Insert molding costs more than standard injection molding, but the costs are usually offset by the fact that you no longer need to do post-assembly.</li>
 //             <li><strong>Lower the size and weight of the part:</strong> A plastic part with a metal insert is generally lighter than an all-metal part.</li>
@@ -797,7 +797,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Applications for Insert Molding
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>End-Use Functional Parts:</strong> Insertion molding creates fully dense, smooth parts with superior mechanical performance.</li>
 //             <li><strong>Scaled Production:</strong> Insert injection molding is best known for its unmatched production capabilities from thousands to millions of identical parts.</li>
 //             <li><strong>Certified Components:</strong> We offer ISO 9001, AS9100, ISO 13485, UL, ITAR, and ISO 7 & 8 Medical Clean Room molding.</li>
@@ -805,7 +805,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Insert Molding Process Advantages
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Durability:</strong> Metal inserts will guarantee the function of threads and mitigate wear and tear over the part’s life.</li>
 //             <li><strong>Strength:</strong> Because it’s a “one-shot” process, insert molding can produce stronger parts than overmolding and other processes.</li>
 //             <li><strong>Creating Production Parts:</strong> Insert molding is great for creating prototypes and production parts.</li>
@@ -825,7 +825,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Why Choose X for Molded Inserts?
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Endless Options:</strong> Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order.</li>
 //             <li><strong>Easy to Use:</strong> Get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping.</li>
 //             <li><strong>Vetted Network:</strong> We are ISO 9001:2015, ISO 13485, and AS9100D certified. Only the top shops that apply to become Suppliers make it through our qualification process.</li>
@@ -882,7 +882,7 @@
 //           <Typography className="mt-2">
 //             These are the main components of a compression molding machine and the tools needed to fulfill the process:
 //           </Typography>
-//           <ol className="list-decimal list-inside mt-2">
+//           <ol className="list-decimal pl-4 pt-2 mt-2">
 //             <li><strong>Large tonnage press:</strong> This is usually 150 tons to 2,500 tons.</li>
 //             <li><strong>Heated mold:</strong> As mentioned earlier, the mold will have an upper and lower portion
 //             as well as an inner cavity. They’re designed to control the flow of material as it melts and reshapes into the new desired object.</li>
@@ -897,7 +897,7 @@
 //           <Typography className="mt-2">
 //             These are the most common materials used for compression molding and why they’re popular:
 //           </Typography>
-//           <ol className="list-decimal list-inside mt-2">
+//           <ol className="list-decimal pl-4 pt-2 mt-2">
 //             <li><strong>Epoxy:</strong> These resins have superb mechanical properties, high heat resistance, and dimensional stability. When they melt down, they flow easily and evenly into the cavity. After it has cooled down, epoxy parts are known to be durable and strong. Because of this, the material is usually used for aerospace parts, electrical insulation, and structural composites.</li>
 //             <li><strong>Silicone:</strong> This is another material with top-notch heat resistance. Silicone is also flexible and ideal for electrical insulation. Like epoxy, silicone also flows well into the cavity and has no problem properly molding into intricate shapes. This makes it a great material for precision seals, gaskets, medical devices, and automotive components.</li>
 //             <li><strong>Melamine:</strong> For excellent heat and chemical resistance, many manufacturers rely on melamine. Its hardness and stability are key features, too. It molds easily and once it’s formed into the right shape, the finish makes it a winning choice. That’s why melamine is often used for home goods like kitchenware, heat-resistant utensils, and decorative laminates—but it’s also used for electrical components.</li>
@@ -915,7 +915,7 @@
 //           <Typography className="mt-2">
 //             Thanks to its customizable parts and settings and its flexibility with materials, compression molding spans many different industries. It has a lot of different uses, with just a small chunk of those listed below.
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Kitchenware:</strong> The staples in your cooking space may exist thanks to compression molding. This process can make products like bowls, cups, plates, and utensils and create versions that are resistant to heat and breaks. The ever-popular melamine plates used for eating outdoors are often made this way.</li>
 //             <li><strong>Automotive parts:</strong> Both small and large components for vehicles like cars, trucks, and tractors can be made through compression molding. As examples, you can get door panels, dashboards, and parts for engines.</li>
 //             <li><strong>Electrical components:</strong> With the previous materials listed, it’s no surprise that compression molding can be used to make electrical components. Manufacturers can get precise shapes, reliable functionality, and consistency across the board.</li>
@@ -929,7 +929,7 @@
 //             There are pros and cons to think about when you’re weighing up compression molding and other similar processes. Here are some of the advantages and disadvantages that X makes their customers aware of when considering the process:
 //           </Typography>
 //           <Typography className="mt-2"><strong>Advantages include:</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Ultra-strong parts that last through immense wear and tear and heavy-duty use.</li>
 //             <li>Molds are highly customizable and can be created for intricate designs or more basic styles.</li>
 //             <li>Compression molding can handle various materials, including highly viscous materials, and therefore make a wide range of different products.</li>
@@ -939,7 +939,7 @@
 //             <li>Compression molding machines can use recycled and eco-friendly materials—a perk for sustainably-minded companies.</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Disadvantages include:</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Complex parts are no problem, but intricate components with thin walls is a no-go.</li>
 //             <li>Pressure range limits make it difficult to create detailed shapes</li>
 //             <li>While it only takes a few minutes, compression molding is slower than other processes like injection molding.</li>
@@ -1252,7 +1252,7 @@
 //           <Typography className="mt-2">
 //             Depending on the design, there are a number of fabrication techniques and tools available, the most common are listed below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>CNC Machining:</strong> Plastic machining can be fast and does not place excessive wear on tooling (unless the plastics are filled with carbon or glass particles). Cutting tools are kept sharp to avoid heat build-up during cutting.</li>
 //             <li><strong>Bending:</strong> Most plastics can be bent. In some cases, they may need to be heated in order to bend easily. This is especially useful for more brittle plastics like acrylic.</li>
 //             <li><strong>Welding:</strong> Plastic welding is typically done with a specialized extrusion welding tool. This tool generates hot air and plastic is fed into an extruder that melts and pushes the plastic from a nozzle. The operator can join plastic components using either fillet or butt welds. The weld bead fuses with the base material to create a homogeneous bond. Other techniques like ultrasonic welding are also employed to fuse plastic components together.</li>
@@ -1270,7 +1270,7 @@
 //           <Typography className="mt-2">
 //             Plastic fabrication offers a wide array of different benefits. Some of the most important are listed below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Versatility</strong></li>
 //             <li><strong>Light Weight</strong></li>
 //             <li><strong>Cost Effective</strong></li>
@@ -1302,7 +1302,7 @@
 //           <Typography className="mt-2">
 //             Despite its many benefits, plastic fabrication does have some downsides as listed below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Limited Temperature Resistance</strong></li>
 //             <li><strong>Susceptibility to Chemical Degradation</strong></li>
 //             <li><strong>Less Rigid Than Metal</strong></li>
@@ -1322,7 +1322,7 @@
 //           <Typography className="mt-2">
 //             Plastics are used in almost every industry. Listed below are some examples of plastic fabrication:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Product Enclosures</strong></li>
 //             <li><strong>Displays</strong></li>
 //             <li><strong>Components</strong></li>
@@ -1354,7 +1354,7 @@
 //           <Typography className="mt-2">
 //             Rapid machining has various applications, including:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Electronics</strong></li>
 //             <li><strong>Automotive</strong></li>
 //             <li><strong>Healthcare</strong></li>
@@ -1386,7 +1386,7 @@
 //           <Typography className="mt-2">
 //             Plastic fabrication might not meet your specific requirements; listed below are three potential alternatives:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Metal Fabrication</strong></li>
 //             <li><strong>Wood Fabrication</strong></li>
 //             <li><strong>Composites</strong></li>
@@ -1403,7 +1403,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Why Choose X for Custom Plastic Fabrication Services?
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Endless Options:</strong> Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order.</li>
 //             <li><strong>Easy to Use:</strong> Get started with our easy-to-use platform and let our experts take care of managing the project from locating the right manufacturing partner to delivery logistics.</li>
 //             <li><strong>Vetted Network:</strong> We are ISO 9001:2015, ISO 13485, and AS9100D certified. Only the top shops that apply to become Suppliers make it through our qualification process.</li>
@@ -1441,7 +1441,7 @@
 //           <Typography className="mt-2">
 //             There are various types of micro molding, each with its own sets of advantages and disadvantages and special use cases. The different types of micro molding processes are listed and described below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Insert Molding</strong></li>
 //             <li><strong>Overmolding</strong></li>
 //           </ul>
@@ -1457,7 +1457,7 @@
 //           <Typography className="mt-2">
 //             Material selection is highly important in micro molding projects as thermoplastic polymers and other specialized resins must be carefully vetted for suitability for particular applications, particularly in medical applications. The different materials used in micro molding are listed and described below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Polyethylene (PE)</strong></li>
 //             <li><strong>Polypropylene (PP)</strong></li>
 //             <li><strong>Nylon (Polyamide)</strong></li>
@@ -1509,7 +1509,7 @@
 //           <Typography className="mt-2">
 //             Micro molding offers many advantages for manufacturers and end users. These advantages are listed below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Lightweight</strong></li>
 //             <li><strong>Size</strong></li>
 //             <li><strong>Less Energy and Time</strong></li>
@@ -1537,7 +1537,7 @@
 //           <Typography className="mt-2">
 //             There are many different industrial applications of micro molding, some of which are listed and described below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Medical Devices</strong></li>
 //             <li><strong>Drones</strong></li>
 //             <li><strong>Surveillance Equipment</strong></li>
@@ -1548,7 +1548,7 @@
 //           <Typography className="mt-2">
 //             <strong>Medical Devices:</strong> Medical devices require parts to be made to stringent dimensional standards to ensure healthy patient outcomes and safety. Medical devices are one of the biggest applications of micro molded parts. The different applications in which micro molding is used in medical devices are listed below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Implants</li>
 //             <li>Catheters</li>
 //             <li>Drug delivery systems</li>
@@ -1560,7 +1560,7 @@
 //           <Typography className="mt-2">
 //             <strong>Drones:</strong> Drones are uncrewed, remotely controlled, or programmed aircraft that are used for many applications—from surveillance to hobbyist uses. Lightweight micro molded components are important for the function and performance of drones. Micro molded components in drones include:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Housings, switches, and connectors for optical equipment</li>
 //             <li>Actuators and gears</li>
 //             <li>Sensor housings</li>
@@ -1572,7 +1572,7 @@
 //           <Typography className="mt-2">
 //             <strong>Surveillance Equipment:</strong> Surveillance equipment that utilizes optical devices such as CCTV cameras and body cameras is another application of micro molded components. As electronics become smaller, the components in electronics must satisfy tighter tolerances and more stringent precision requirements. Below are some examples of micro molded components for surveillance equipment.
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Lenses</li>
 //             <li>Mirrors</li>
 //             <li>Plugs</li>
@@ -1584,7 +1584,7 @@
 //           <Typography className="mt-2">
 //             <strong>Fitness Trackers:</strong> Fitness trackers are popular medical and consumer electronic devices that track important health information such as: heart rate, breathing rate, distance traveled, and time asleep. These devices must be small and minimally invasive to optimize user comfort while maintaining functionality. Micro molded parts for fitness trackers include:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Switches</li>
 //             <li>Housings</li>
 //             <li>Plugs</li>
@@ -1595,7 +1595,7 @@
 //           <Typography className="mt-2">
 //             <strong>Robotics:</strong> As with surveillance equipment and fitness trackers, the electronics used in robotics are small and must satisfy small dimensional tolerances. Micro molded parts help reduce the weight of robotics while also helping them improve performance and function. Different applications of micro molded products in robotics include:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Sensor housings</li>
 //             <li>Switches and connectors</li>
 //             <li>Gears and actuators</li>
@@ -1606,7 +1606,7 @@
 //           <Typography className="mt-2">
 //             <strong>Automotive Industries:</strong> Micro molding enables automotive parts to be smaller. This results in lighter, more fuel-efficient, and better-performing vehicles. Applications of micro molding in the automotive industry include:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Components in brake pads and assemblies</li>
 //             <li>Fastening hardware such as washers and clips</li>
 //             <li>Door locking mechanisms</li>
@@ -1620,7 +1620,7 @@
 //           <Typography className="mt-2">
 //             Listed below are the other features of X’s micro molding service:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Surface Finish</strong></li>
 //             <li><strong>FDA Registered</strong></li>
 //             <li><strong>High-Volume Production</strong></li>
@@ -1644,7 +1644,7 @@
 //           <Typography className="mt-2">
 //             X offers alternative methods for micro molding as listed below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>3D Printing</strong></li>
 //             <li><strong>Micro-Machining</strong></li>
 //           </ul>
@@ -1657,7 +1657,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Why Choose X for Micro Molding Services?
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Endless Options:</strong> Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order.</li>
 //             <li><strong>Easy to Use:</strong> Get started with our easy-to-use platform and let our experts take care of managing the project from locating the right manufacturing partner to delivery logistics.</li>
 //             <li><strong>Vetted Network:</strong> We are ISO 9001:2015, ISO 13485, and AS9100D certified. Only the top shops that apply to become Suppliers make it through our qualification process.</li>
@@ -1678,17 +1678,239 @@
 // export default InjectionMolding;
 
 //==========================================================
+// import { Button } from "@/components/ui/button";
+// import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+// import { Separator } from "@/components/ui/separator";
+// import {
+//   Table,
+//   TableBody,
+//   TableCell,
+//   TableHead,
+//   TableHeader,
+//   TableRow,
+// } from "@/components/ui/table";
+// import Typography from "@/components/custom/typography";
+// import { injectionMoldingData } from "@/data/injectionMolding";
+
+// // Dynamic Component
+// function InjectionMolding() {
+//   return (
+//     <div className="container mx-auto p-10">
+      
+//       {/* Main Header */}
+//       <Typography variant="h1" className="text-center">
+//         {injectionMoldingData.title}
+//       </Typography>
+//       <Typography variant="lead" className="text-center mt-4">
+//         {injectionMoldingData.lead}
+//       </Typography>
+//       <div className="mt-6 flex justify-center">
+//         <Button size="lg">Get a Quote</Button>
+//       </div>
+//       <img
+//         src={`/src/assets/INJECTIONMOLDING.jpg`}
+//         className="container w-full h-auto mx-auto object-cover my-10"
+//       />
+//       <Separator className="my-8" />
+
+//       {/* Dynamic Sections */}
+//       {injectionMoldingData.sections.map((section, index) => (
+//         <Card key={index} className="mb-8">
+//           <CardHeader>
+//             <CardTitle className="text-2xl">{section.title}</CardTitle>
+//           </CardHeader>
+//           <CardContent>
+//             {section.subsections.map((subsection, subIndex) => (
+//               <div key={subIndex} className="mb-4">
+//                 <Typography variant="h3" className="text-xl">
+//                   {subsection.title}
+//                 </Typography>
+//                 {subsection.content &&
+//                   subsection.content.map((item, itemIndex) => (
+//                     <div key={itemIndex} className="mt-2">
+//                       {typeof item === "string" ? (
+//                         <Typography>{item}</Typography>
+//                       ) : (
+//                         <>
+//                           {item.subheading && (
+//                             <Typography className="font-bold">
+//                               {item.subheading}
+//                             </Typography>
+//                           )}
+//                           {item.text && <Typography>{item.text}</Typography>}
+//                           {item.example && (
+//                             <Typography className="italic">
+//                               {item.example}
+//                             </Typography>
+//                           )}
+//                           {item.question && (
+//                             <>
+//                               <Typography className="font-bold">
+//                                 {item.question}
+//                               </Typography>
+//                               <Typography>{item.answer}</Typography>
+//                             </>
+//                           )}
+//                           {item.additional && (
+//                             <Typography>{item.additional}</Typography>
+//                           )}
+//                         </>
+//                       )}
+//                     </div>
+//                   ))}
+//                 {subsection.list && (
+//                   <ul className="list-disc pl-4 pt-2 mt-2">
+//                     {subsection.list.map((listItem, listIndex) => (
+//                       <li key={listIndex} className="">
+//                         <Typography>
+//                           {typeof listItem === "string" ? (
+//                             listItem
+//                           ) : (
+//                             <>
+//                               <strong>{listItem.name}</strong>
+//                               {listItem.description &&
+//                                 `: ${listItem.description}`}
+//                               {listItem.sublist && (
+//                                 <ul className="list-disc pl-4 pt-2 ml-4">
+//                                   {listItem.sublist.map(
+//                                     (subItem, subItemIndex) => (
+//                                       <li key={subItemIndex}>
+//                                         <Typography>{subItem}</Typography>
+//                                       </li>
+//                                     )
+//                                   )}
+//                                 </ul>
+//                               )}
+//                               {listItem.additional && (
+//                                 <Typography>{listItem.additional}</Typography>
+//                               )}
+//                             </>
+//                           )}
+//                         </Typography>
+//                       </li>
+//                     ))}
+//                   </ul>
+//                 )}
+//                 {subsection.table && (
+//                   <Table className="mt-2">
+//                     <TableHeader>
+//                       <TableRow>
+//                         {subsection.table.headers.map((header, headerIndex) => (
+//                           <TableHead key={headerIndex}>{header}</TableHead>
+//                         ))}
+//                       </TableRow>
+//                     </TableHeader>
+//                     <TableBody>
+//                       {subsection.table.rows.map((row, rowIndex) => (
+//                         <TableRow key={rowIndex}>
+//                           {row.map((cell, cellIndex) => (
+//                             <TableCell key={cellIndex}>{cell}</TableCell>
+//                           ))}
+//                         </TableRow>
+//                       ))}
+//                     </TableBody>
+//                   </Table>
+//                 )}
+//                 {subsection.advantages && (
+//                   <>
+//                     <Typography className="mt-2 font-bold">
+//                       Advantages include:
+//                     </Typography>
+//                     <ul className="list-disc pl-4 pt-2 mt-2">
+//                       {subsection.advantages.map((advantage, advIndex) => (
+//                         <li key={advIndex}>
+//                           <Typography>{advantage}</Typography>
+//                         </li>
+//                       ))}
+//                     </ul>
+//                   </>
+//                 )}
+//                 {subsection.disadvantages && (
+//                   <>
+//                     <Typography className="mt-2 font-bold">
+//                       Disadvantages include:
+//                     </Typography>
+//                     <ul className="list-disc pl-4 pt-2 mt-2">
+//                       {subsection.disadvantages.map(
+//                         (disadvantage, disIndex) => (
+//                           <li key={disIndex}>
+//                             <Typography>{disadvantage}</Typography>
+//                           </li>
+//                         )
+//                       )}
+//                     </ul>
+//                   </>
+//                 )}
+//                 {subsection.quote && (
+//                   <Typography className="mt-2 italic">
+//                     {subsection.quote}
+//                   </Typography>
+//                 )}
+//                 {subsection.button && (
+//                   <div className="mt-4 flex justify-center">
+//                     <Button asChild>
+//                       <a href={subsection.button.href}>
+//                         {subsection.button.text}
+//                       </a>
+//                     </Button>
+//                   </div>
+//                 )}
+//                 {subsection.additionalContent &&
+//                   subsection.additionalContent.map((addContent, addIndex) => (
+//                     <Typography key={addIndex} className="mt-2">
+//                       {addContent}
+//                     </Typography>
+//                   ))}
+//               </div>
+//             ))}
+//           </CardContent>
+//         </Card>
+//       ))}
+
+//       {/* Final Call to Action */}
+//       <div className="mt-8 flex justify-center">
+//         <Button variant="outline" asChild>
+//           <a href="/contact">Contact Us for More Information</a>
+//         </Button>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default InjectionMolding;
+//=====================================================
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import Typography from "@/components/custom/typography"; 
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import Typography from "@/components/custom/typography";
 import { injectionMoldingData } from "@/data/injectionMolding";
+
+// Mapping of titles (subsection and subheadings) to their corresponding images
+const subsectionImages = {
+  "Custom Plastic Injection Molding Materials": "/src/assets/image55.jpeg",
+  "Elastomer and Rubber Molded Materials": "/src/assets/image56.jpeg",
+  "Why Choose X for Injection Molding?": "/src/assets/image57.jpeg",
+  "Prototype Molding Service With X": "/src/assets/image58.jpeg",
+  "Production With X": "/src/assets/image59.jpeg",
+  "Custom Insert Molding With X": "/src/assets/image60.jpeg",
+  "Compression Molding": "/src/assets/image61.jpeg",
+  "Society of Plastics Industry (SPI) Mold Finishes": "/src/assets/image62.jpeg",
+  "Custom Plastic Fabrication Services": "/src/assets/image63.jpeg",
+  "Micro Molding Services": "/src/assets/image64.jpeg",
+};
 
 // Dynamic Component
 function InjectionMolding() {
   return (
-    <div className="p-10">
+    <div className="container mx-auto p-10">
       {/* Main Header */}
       <Typography variant="h1" className="text-center">
         {injectionMoldingData.title}
@@ -1699,7 +1921,11 @@ function InjectionMolding() {
       <div className="mt-6 flex justify-center">
         <Button size="lg">Get a Quote</Button>
       </div>
-
+      <img
+        src={`/src/assets/INJECTIONMOLDING.jpg`}
+        className="container w-auto h-auto mx-auto object-cover my-10"
+        alt="Injection Molding Overview"
+      />
       <Separator className="my-8" />
 
       {/* Dynamic Sections */}
@@ -1714,42 +1940,73 @@ function InjectionMolding() {
                 <Typography variant="h3" className="text-xl">
                   {subsection.title}
                 </Typography>
-                {subsection.content && subsection.content.map((item, itemIndex) => (
-                  <div key={itemIndex} className="mt-2">
-                    {typeof item === 'string' ? (
-                      <Typography>{item}</Typography>
-                    ) : (
-                      <>
-                        {item.subheading && <Typography className="font-bold">{item.subheading}</Typography>}
-                        {item.text && <Typography>{item.text}</Typography>}
-                        {item.example && <Typography className="italic">{item.example}</Typography>}
-                        {item.question && (
-                          <>
-                            <Typography className="font-bold">{item.question}</Typography>
-                            <Typography>{item.answer}</Typography>
-                          </>
-                        )}
-                        {item.additional && <Typography>{item.additional}</Typography>}
-                      </>
-                    )}
-                  </div>
-                ))}
+                {subsection.content &&
+                  subsection.content.map((item, itemIndex) => (
+                    <div key={itemIndex} className="mt-2">
+                      {typeof item === "string" ? (
+                        <Typography>{item}</Typography>
+                      ) : (
+                        <>
+                          {item.subheading && (
+                            <Typography className="font-bold">
+                              {item.subheading}
+                            </Typography>
+                          )}
+                          {item.text && <Typography>{item.text}</Typography>}
+                          {item.example && (
+                            <Typography className="italic">
+                              {item.example}
+                            </Typography>
+                          )}
+                          {item.question && (
+                            <>
+                              <Typography className="font-bold">
+                                {item.question}
+                              </Typography>
+                              <Typography>{item.answer}</Typography>
+                            </>
+                          )}
+                          {item.additional && (
+                            <Typography>{item.additional}</Typography>
+                          )}
+                          {/* Add Image for Subheading */}
+                          {item.subheading && subsectionImages[item.subheading] && (
+                            <img
+                              src={subsectionImages[item.subheading]}
+                              className="container w-auto h-auto mx-auto object-cover mt-4"
+                              alt={`${item.subheading} Illustration`}
+                            />
+                          )}
+                        </>
+                      )}
+                    </div>
+                  ))}
                 {subsection.list && (
-                  <ul className="list-disc list-inside mt-2">
+                  <ul className="list-disc pl-4 pt-2 mt-2">
                     {subsection.list.map((listItem, listIndex) => (
                       <li key={listIndex} className="">
                         <Typography>
-                          {typeof listItem === 'string' ? listItem : (
+                          {typeof listItem === "string" ? (
+                            listItem
+                          ) : (
                             <>
-                              <strong>{listItem.name}</strong>{listItem.description && `: ${listItem.description}`}
+                              <strong>{listItem.name}</strong>
+                              {listItem.description &&
+                                `: ${listItem.description}`}
                               {listItem.sublist && (
-                                <ul className="list-disc list-inside ml-4">
-                                  {listItem.sublist.map((subItem, subItemIndex) => (
-                                    <li key={subItemIndex}><Typography>{subItem}</Typography></li>
-                                  ))}
+                                <ul className="list-disc pl-4 pt-2 ml-4">
+                                  {listItem.sublist.map(
+                                    (subItem, subItemIndex) => (
+                                      <li key={subItemIndex}>
+                                        <Typography>{subItem}</Typography>
+                                      </li>
+                                    )
+                                  )}
                                 </ul>
                               )}
-                              {listItem.additional && <Typography>{listItem.additional}</Typography>}
+                              {listItem.additional && (
+                                <Typography>{listItem.additional}</Typography>
+                              )}
                             </>
                           )}
                         </Typography>
@@ -1779,37 +2036,62 @@ function InjectionMolding() {
                 )}
                 {subsection.advantages && (
                   <>
-                    <Typography className="mt-2 font-bold">Advantages include:</Typography>
-                    <ul className="list-disc list-inside mt-2">
+                    <Typography className="mt-2 font-bold">
+                      Advantages include:
+                    </Typography>
+                    <ul className="list-disc pl-4 pt-2 mt-2">
                       {subsection.advantages.map((advantage, advIndex) => (
-                        <li key={advIndex}><Typography>{advantage}</Typography></li>
+                        <li key={advIndex}>
+                          <Typography>{advantage}</Typography>
+                        </li>
                       ))}
                     </ul>
                   </>
                 )}
                 {subsection.disadvantages && (
                   <>
-                    <Typography className="mt-2 font-bold">Disadvantages include:</Typography>
-                    <ul className="list-disc list-inside mt-2">
-                      {subsection.disadvantages.map((disadvantage, disIndex) => (
-                        <li key={disIndex}><Typography>{disadvantage}</Typography></li>
-                      ))}
+                    <Typography className="mt-2 font-bold">
+                      Disadvantages include:
+                    </Typography>
+                    <ul className="list-disc pl-4 pt-2 mt-2">
+                      {subsection.disadvantages.map(
+                        (disadvantage, disIndex) => (
+                          <li key={disIndex}>
+                            <Typography>{disadvantage}</Typography>
+                          </li>
+                        )
+                      )}
                     </ul>
                   </>
                 )}
                 {subsection.quote && (
-                  <Typography className="mt-2 italic">{subsection.quote}</Typography>
+                  <Typography className="mt-2 italic">
+                    {subsection.quote}
+                  </Typography>
+                )}
+                {/* Add Image for Subsection Title */}
+                {subsectionImages[subsection.title] && (
+                  <img
+                    src={subsectionImages[subsection.title]}
+                    className="container w-auto h-auto mx-auto object-cover mt-4"
+                    alt={`${subsection.title} Illustration`}
+                  />
                 )}
                 {subsection.button && (
                   <div className="mt-4 flex justify-center">
                     <Button asChild>
-                      <a href={subsection.button.href}>{subsection.button.text}</a>
+                      <a href={subsection.button.href}>
+                        {subsection.button.text}
+                      </a>
                     </Button>
                   </div>
                 )}
-                {subsection.additionalContent && subsection.additionalContent.map((addContent, addIndex) => (
-                  <Typography key={addIndex} className="mt-2">{addContent}</Typography>
-                ))}
+                {subsection.additionalContent &&
+                  subsection.additionalContent.map((addContent, addIndex) => (
+                    <Typography key={addIndex} className="mt-2">
+                      {addContent}
+                    </Typography>
+                  ))}
               </div>
             ))}
           </CardContent>

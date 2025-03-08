@@ -240,7 +240,7 @@
 //           <Typography variant="h3" className="mt-4 text-xl font-semibold">
 //             X’s Diverse Range of CNC Machining Capabilities
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>CNC Milling Services:</strong> 3 Axis, 4 Axis & 5 Axis, Double Column Vertical Machining Center, Multi Spindle Vertical Machining Center, Horizontal Machining Center</li>
 //             <li><strong>CNC Turning Services:</strong> Turn Mill Centres, Mill-Turn Centres, Turning Centres, Profile Grinding</li>
 //             <li><strong>Finishing Services on Machined Parts:</strong> Cyl, Surface & Profile Grinding, Honing, and Lapping.</li>
@@ -254,7 +254,7 @@
 //           <Typography className="mt-2">
 //             <strong>Secondary Operations & Finishing Processes:</strong> Once production components are CNC machined, they are subjected to one or more finishing processes to remove any deformities and achieve tolerances. Some of the secondary operations and finishing processes offered:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Surface Finishing:</strong> Phosphating, blasting, Anodising, Zn & Zn-Ni Plating, Passivation, Alodine, Abrasive blasting, Cd, etc.</li>
 //             <li><strong>Heat Treatment:</strong> Nitriding, Stress relieving by using hardening, Nitriding, and Carburising</li>
 //             <li><strong>Assembly & Integration Services</strong></li>
@@ -400,7 +400,7 @@
 //           <Typography variant="h3" className="mt-4 text-xl font-semibold">
 //             Available Finishes
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>As-Milled:</strong> The finish option with the quickest turnaround. Parts are left with visible tool marks and potentially sharp edges and burrs, which can be removed upon request. Surface finish is comparable to 125 uin Ra finish.</li>
 //             <li><strong>Bead Blast:</strong> The part surface is media blasted, typically using glass bead, to produce a smooth, matte appearance.</li>
 //             <li><strong>Anodized (Type II Or Type III):</strong> Type II creates a corrosion-resistant finish. Parts can be anodized in different colors—clear, black, red, and gold are most common—and is usually associated with aluminum. Type III is thicker and creates a wear-resistant layer in addition to the corrosion resistance seen with Type II.</li>
@@ -467,7 +467,7 @@
 //           <Typography className="mt-2">
 //             <strong>Types of CNC Mills:</strong>
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>3-Axis:</strong> The most widely used type of CNC milling machine. The full use of the X, Y, and Z directions makes a 3 Axis CNC mill useful for a wide variety of work.</li>
 //             <li><strong>4-Axis:</strong> This type of router allows the machine to rotate on a vertical axis, moving the workpiece to introduce more continuous machining.</li>
 //             <li><strong>5-Axis:</strong> These machines have three traditional axes as well as two additional rotary axes. A 5-axis CNC router is, therefore, able to machine 5 sides of a workpiece at in one machine without having to remove the workpiece and reset. The workpiece rotates, and the spindle head is able to also move around the piece. These are larger and more expensive.</li>
@@ -540,7 +540,7 @@
 //           <Typography variant="h3" className="mt-4 text-xl font-semibold">
 //             Finishes
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>As-Milled:</strong> The finish option with the quickest turnaround. Parts are left with visible tool marks and potentially sharp edges and burrs, which can be removed upon request. Surface finish is comparable to 125 uin Ra finish.</li>
 //             <li><strong>Bead Blast:</strong> The part surface is left with a smooth, matte appearance.</li>
 //             <li><strong>Anodized (Type II Or Type III):</strong> Type II creates a corrosion-resistant finish. Parts can be anodized in different colors—clear, black, red, and gold are most common—and is usually associated with aluminum. Type III is thicker and creates a wear-resistant layer in addition to the corrosion resistance seen with Type II.</li>
@@ -550,7 +550,7 @@
 //           <Typography variant="h3" className="mt-4 text-xl font-semibold">
 //             Advantages of CNC Turning
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Rapid Turnaround:</strong> Using the latest CNC machines, X produces highly accurate, quick turn parts in as fast as 1 day.</li>
 //             <li><strong>Custom Finishes:</strong> Select from a variety of finishes on solid metal and plastic parts, built to precise design specifications.</li>
 //             <li><strong>Material Selection:</strong> Choose from over 50 metal and plastic materials. CNC Machining offers a wide variety of certified materials.</li>
@@ -624,7 +624,7 @@
 //           <Typography variant="h3" className="mt-4 text-xl font-semibold">
 //             Wire EDM Machining Finishes Available
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Standard Finish (as-milled):</strong> The finish option with the quickest turnaround. Parts are left with visible tool marks and potentially sharp edges and burrs, which can be removed upon request. Surface finish is comparable to 125 uin Ra finish.</li>
 //             <li><strong>Bead Blast:</strong> The part surface is left with a smooth, matte appearance.</li>
 //             <li><strong>Tumbled:</strong> This is a batch-based process that tumbles vibrating media to remove sharp edges and burrs on machined parts. Tumbling can remove machine marks on exterior surfaces. Parts over 8” may require a manual review.</li>
@@ -658,7 +658,7 @@
 //           <Typography className="mt-2">
 //             CNC machining in the fabrication of medical parts are ubiquitous, regardless of whether the part is metal, plastic, ceramic, or composite. While plastic medical parts can be molded, cast, or extruded, CNC machining is often used to produce the molds or extrusion dies required for the production processes. Below are some of the most common applications for medical CNC machining:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Medical Devices</li>
 //             <li>Medical Implants</li>
 //             <li>Surgical Instruments</li>
@@ -667,7 +667,7 @@
 //           <Typography className="mt-2">
 //             <strong>Medical Devices:</strong> A medical device is any item that is intended for a medical purpose. Medical devices can be anything from diagnostics and radiography to monitoring and treatment. Some common medical devices are listed below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Stethoscopes</li>
 //             <li>Ventilator parts</li>
 //             <li>Electrocardiograph (EKG), X-ray, and MRI machines</li>
@@ -683,7 +683,7 @@
 //           <Typography className="mt-2">
 //             <strong>Medical Implants:</strong> Medical implants refer to anything that is implanted or embedded into a patient surgically. These items require both exceptionally precise dimensions and biocompatible materials. Some examples of medical implants are listed below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Joint replacements</li>
 //             <li>Spine screws and rods</li>
 //             <li>Pacemakers</li>
@@ -696,7 +696,7 @@
 //           <Typography className="mt-2">
 //             <strong>Surgical Instruments:</strong> Surgical instruments are tools and equipment used by doctors and medical staff during surgery. These must be made with a biocompatible material, free of surface contaminants including corrosion, and made to precise tolerances. Surgical instruments require precise dimensions and biocompatible materials. Some examples of surgical instruments are listed below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Surgical scissors</li>
 //             <li>Scalpels</li>
 //             <li>Forceps</li>
@@ -709,7 +709,7 @@
 //           <Typography className="mt-2">
 //             <strong>Dental Instruments:</strong> Dental instruments need to be made with biocompatible materials, with no surface contaminants and produced with precise tolerances. Some examples of dental instruments are listed below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Dental probes and scalers</li>
 //             <li>Dental mirrors</li>
 //             <li>Retractors</li>
@@ -725,7 +725,7 @@
 //           <Typography className="mt-2">
 //             X has extensive CNC capability for the medical manufacturing industry including: 3-axis milling machines, CNC lathes, 5-axis CNC milling machines, and wire EDM machines. See more information below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Wire EDM Medical Machining:</strong> X offers wire EDM medical machining to fabricate medical parts and components. Wire EDM is a non-conventional machining process in which cuts are made with an electrically conductive wire. This results in parts with shallow surface roughnesses (down to 1.5 µm Ra) that satisfy extremely tight tolerances (+0.0025 mm). Wire EDM is highly applicable for medical CNC machining, as various medical devices like surgical tools and bone plates require precision. This technology is commonly used for the fabrication of plastic injection molds and extrusion dies. Wire EDM can also be used to cut any electrically conductive material.</li>
 //             <li><strong>5-Axis CNC Medical Machining:</strong> X offers 5-axis CNC medical machining which has an advantage over simpler 3- and 4-axis machining. It allows parts to be moved about 5 degrees of freedom simultaneously. This enables cutting tools to approach parts from any direction. Consequently, it allows complex shapes that otherwise would not be possible to be cut on a 3- or 4-axis machine to be cut with precision. 5-axis CNC machining is ideal for medical devices such as joint replacements, prostheses, and various surgical and dental instruments—not to mention its use for the fabrication of molds and dies. Common materials used in the medical industry with 5-axis machining include titanium, stainless steel, chromium-cobalt, and aluminum.</li>
 //             <li><strong>Swiss CNC Medical Machining:</strong> X offers Swiss CNC medical machining, a precision manufacturing machine that produces very small parts quickly and accurately. The primary advantage of swiss CNC machines over standard CNC lathes is that multiple cutting operations that would normally require multiple setups can occur simultaneously. This is due to the presence of multiple spindles for cutting tools—as well as the ability to make cuts along the Z-axis of the part. What results, are highly precise, complex parts that otherwise could not be cut on a standard lathe. Swiss CNC medical machining is ideal for round parts such as those found in prostheses, joint replacements, and surgical and dental instruments. Common materials include stainless steel, aluminum, titanium, and chromium-cobalt.</li>
@@ -737,7 +737,7 @@
 //           <Typography className="mt-2">
 //             Any material considered acceptable for medical devices must meet high standards of reliability and performance. Below are some common materials used for medical CNC machining:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>X Includes CNC Machining in Aluminum:</strong> Aluminum is often used in the medical industry due to its lightweight, high strength-to-weight ratio, durability, and corrosion resistance. It is also biocompatible and can be used for limited internal use in the human body. Common applications include: Surgical and dental instruments (scalpels, clamps, and scalers), Hospital equipment (trays, containers, rolling carts, and parts in devices like ventilators and imaging equipment). Common alloys of aluminum include: 6061, 6063, 3003.</li>
 //             <li><strong>X Includes CNC Machining in Stainless Steel:</strong> Stainless steel’s desirable properties including strength, toughness, corrosion resistance, impact resistance, and biocompatibility make it ideal for many uses in the medical industry. Its thermal stability and outermost passivation layer allow parts to be easily cleaned and sanitized. Common applications include: Bed frames, Wheelchairs, Artificial heart valves, Prostheses, Catheters, Syringes. Common stainless steel grades used in the medical industry include: 304, 304L, 316L.</li>
 //             <li><strong>X Includes CNC Machining in Titanium and Titanium Alloys:</strong> Titanium and its alloys are used in the medical industry because of their strength, low weight and density, and corrosion resistance. Titanium is one of few inert metals and unaffected by bodily fluids and tissue. Common applications include: Pacemakers, Joint replacements, Bone plates, Surgical and dental tools. Common titanium alloys used in the medical field include: Ti 6Al4V (Grade 5), Ti 6AL4V ELI (Grade 23).</li>
@@ -752,7 +752,7 @@
 //           <Typography className="mt-2">
 //             Medical CNC machining with X is easy. Our AI-powered instant quote tool allows you to quickly see the feasibility of manufacturing your part, while our extensive manufacturing network ensures your parts will be made to exact specifications, fast. For more information see below:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Precision Components:</strong> The fabrication of medical devices and components requires precision. With X, precise components that satisfy exceptionally tight tolerances (down to +0.0025 mm) are well within our capabilities. Our robust manufacturing capability and network mean that seemingly any part can be fabricated. Whether it’s surgical and dental tools, components for medical devices, or parts for prostheses, our wire EDM, 5-axis CNC machines, Swiss lathes, and standard CNC milling and lathe machines will ensure your parts satisfy regulatory standards and are made to exact specifications every time.</li>
 //             <li><strong>Rapid Turnaround of Parts:</strong> The medical industry’s demand for high-quality parts also requires fast delivery to satisfy their customers. With X, our expansive manufacturing capability and extensive network of partner manufacturers (over 10,000 vetted manufacturing facilities around the world), allow the fabrication and shipping of parts significantly faster than the competition. Whether for prototyping or scaling up to mass production, rapid turnaround of parts is standard with X.</li>
 //             <li><strong>Extensive Manufacturing Capability and Capacity:</strong> When working with X, businesses are no longer confined to the suppliers local to them. Our network of 10,000+ vetted manufacturing facilities in 44 states and 22 countries around the world means our manufacturing capabilities and capacity are seemingly endless. Our capabilities aren’t limited to just CNC machining for the medical industry; they also include sheet metal fabrication, injection molding, additive manufacturing, and various finishing processes including anodization, passivation, and powder coating. Whatever your medical manufacturing project is, X has the tools and resources available to ensure your project is successful.</li>
@@ -772,6 +772,433 @@
 
 // export default CNCMachining;
 //==============================================
+// import { Button } from "@/components/ui/button";
+// import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+// import { Separator } from "@/components/ui/separator";
+// import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+// import Typography from "@/components/custom/typography";
+// import { cncMachiningData } from "@/data/cncMachine";
+
+// // Dynamic Component
+// function CncMachining() {
+//   return (
+//     <div className="p-10">
+//       {/* Main Header */}
+//       <Typography variant="h1" className="text-center">
+//         {cncMachiningData.title}
+//       </Typography>
+//       <Typography variant="lead" className="text-center mt-4">
+//         {cncMachiningData.lead}
+//       </Typography>
+//       <div className="mt-6 flex justify-center">
+//         <Button size="lg">Get a Quote</Button>
+//       </div>
+
+//       <Separator className="my-8" />
+
+//       {/* Dynamic Sections */}
+//       {cncMachiningData.sections.map((section, index) => (
+//         <Card key={index} className="mb-8">
+//           <CardHeader>
+//             <CardTitle className="text-2xl">{section.title}</CardTitle>
+//           </CardHeader>
+//           <CardContent>
+//             {section.subsections.map((subsection, subIndex) => (
+//               <div key={subIndex} className="mb-4">
+//                 <Typography variant="h3" className="text-xl">
+//                   {subsection.title}
+//                 </Typography>
+//                 {subsection.content &&
+//                   subsection.content.map((item, itemIndex) => (
+//                     <div key={itemIndex} className="mt-2">
+//                       {typeof item === "string" ? (
+//                         <Typography>{item}</Typography>
+//                       ) : item && typeof item === "object" ? (
+//                         <>
+//                           {item.subheading && (
+//                             <Typography className="font-bold">{item.subheading}</Typography>
+//                           )}
+//                           {item.text && <Typography>{item.text}</Typography>}
+//                           {item.example && (
+//                             <Typography className="italic">{item.example}</Typography>
+//                           )}
+//                           {item.question && (
+//                             <>
+//                               <Typography className="font-bold">{item.question}</Typography>
+//                               <Typography>{item.answer}</Typography>
+//                             </>
+//                           )}
+//                           {item.additional && <Typography>{item.additional}</Typography>}
+//                           {item.list && (
+//                             <ul className="list-disc list-outside mt-2 ml-4">
+//                               {item.list.map((listItem, listIndex) => {
+//                                 if (typeof listItem !== "string" && !listItem) {
+//                                   console.error("Invalid listItem in content.list:", listItem);
+//                                   return null;
+//                                 }
+//                                 return (
+//                                   <li key={listIndex} className="flex items-start">
+//                                     <span className="mr-2">•</span>
+//                                     <Typography className="inline">
+//                                       {typeof listItem === "string" ? listItem : "Invalid list item"}
+//                                     </Typography>
+//                                   </li>
+//                                 );
+//                               })}
+//                             </ul>
+//                           )}
+//                         </>
+//                       ) : (
+//                         <Typography>Invalid content item</Typography>
+//                       )}
+//                     </div>
+//                   ))}
+//                 {subsection.list && (
+//                   <ul className="list-disc list-outside mt-2 ml-4">
+//                     {subsection.list.map((listItem, listIndex) => {
+//                       // Debugging: Log unexpected items
+//                       if (typeof listItem !== "string" && (!listItem || typeof listItem !== "object")) {
+//                         console.error("Unexpected listItem in subsection.list:", listItem);
+//                         return (
+//                           <li key={listIndex} className="flex items-start">
+//                             <span className="mr-2">•</span>
+//                             <Typography className="inline">Invalid list item</Typography>
+//                           </li>
+//                         );
+//                       }
+//                       return (
+//                         <li key={listIndex} className="flex items-start">
+//                           <span className="mr-2">•</span>
+//                           <Typography className="inline">
+//                             {typeof listItem === "string" ? (
+//                               listItem
+//                             ) : listItem && typeof listItem === "object" ? (
+//                               <>
+//                                 {listItem.name && <strong>{listItem.name}</strong>}
+//                                 {listItem.description && `: ${listItem.description}`}
+//                                 {listItem.sublist && (
+//                                   <ul className="list-disc list-outside ml-6 mt-1">
+//                                     {listItem.sublist.map((subItem, subItemIndex) => (
+//                                       <li key={subItemIndex} className="flex items-start">
+//                                         <span className="mr-2">•</span>
+//                                         <Typography className="inline">{subItem}</Typography>
+//                                       </li>
+//                                     ))}
+//                                   </ul>
+//                                 )}
+//                                 {listItem.additional && (
+//                                   <Typography className="block mt-1">{listItem.additional}</Typography>
+//                                 )}
+//                               </>
+//                             ) : (
+//                               "Invalid list item"
+//                             )}
+//                           </Typography>
+//                         </li>
+//                       );
+//                     })}
+//                   </ul>
+//                 )}
+//                 {subsection.table && (
+//                   <Table className="mt-2">
+//                     <TableHeader>
+//                       <TableRow>
+//                         {subsection.table.headers.map((header, headerIndex) => (
+//                           <TableHead key={headerIndex}>{header}</TableHead>
+//                         ))}
+//                       </TableRow>
+//                     </TableHeader>
+//                     <TableBody>
+//                       {subsection.table.rows.map((row, rowIndex) => (
+//                         <TableRow key={rowIndex}>
+//                           {row.map((cell, cellIndex) => (
+//                             <TableCell key={cellIndex}>{cell}</TableCell>
+//                           ))}
+//                         </TableRow>
+//                       ))}
+//                     </TableBody>
+//                   </Table>
+//                 )}
+//                 {subsection.advantages && (
+//                   <>
+//                     <Typography className="mt-2 font-bold">Advantages include:</Typography>
+//                     <ul className="list-disc list-outside mt-2 ml-4">
+//                       {subsection.advantages.map((advantage, advIndex) => (
+//                         <li key={advIndex} className="flex items-start">
+//                           <span className="mr-2">•</span>
+//                           <Typography className="inline">{advantage}</Typography>
+//                         </li>
+//                       ))}
+//                     </ul>
+//                   </>
+//                 )}
+//                 {subsection.disadvantages && (
+//                   <>
+//                     <Typography className="mt-2 font-bold">Disadvantages include:</Typography>
+//                     <ul className="list-disc list-outside mt-2 ml-4">
+//                       {subsection.disadvantages.map((disadvantage, disIndex) => (
+//                         <li key={disIndex} className="flex items-start">
+//                           <span className="mr-2">•</span>
+//                           <Typography className="inline">{disadvantage}</Typography>
+//                         </li>
+//                       ))}
+//                     </ul>
+//                   </>
+//                 )}
+//                 {subsection.quote && (
+//                   <Typography className="mt-2 italic">{subsection.quote}</Typography>
+//                 )}
+//                 {subsection.button && (
+//                   <div className="mt-4 flex justify-center">
+//                     <Button asChild>
+//                       <a href={subsection.button.href}>{subsection.button.text}</a>
+//                     </Button>
+//                   </div>
+//                 )}
+//                 {subsection.additionalContent &&
+//                   subsection.additionalContent.map((addContent, addIndex) => (
+//                     <Typography key={addIndex} className="mt-2">
+//                       {addContent}
+//                     </Typography>
+//                   ))}
+//               </div>
+//             ))}
+//           </CardContent>
+//         </Card>
+//       ))}
+
+//       {/* Final Call to Action */}
+//       <div className="mt-8 flex justify-center">
+//         <Button variant="outline" asChild>
+//           <a href="/contact">Contact Us for More Information</a>
+//         </Button>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default CncMachining;
+//===================================================
+// import { Button } from "@/components/ui/button";
+// import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+// import { Separator } from "@/components/ui/separator";
+// import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+// import Typography from "@/components/custom/typography";
+// import { cncMachiningData } from "@/data/cncMachine";
+
+// // Dynamic Component
+// function CncMachining() {
+//   return (
+//     <div className="container mx-auto p-10">
+//       {/* Main Header */}
+//       <Typography variant="h1" className="text-center">
+//         {cncMachiningData.title}
+//       </Typography>
+//       <Typography variant="lead" className="text-center mt-4">
+//         {cncMachiningData.lead}
+//       </Typography>
+//       <div className="mt-6 flex justify-center">
+//         <Button size="lg">Get a Quote</Button>
+//       </div>
+
+//       <Separator className="my-8" />
+//       <img src={'/src/assets/image1.jpeg'}  className="container w-full mx-auto object-cover" />
+//       {/* Dynamic Sections */}
+//       {cncMachiningData.sections.map((section, index) => (
+//         <Card key={index} className="mb-8 border-none">
+//           <CardHeader>
+//             <CardTitle className="text-2xl">{section.title}</CardTitle>
+//           </CardHeader>
+//           <CardContent>
+//             {section.subsections.map((subsection, subIndex) => (
+//               <div key={subIndex} className="mb-4">
+//                 <Typography variant="h3" className="text-xl">
+//                   {subsection.title}
+//                 </Typography>
+//                 {subsection.content &&
+//                   subsection.content.map((item, itemIndex) => (
+//                     <div key={itemIndex} className="mt-2">
+//                       {typeof item === "string" ? (
+//                         <Typography>{item}</Typography>
+//                       ) : item && typeof item === "object" ? (
+//                         <>
+//                           {item.subheading && (
+//                             <Typography className="font-bold">{item.subheading}</Typography>
+//                           )}
+//                           {item.text && <Typography>{item.text}</Typography>}
+//                           {item.example && (
+//                             <Typography className="italic">{item.example}</Typography>
+//                           )}
+//                           {item.question && (
+//                             <>
+//                               <Typography className="font-bold">{item.question}</Typography>
+//                               <Typography>{item.answer}</Typography>
+//                             </>
+//                           )}
+//                           {item.additional && <Typography>{item.additional}</Typography>}
+//                           {item.list && (
+//                             <ul className="list-disc list-outside mt-2 ml-4">
+//                               {item.list.map((listItem, listIndex) => {
+//                                 if (typeof listItem !== "string" && !listItem) {
+//                                   console.error("Invalid listItem in content.list:", listItem);
+//                                   return null;
+//                                 }
+//                                 return (
+//                                   <li key={listIndex} className="flex items-start">
+//                                     <span className="mr-2">•</span>
+//                                     <Typography className="inline">
+//                                       {typeof listItem === "string" ? (
+//                                         listItem
+//                                       ) : listItem && typeof listItem === "object" ? (
+//                                         <>
+//                                           <strong>{listItem.name}</strong>
+//                                           {listItem.description && `: ${listItem.description}`}
+//                                           {listItem.sublist && (
+//                                             <ul className="list-disc list-outside ml-6 mt-1">
+//                                               {listItem.sublist.map((subItem, subItemIndex) => (
+//                                                 <li key={subItemIndex} className="flex items-start">
+//                                                   <span className="mr-2">•</span>
+//                                                   <Typography className="inline">{subItem}</Typography>
+//                                                 </li>
+//                                               ))}
+//                                             </ul>
+//                                           )}
+//                                           {listItem.additional && (
+//                                             <Typography className="block mt-1">{listItem.additional}</Typography>
+//                                           )}
+//                                         </>
+//                                       ) : (
+//                                         "Invalid list item"
+//                                       )}
+//                                     </Typography>
+//                                   </li>
+//                                 );
+//                               })}
+//                             </ul>
+//                           )}
+//                         </>
+//                       ) : (
+//                         <Typography>Invalid content item</Typography>
+//                       )}
+//                     </div>
+//                   ))}
+//                 {subsection.list && (
+//                   <ul className="list-disc list-outside mt-2 ml-4">
+//                     {subsection.list.map((listItem, listIndex) => {
+//                       if (typeof listItem !== "string" && (!listItem || typeof listItem !== "object")) {
+//                         console.error("Unexpected listItem in subsection.list:", listItem);
+//                         return null; // Skip invalid items instead of rendering "Invalid list item"
+//                       }
+//                       return (
+//                         <li key={listIndex} className="flex items-start">
+//                           <span className="mr-2">•</span>
+//                           <Typography className="inline">
+//                             {typeof listItem === "string" ? (
+//                               listItem
+//                             ) : listItem && typeof listItem === "object" ? (
+//                               <>
+//                                 {listItem.name && <strong>{listItem.name}</strong>}
+//                                 {listItem.description && `: ${listItem.description}`}
+//                                 {listItem.sublist && (
+//                                   <ul className="list-disc list-outside ml-6 mt-1">
+//                                     {listItem.sublist.map((subItem, subItemIndex) => (
+//                                       <li key={subItemIndex} className="flex items-start">
+//                                         <span className="mr-2">•</span>
+//                                         <Typography className="inline">{subItem}</Typography>
+//                                       </li>
+//                                     ))}
+//                                   </ul>
+//                                 )}
+//                                 {listItem.additional && (
+//                                   <Typography className="block mt-1">{listItem.additional}</Typography>
+//                                 )}
+//                               </>
+//                             ) : null}
+//                           </Typography>
+//                         </li>
+//                       );
+//                     })}
+//                   </ul>
+//                 )}
+//                 {subsection.table && (
+//                   <Table className="mt-2">
+//                     <TableHeader>
+//                       <TableRow>
+//                         {subsection.table.headers.map((header, headerIndex) => (
+//                           <TableHead key={headerIndex}>{header}</TableHead>
+//                         ))}
+//                       </TableRow>
+//                     </TableHeader>
+//                     <TableBody>
+//                       {subsection.table.rows.map((row, rowIndex) => (
+//                         <TableRow key={rowIndex}>
+//                           {row.map((cell, cellIndex) => (
+//                             <TableCell key={cellIndex}>{cell}</TableCell>
+//                           ))}
+//                         </TableRow>
+//                       ))}
+//                     </TableBody>
+//                   </Table>
+//                 )}
+//                 {subsection.advantages && (
+//                   <>
+//                     <Typography className="mt-2 font-bold">Advantages include:</Typography>
+//                     <ul className="list-disc list-outside mt-2 ml-4">
+//                       {subsection.advantages.map((advantage, advIndex) => (
+//                         <li key={advIndex} className="flex items-start">
+//                           <span className="mr-2">•</span>
+//                           <Typography className="inline">{advantage}</Typography>
+//                         </li>
+//                       ))}
+//                     </ul>
+//                   </>
+//                 )}
+//                 {subsection.disadvantages && (
+//                   <>
+//                     <Typography className="mt-2 font-bold">Disadvantages include:</Typography>
+//                     <ul className="list-disc list-outside mt-2 ml-4">
+//                       {subsection.disadvantages.map((disadvantage, disIndex) => (
+//                         <li key={disIndex} className="flex items-start">
+//                           <span className="mr-2">•</span>
+//                           <Typography className="inline">{disadvantage}</Typography>
+//                         </li>
+//                       ))}
+//                     </ul>
+//                   </>
+//                 )}
+//                 {subsection.quote && (
+//                   <Typography className="mt-2 italic">{subsection.quote}</Typography>
+//                 )}
+//                 {subsection.button && (
+//                   <div className="mt-4 flex justify-center">
+//                     <Button asChild>
+//                       <a href={subsection.button.href}>{subsection.button.text}</a>
+//                     </Button>
+//                   </div>
+//                 )}
+//                 {subsection.additionalContent &&
+//                   subsection.additionalContent.map((addContent, addIndex) => (
+//                     <Typography key={addIndex} className="mt-2">{addContent}</Typography>
+//                   ))}
+//               </div>
+//             ))}
+//           </CardContent>
+//         </Card>
+//       ))}
+
+//       {/* Final Call to Action */}
+//       <div className="mt-8 flex justify-center">
+//         <Button variant="outline" asChild>
+//           <a href="/contact">Contact Us for More Information</a>
+//         </Button>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default CncMachining;
+
+//==================================================
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
@@ -779,10 +1206,29 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import Typography from "@/components/custom/typography";
 import { cncMachiningData } from "@/data/cncMachine";
 
+// Mapping of subsection titles to their corresponding images
+const subsectionImages = {
+  "X has a diverse range of CNC Machining Capabilities": "/src/assets/image3.jpeg",
+  "High Quality Rapid CNC Milling Service": "/src/assets/image4.jpeg",
+  "CNC Milling Tolerances & Standards": "/src/assets/image5.jpeg",
+  "The Basics Of CNC Mills": "/src/assets/image6.jpeg",
+  "CNC Turning Service Overview": "/src/assets/image7.jpeg",
+  "The Basics Of CNC Lathes": "/src/assets/image8.jpeg",
+  "Custom Wire EDM Machining With X": "/src/assets/image9.jpeg",
+  "Applications of Medical CNC Machining": "/src/assets/image10.jpeg",
+  "Medical Devices": "/src/assets/image11.jpeg",
+  "Wire EDM Medical Machining": "/src/assets/image12.jpeg",
+  "X Includes CNC Machining in Aluminum": "/src/assets/EXTRUSIONS.jpg",
+  "Advantages of Medical CNC Machining with X": "/src/assets/image12.jpeg",
+  "METAL STAMPING & FORMING PROCESSES": "/src/assets/image13.jpeg",
+  "X SUPPORTS A VARIETY OF MATERIALS FOR SHEET METAL STAMPINGS": "/src/assets/image14.jpeg",
+  "SECONDARY SHEET METAL STAMPING FINISHING SERVICES": "/src/assets/image15.jpeg",
+};
+
 // Dynamic Component
 function CncMachining() {
   return (
-    <div className="p-10">
+    <div className="container mx-auto p-10">
       {/* Main Header */}
       <Typography variant="h1" className="text-center">
         {cncMachiningData.title}
@@ -795,10 +1241,16 @@ function CncMachining() {
       </div>
 
       <Separator className="my-8" />
+      <img
+        src={'/src/assets/image1.jpeg'}
+        className="container w-full mx-auto object-cover"
+        alt="CNC Machining Equipment"
+      />
+      
 
       {/* Dynamic Sections */}
       {cncMachiningData.sections.map((section, index) => (
-        <Card key={index} className="mb-8">
+        <Card key={index} className="mb-8 border-none">
           <CardHeader>
             <CardTitle className="text-2xl">{section.title}</CardTitle>
           </CardHeader>
@@ -840,7 +1292,29 @@ function CncMachining() {
                                   <li key={listIndex} className="flex items-start">
                                     <span className="mr-2">•</span>
                                     <Typography className="inline">
-                                      {typeof listItem === "string" ? listItem : "Invalid list item"}
+                                      {typeof listItem === "string" ? (
+                                        listItem
+                                      ) : listItem && typeof listItem === "object" ? (
+                                        <>
+                                          <strong>{listItem.name}</strong>
+                                          {listItem.description && `: ${listItem.description}`}
+                                          {listItem.sublist && (
+                                            <ul className="list-disc list-outside ml-6 mt-1">
+                                              {listItem.sublist.map((subItem, subItemIndex) => (
+                                                <li key={subItemIndex} className="flex items-start">
+                                                  <span className="mr-2">•</span>
+                                                  <Typography className="inline">{subItem}</Typography>
+                                                </li>
+                                              ))}
+                                            </ul>
+                                          )}
+                                          {listItem.additional && (
+                                            <Typography className="block mt-1">{listItem.additional}</Typography>
+                                          )}
+                                        </>
+                                      ) : (
+                                        "Invalid list item"
+                                      )}
                                     </Typography>
                                   </li>
                                 );
@@ -856,15 +1330,9 @@ function CncMachining() {
                 {subsection.list && (
                   <ul className="list-disc list-outside mt-2 ml-4">
                     {subsection.list.map((listItem, listIndex) => {
-                      // Debugging: Log unexpected items
                       if (typeof listItem !== "string" && (!listItem || typeof listItem !== "object")) {
                         console.error("Unexpected listItem in subsection.list:", listItem);
-                        return (
-                          <li key={listIndex} className="flex items-start">
-                            <span className="mr-2">•</span>
-                            <Typography className="inline">Invalid list item</Typography>
-                          </li>
-                        );
+                        return null;
                       }
                       return (
                         <li key={listIndex} className="flex items-start">
@@ -890,9 +1358,7 @@ function CncMachining() {
                                   <Typography className="block mt-1">{listItem.additional}</Typography>
                                 )}
                               </>
-                            ) : (
-                              "Invalid list item"
-                            )}
+                            ) : null}
                           </Typography>
                         </li>
                       );
@@ -948,6 +1414,14 @@ function CncMachining() {
                 {subsection.quote && (
                   <Typography className="mt-2 italic">{subsection.quote}</Typography>
                 )}
+                {/* Add Image if Subsection Title Matches */}
+                {subsectionImages[subsection.title] && (
+                  <img
+                    src={subsectionImages[subsection.title]}
+                    className="container w-full h-auto px-40 object-cover my-28"
+                    alt={`${subsection.title} Illustration`}
+                  />
+                )}
                 {subsection.button && (
                   <div className="mt-4 flex justify-center">
                     <Button asChild>
@@ -957,9 +1431,7 @@ function CncMachining() {
                 )}
                 {subsection.additionalContent &&
                   subsection.additionalContent.map((addContent, addIndex) => (
-                    <Typography key={addIndex} className="mt-2">
-                      {addContent}
-                    </Typography>
+                    <Typography key={addIndex} className="mt-2">{addContent}</Typography>
                   ))}
               </div>
             ))}

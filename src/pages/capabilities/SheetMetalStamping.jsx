@@ -41,7 +41,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Metal Stamping & Forming Processes
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Deep-Drawn Stamping:</strong> Deep-drawn stamping has become known as one of the best ways to create complex, detailed components with a vast degree of accuracy and dependability. Not only that, deep-drawn parts are unusually strong due to the extreme amount of compression exerted on the metal during the forming process.</li>
 //             <li><strong>Progressive Die Stamping:</strong> Progressive die stamping is a metal-forming process that producers usually use to create parts, especially for automobiles, electronics and consumer devices. In progressive die stamping, the sheet metal is processed in several different workstations where one or multiple stamping operations are carried out.</li>
 //             <li><strong>Transfer Press Stamping:</strong> In transfer press stamping, parts are transferred from one station to another by an automated mechanical system. In situations where the part must be free from the metal strip to enable operation to be carried out in a free state, a transfer press is used.</li>
@@ -50,7 +50,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             X Supports a Variety of Materials for Sheet Metal Stampings
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Aluminum Alloys</li>
 //             <li>Steel Alloys</li>
 //             <li>Stainless Steel Alloys</li>
@@ -62,7 +62,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Secondary Sheet Metal Stamping Finishing Services
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Heat Treating:</strong> Improve properties, performance, and durability</li>
 //             <li><strong>Chrome Plating:</strong> Cosmetic and decorative finishes</li>
 //             <li><strong>Passivation:</strong> Corrosion prevention</li>
@@ -82,7 +82,7 @@
 //           <Typography className="mt-2">
 //             Sheet metal stampings have a variety of applications across multiple industries, such as:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Electronics:</strong> Telecom, computer, server, data communications, connectors, and electronic components</li>
 //             <li><strong>Automotive:</strong> Components, subsystems, and other vehicle applications</li>
 //             <li><strong>Lighting:</strong> Custom components for exterior, and interior lighting applications</li>
@@ -126,7 +126,7 @@
 //           <Typography className="mt-2">
 //             X is your one-stop solution for complete end-to-end contract manufacturing and distribution. We provide:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Unlimited manufacturing capacity, which decreases risk and improves your ability to respond to demand fluctuations</li>
 //             <li>Global raw material sourcing to protect cost and supplier resiliency</li>
 //             <li>Secondary processing, including anodizing, powder coating, and CNC machining</li>
@@ -227,14 +227,14 @@
 //             Sheet Metal Materials Available at X
 //           </Typography>
 //           <Typography className="mt-2"><strong>Aluminum</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Aluminum 1100-H14</li>
 //             <li>Aluminum 5052-H32</li>
 //             <li>Aluminum 6061</li>
 //           </ul>
 //           <Typography className="mt-2">Learn more about aluminum sheet metal.</Typography>
 //           <Typography className="mt-2"><strong>Copper</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Copper 101</li>
 //             <li>Copper C110</li>
 //             <li>Copper C110, H02</li>
@@ -242,13 +242,13 @@
 //           </ul>
 //           <Typography className="mt-2">Learn more about copper sheet metal.</Typography>
 //           <Typography className="mt-2"><strong>Bronze</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Bronze 220</li>
 //             <li>Bronze 510</li>
 //           </ul>
 //           <Typography className="mt-2">Learn more about bronze sheet metal.</Typography>
 //           <Typography className="mt-2"><strong>Stainless Steel</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Stainless steel 301</li>
 //             <li>Stainless steel 304</li>
 //             <li>Stainless Steel 304 #4 brushed</li>
@@ -258,7 +258,7 @@
 //           </ul>
 //           <Typography className="mt-2">Learn more about stainless sheet metal.</Typography>
 //           <Typography className="mt-2"><strong>Steel</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Steel 1018 (Low Carbon)</li>
 //             <li>Steel 1045 (Hot Rolled)</li>
 //             <li>Steel A569/ASTM A1011 (Hot Rolled)</li>
@@ -271,13 +271,13 @@
 //           </ul>
 //           <Typography className="mt-2">Learn more about steel sheet metal.</Typography>
 //           <Typography className="mt-2"><strong>Nickel Alloys</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Inconel 625</li>
 //             <li>Nickel Alloy 200</li>
 //             <li>Nickel Alloy 400</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Titanium</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Titanium (Grade 2)</li>
 //             <li>Titanium 6AI-4V (Grade 5)</li>
 //           </ul>
@@ -290,7 +290,7 @@
 //           <Typography className="mt-2">
 //             Check out our finishing galleries to see examples of our standard finishes.
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Standard:</strong> Minimal post-processing or treatment on parts is done.</li>
 //             <li><strong>Bead Blast:</strong> The part surface is left with a smooth, matte appearance.</li>
 //             <li><strong>Anodize (Type II Or Type III):</strong> Type II (MIL-A-8625/MIL-PRF-8625, Type II) creates a corrosion-resistant finish. Sheet metal parts can be anodized in different colors—clear, black, red, and gold are most common—and are usually associated with aluminum. Type III (MIL-A-8625, Type III, Class 1/2 "hardcoat") is thicker and creates a wear-resistant layer in addition to the corrosion resistance seen with Type II.</li>
@@ -363,7 +363,7 @@
 //           <Typography className="mt-2">
 //             X's sheet cutting service can cut just about any material using lasers and waterjet capabilities. From clear acrylic panels to thick tool steel, X's manufacturing marketplace offers a one-stop-shop solution for any project with instant quoting and a wide selection of materials.
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Metals</li>
 //             <li>Plastics</li>
 //             <li>Wood</li>
@@ -428,7 +428,7 @@
 //             Sheet Cutting Materials
 //           </Typography>
 //           <Typography className="mt-2"><strong>Aluminum Alloy</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Aluminum 6061 T6</li>
 //             <li>Aluminum 2024-T3</li>
 //             <li>Aluminum 5052 H32</li>
@@ -436,7 +436,7 @@
 //             <li>Aluminum MIC6</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Brass and Bronze Alloy</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Brass 260</li>
 //             <li>Brass 353 H02</li>
 //             <li>Brass 464 H01</li>
@@ -445,12 +445,12 @@
 //             <li>Bronze 510 H08 (spring) Silicon Bronze 655</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Copper Alloy</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Copper 101</li>
 //             <li>Copper 110</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Mechanical Plastic</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>ABS</li>
 //             <li>Acetal (POM, Delrin)</li>
 //             <li>PETG</li>
@@ -461,17 +461,17 @@
 //             <li>UHMW</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Acrylic</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Clear and Colored Acrylic (Plexiglass)</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Foam</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>EVA Foam</li>
 //             <li>Polyurethane Foam (PU)</li>
 //             <li>Silicone Foam</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Steel</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Steel 1075</li>
 //             <li>1095</li>
 //             <li>4130</li>
@@ -490,7 +490,7 @@
 //             <li>Tool Steel D1, O1</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Stainless Steel</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Stainless 17-4 PH</li>
 //             <li>17-7</li>
 //             <li>301</li>
@@ -503,12 +503,12 @@
 //             <li>S30V</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Other Metal Alloys</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Titanium Grade 2 and 5</li>
 //             <li>Nickel Alloy</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Wood</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Cherry</li>
 //             <li>Hardboard</li>
 //             <li>MDF</li>
@@ -517,14 +517,14 @@
 //             <li>Wood Laminate (Plywood)</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Carbon Fiber and Other Composites</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Carbon Fiber</li>
 //             <li>Garolite G-10</li>
 //             <li>Garolite G-11</li>
 //             <li>Garolite LE (Phenolic)</li>
 //           </ul>
 //           <Typography className="mt-2"><strong>Rubber and Gasketing</strong></Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Buna-N Rubber Blends</li>
 //             <li>EPDM</li>
 //             <li>Silicone Rubber</li>
@@ -537,7 +537,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             What Other Finishes are Available for Sheet Cut Parts?
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Standard:</strong> A standard finish is available for all materials. No additional post-processing is performed, leaving the surface as-is after your choice of de-tabbing and deburring is performed. Plastics and cosmetically finished products may have an overwrap left on the faces for production. It is common for pre-polished, brushed, or textured materials to have only one side cosmetically finished.</li>
 //             <li><strong>Sanding with Grain:</strong> Metal parts are sanded by hand, abrasive belt sander, or timesaver, in the direction of the grain to create a uniform finish. This is also called linear finishing.</li>
 //             <li><strong>Sanding Random:</strong> Metal parts are sanded by hand, orbital sander, or timesaver, in a random pattern or swirl to create a uniform finish. This is also called a random swirl finish.</li>
@@ -634,7 +634,7 @@
 //           <Typography className="mt-2">
 //             For a list of the metal materials supported by X's metal laser cutting service, see below. Other materials may also be available for quote.
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>1075 Spring Steel, annealed</li>
 //             <li>1075 Spring Steel, Blue Tempered</li>
 //             <li>1095 Spring Steel, annealed</li>
@@ -703,7 +703,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Plastic Laser Cutting Material List
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>ABS, Black</li>
 //             <li>ABS, White</li>
 //             <li>Acetal, Black</li>
@@ -764,7 +764,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Types Of Laser Cutters Available From X
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>C02 Laser Cutting Machines:</strong> The most common laser cutter type because of their relatively high energy efficiency and high power output ratio. Best suited for cutting, boring, and engraving services.</li>
 //             <li><strong>Nd Laser Cutting Machines:</strong> Nd lasers have a high energy, and are used for boring and welding. A disadvantage of Nd lasers are their low repetition efficiency.</li>
 //             <li><strong>Nd:Yag Laser Cutting Machines:</strong> Nd:Yag Lasers are high powered lasers and suitable for cutting thick materials. Nd:Yag lasers can be used for boring, welding, and engraving. A disadvantage of Nd:Yag lasers is that they are more expensive to operate.</li>
@@ -772,7 +772,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Advantages of Laser Cutting
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Durability:</strong> Laser Cutting produces highly durable parts well-suited for both functional laser-cut prototypes and end-use production.</li>
 //             <li><strong>Scalability:</strong> All sheet metal parts are built on-demand and with lower setup costs compared to other manufacturing processes. Depending on your needs, order as little as a single prototype up to 10,000 production parts.</li>
 //             <li><strong>Material Selection:</strong> Choose from a variety of materials across a wide range of strength, conductivity, weight, and corrosion resistance.</li>
@@ -863,7 +863,7 @@
 //           <Typography className="mt-2">
 //             X offers a comprehensive selection of waterjet materials in various thicknesses for cutting.
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Metals alloys, up to 1" thick</li>
 //             <li>Mechanical plastic</li>
 //             <li>Acrylic (Plexiglass)</li>
@@ -875,7 +875,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Advantages of Waterjet Cutting
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Durability:</strong> Similar to CNC machining, sheet metal processes produce highly durable parts well-suited for both functional prototypes and end-use production.</li>
 //             <li><strong>Scalability:</strong> All sheet metal parts are built on-demand and with lower setup costs compared to CNC Machining. Depending on your needs, order as little as a single prototype up to 10,000 production parts.</li>
 //             <li><strong>Rapid Turnaround:</strong> Combining the latest cutting, bending and punching with automated technologies, X provides instant sheet quotes and completed parts in as little 12 business days.</li>
@@ -945,7 +945,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Why Choose X for Waterjet Cutting?
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Endless Options:</strong> Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order.</li>
 //             <li><strong>Easy to Use:</strong> Get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping.</li>
 //             <li><strong>Vetted Network:</strong> We are ISO 9001:2015, ISO 13485, IATF 16949:2016, and AS9100D certified. Only the top shops that apply to become Suppliers make it through our qualification process.</li>
@@ -980,7 +980,7 @@
 //           <Typography className="mt-2">
 //             Review X's Standard Tube Sizes for a comprehensive list of available tube stock.
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Minimum round outer diameter: .500"</li>
 //             <li>Maximum round outer diameter: 6.000"</li>
 //             <li>Minimum square or rectangle dimension: .500"</li>
@@ -991,7 +991,7 @@
 //           <Typography className="mt-2">
 //             Tolerances are outlined in X's Manufacturing Standards for Tube Cutting
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Cut Type:</strong> Normal-to-Surface</li>
 //             <li><strong>Edge-to-Edge Tolerances:</strong> +/- .010” nominal on the inner face of the tube.</li>
 //             <li><strong>Minimum feature size:</strong> Generally no larger than the tube thickness.</li>
@@ -1005,7 +1005,7 @@
 //           <Typography className="mt-2">
 //             The following materials are available for tube cutting.
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Stainless Steel: 304 and 316 Welded and Seamless</li>
 //             <li>Aluminum 6061 Extruded and Drawn</li>
 //             <li>Alloy Steel 4130 Seamless</li>
@@ -1065,7 +1065,7 @@
 //           <Typography className="mt-2">
 //             Here are the advantages of the laser tube cutting process:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Semi-to-fully automated process with high throughput.</li>
 //             <li>Low/no material wastage.</li>
 //             <li>Offers highly complex, clean, and repeatable cuts.</li>
@@ -1075,7 +1075,7 @@
 //           <Typography className="mt-2">
 //             The disadvantages or limitations of laser tube cutting include the following:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Some cut materials may show a small halo discoloration from the backsplash or overspray near the cut edges.</li>
 //             <li>A small bump of material or a different edge condition may be present at the lead-in and lead-out in a cutting profile.</li>
 //             <li>The process is generally reserved for thin-walled materials less than 0.500"-1.000" thick.</li>
@@ -1105,7 +1105,7 @@
 //           <Typography className="mt-2">
 //             Our tube bending service is built around typical industry standards to ensure a smooth manufacturing experience. X can achieve tighter tolerances after a manual review by one of our project engineers. In the list below, you'll find the standards and tolerances specific to our drawn or mandrel bending techniques for round profiles:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Minimum bendable tube diameter: .250"</li>
 //             <li>Maximum bendable tube diameter: 2.000"</li>
 //             <li>Minimum bendable tube wall thickness: .035"</li>
@@ -1128,7 +1128,7 @@
 //           <Typography className="mt-2">
 //             X's tube bending services are for creating custom round tubes in a variety of shapes and materials:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Stainless Steel 304 and 316 (Welded or Seamless):</strong> are resistant to rust and corrosion, making them ideal for outdoor, wet, or salty environments. 316 has slightly better corrosion resistance than 304.</li>
 //             <li><strong>Aluminum 6061 (Extruded or Drawn):</strong> is a stiff, lightweight tube that won't rust. It it heavily used in lightweight frames and aircraft parts.</li>
 //             <li><strong>Alloy Steel 4130 (Seamless):</strong> is an extremely strong and tough tube used in race cars and aerospace structures. Seamless reduces failure points in this material making ideal for critical applications.</li>
@@ -1205,7 +1205,7 @@
 //           <Typography variant="h3" className="mt-4">
 //             Tube Glossary
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Welded:</strong> Welded tube is made by rolling a flat piece of metal into a tube shape and then welding the edges together.</li>
 //             <li><strong>Seamless:</strong> Seamless tube is made without any welding. It's formed by heating and stretching a solid piece of metal until it becomes a tube.</li>
 //             <li><strong>Extruded:</strong> Extruded tube is made by pushing heated metal through a shaped opening. This process can create complex shapes and is commonly used for aluminum.</li>
@@ -1220,7 +1220,7 @@
 //           <Typography className="mt-2">
 //             When it comes to tube bending, there are a few things you can do when designing your parts to ensure a smoother quoting and manufacturing experience. We've compiled a few tube bending design for manufacturing (DFM) tips below. For additional tips, check out our top tube bending design tips article.
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>For multi-bend parts, maintain a consistent center line radius (CLR)</li>
 //             <li>We recommend a bend radius to tube diameter ratio of 2:1 to 5:1, no greater than 6", using the center line radius (CLR)</li>
 //             <li>Bend distances should be at least 2X the outer diameter for tubes less than 1", 3X for 1"-2", and 4X for tubing with outer diameters greater than 2"</li>
@@ -1234,7 +1234,7 @@
 //             The list below shows a tube OD in decimals or fractions as the related CLR to help you design your project. It is recommended that single tubes contain only one CLR for ease of manufacturability.
 //           </Typography>
 //           <Typography className="mt-2">OD to CLR Recommended Combinations:</Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>.188" (3/16") OD: CLR of .25", .5", .75", 1", 3.5", or 4"</li>
 //             <li>.25" (1/4") OD: CLR of .25", .5", .75", 1", or 1.25"</li>
 //             <li>.375" (3/8") OD: CLR of .75", 1", 1.25", 1.5", 2", or 3"</li>
@@ -1255,7 +1255,7 @@
 //           <Typography className="mt-2">
 //             X offers a full range of tube bending capabilities and pipe bending services. These services include:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li><strong>Mandrel Tube Bending:</strong> This method (also known as mandrel bending) is similar to rotary draw bending; however, it fully retains the internal tube profile throughout the bend. This process is accomplished using internal support known as a mandrel that preserves the structure of the tube during bending, ensuring that little to no unwanted deformation occurs. The mandrel tube bender has a long bed with a mandrel rod, which holds the mandrel right at the tangent point of the bend. The tube slides over the mandrel, the machine clamps down on it, and the tube is bent while the mandrel remains stationary. Mandrel tube bending is especially useful for thin wall thicknesses, large diameters, and tight radii, where collapsing during bending is common.</li>
 //             <li><strong>Rotary Draw Tube Bending:</strong> by far the most popular method, rotary draw benders use a clamping die, radius (or bend) die, and pressure die to hold the tube to form during the entire bending process. The tube is clamped to the bend die and is “drawn” around the other dies via hydraulic or electrical power, resulting in a highly accurate and repeatable bend. Rotary draw tube bending processes can be manual, semi-manual, or CNC-operated. Computer-guided rotary draw bending allows unmatched precision (especially for high-volume applications). However, setup time can be longer, and each unique bend requires tooling to be created.</li>
 //             <li><strong>Roll Tube Bending:</strong> In roll tube bending (also known as roll bending), three dies (or rollers) are used to lock down the tube, where a piston presses down on the tube, and the operator “rolls” the pipe through the machine, causing a gradual bend (also known as an arc). The tube is reset into the dies, the piston is lowered further, and the process is repeated until the desired profile is achieved. This method is often a manually-powered process; however, it can also be motorized for additional power input. Roll tube bending offers variable bends and angles without additional tooling and is ideal for large, gradual bends, but its accuracy and repeatability are limited.</li>
@@ -1267,7 +1267,7 @@
 //           <Typography className="mt-2">
 //             Tube bending can be utilized across a diverse set of industries. From architectural and lighting fixtures in buildings to vehicle exhaust systems. Below is a list of just some of the notable sectors our tube fabrication and bending services are an ideal fit for:
 //           </Typography>
-//           <ul className="list-disc list-inside mt-2">
+//           <ul className="list-disc pl-4 pt-2 mt-2">
 //             <li>Aerospace & Defense</li>
 //             <li>Automotive</li>
 //             <li>Architectural & Lighting</li>
@@ -1292,17 +1292,233 @@
 // export default SheetMetalStamping;
 
 //=============================================================
+// import { Button } from "@/components/ui/button";
+// import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+// import { Separator } from "@/components/ui/separator";
+// import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+// import Typography from "@/components/custom/typography"; 
+// import {sheetMetalStampingData}from "@/data/sheetMetalData"
+
+// // Dynamic Component
+// function SheetMetalStamping() {
+//   return (
+//     <div className="p-10">
+//       {/* Main Header */}
+//       <Typography variant="h1" className="text-center">
+//         {sheetMetalStampingData.title}
+//       </Typography>
+//       <Typography variant="lead" className="text-center mt-4">
+//         {sheetMetalStampingData.lead}
+//       </Typography>
+//       <div className="mt-6 flex justify-center">
+//         <Button size="lg">Get a Quote</Button>
+//       </div>
+
+//       <Separator className="my-8" />
+
+//       {/* Dynamic Sections */}
+//       {sheetMetalStampingData.sections.map((section, index) => (
+//         <Card key={index} className="mb-8">
+//           <CardHeader>
+//             <CardTitle className="text-2xl">{section.title}</CardTitle>
+//           </CardHeader>
+//           <CardContent>
+//             {section.subsections.map((subsection, subIndex) => (
+//               <div key={subIndex} className="mb-4">
+//                 <Typography variant="h3" className="text-xl">
+//                   {subsection.title}
+//                 </Typography>
+//                 {subsection.content && subsection.content.map((item, itemIndex) => (
+//                   <div key={itemIndex} className="mt-2">
+//                     {typeof item === 'string' ? (
+//                       <Typography>{item}</Typography>
+//                     ) : (
+//                       <>
+//                         {item.subheading && <Typography className="font-bold">{item.subheading}</Typography>}
+//                         {item.text && <Typography>{item.text}</Typography>}
+//                         {item.example && <Typography className="italic">{item.example}</Typography>}
+//                         {item.question && (
+//                           <>
+//                             <Typography className="font-bold">{item.question}</Typography>
+//                             <Typography>{item.answer}</Typography>
+//                           </>
+//                         )}
+//                         {item.additional && <Typography>{item.additional}</Typography>}
+//                         {item.list && (
+//                           <ul className="list-disc list-outside mt-2 ml-4">
+//                             {item.list.map((listItem, listIndex) => (
+//                               <li key={listIndex} className="flex items-start">
+//                                 <span className="mr-2">•</span>
+//                                 <Typography className="inline">{listItem}</Typography>
+//                               </li>
+//                             ))}
+//                           </ul>
+//                         )}
+//                       </>
+//                     )}
+//                   </div>
+//                 ))}
+//                 {subsection.list && (
+//                   <ul className="list-disc list-outside mt-2 ml-4">
+//                     {subsection.list.map((listItem, listIndex) => (
+//                       <li key={listIndex} className="flex items-start">
+//                         <span className="mr-2">•</span>
+//                         <Typography className="inline">
+//                           {typeof listItem === 'string' ? listItem : (
+//                             <>
+//                               <strong>{listItem.name}</strong>{listItem.description && `: ${listItem.description}`}
+//                               {listItem.sublist && (
+//                                 <ul className="list-disc list-outside ml-6 mt-1">
+//                                   {listItem.sublist.map((subItem, subItemIndex) => (
+//                                     <li key={subItemIndex} className="flex items-start">
+//                                       <span className="mr-2">•</span>
+//                                       <Typography className="inline">{subItem}</Typography>
+//                                     </li>
+//                                   ))}
+//                                 </ul>
+//                               )}
+//                               {listItem.additional && <Typography className="block mt-1">{listItem.additional}</Typography>}
+//                             </>
+//                           )}
+//                         </Typography>
+//                       </li>
+//                     ))}
+//                   </ul>
+//                 )}
+//                 {subsection.table && (
+//                   <Table className="mt-2">
+//                     <TableHeader>
+//                       <TableRow>
+//                         {subsection.table.headers.map((header, headerIndex) => (
+//                           <TableHead key={headerIndex}>{header}</TableHead>
+//                         ))}
+//                       </TableRow>
+//                     </TableHeader>
+//                     <TableBody>
+//                       {subsection.table.rows.map((row, rowIndex) => (
+//                         <TableRow key={rowIndex}>
+//                           {row.map((cell, cellIndex) => (
+//                             <TableCell key={cellIndex}>{cell}</TableCell>
+//                           ))}
+//                         </TableRow>
+//                       ))}
+//                     </TableBody>
+//                   </Table>
+//                 )}
+//                 {subsection.advantages && (
+//                   <>
+//                     <Typography className="mt-2 font-bold">Advantages include:</Typography>
+//                     <ul className="list-disc list-outside mt-2 ml-4">
+//                       {subsection.advantages.map((advantage, advIndex) => (
+//                         <li key={advIndex} className="flex items-start">
+//                           <span className="mr-2">•</span>
+//                           <Typography className="inline">{advantage}</Typography>
+//                         </li>
+//                       ))}
+//                     </ul>
+//                   </>
+//                 )}
+//                 {subsection.disadvantages && (
+//                   <>
+//                     <Typography className="mt-2 font-bold">Disadvantages include:</Typography>
+//                     <ul className="list-disc list-outside mt-2 ml-4">
+//                       {subsection.disadvantages.map((disadvantage, disIndex) => (
+//                         <li key={disIndex} className="flex items-start">
+//                           <span className="mr-2">•</span>
+//                           <Typography className="inline">{disadvantage}</Typography>
+//                         </li>
+//                       ))}
+//                     </ul>
+//                   </>
+//                 )}
+//                 {subsection.quote && (
+//                   <Typography className="mt-2 italic">{subsection.quote}</Typography>
+//                 )}
+//                 {subsection.button && (
+//                   <div className="mt-4 flex justify-center">
+//                     <Button asChild>
+//                       <a href={subsection.button.href}>{subsection.button.text}</a>
+//                     </Button>
+//                   </div>
+//                 )}
+//                 {(subsection.additionalContent || subsection.additionalContent2) && (
+//                   <>
+//                     {subsection.additionalContent && subsection.additionalContent.map((addContent, addIndex) => (
+//                       <Typography key={addIndex} className="mt-2">
+//                         {typeof addContent === 'string' ? addContent : (
+//                           <>
+//                             {addContent.subheading && <Typography className="font-bold">{addContent.subheading}</Typography>}
+//                             {addContent.text && <Typography>{addContent.text}</Typography>}
+//                             {addContent.additional && <Typography>{addContent.additional}</Typography>}
+//                           </>
+//                         )}
+//                       </Typography>
+//                     ))}
+//                     {subsection.additionalContent2 && subsection.additionalContent2.map((addContent, addIndex) => (
+//                       <Typography key={addIndex} className="mt-2">{addContent}</Typography>
+//                     ))}
+//                   </>
+//                 )}
+//               </div>
+//             ))}
+//           </CardContent>
+//         </Card>
+//       ))}
+
+//       {/* Final Call to Action */}
+//       <div className="mt-8 flex justify-center">
+//         <Button variant="outline" asChild>
+//           <a href="/contact">Contact Us for More Information</a>
+//         </Button>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default SheetMetalStamping;
+//==============================================
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import Typography from "@/components/custom/typography"; 
-import {sheetMetalStampingData}from "@/data/sheetMetalData"
+import Typography from "@/components/custom/typography";
+import { sheetMetalStampingData } from "@/data/sheetMetalData";
+
+// Mapping of titles (subsection and subheadings) to their corresponding images
+const subsectionImages = {
+  "Available Sheet Metal Finishes": "/src/assets/image16.jpeg",
+  "X Sheet Cutting Sizes and Tolerances": "/src/assets/image17.jpeg",
+  "How X Sheet Cutting Works": "/src/assets/image18.jpeg",
+  "Sheet Cutting Materials": "/src/assets/image19.jpeg",
+  "Aluminum Alloy": "/src/assets/image20.jpeg",
+  "Brass and Bronze Alloy": "/src/assets/image21.jpeg",
+  "Copper Alloy": "/src/assets/image22.jpeg",
+  "Mechanical Plastic": "/src/assets/image23.jpeg",
+  "Clear and Colored Acrylic": "/src/assets/image24.jpeg",
+  "EVA Foam, Polyurethane Foam (PU), Silicone Foam": "/src/assets/image25.jpeg",
+  "Steel 1075, 1095, 4130, AR500, AR500, Corten A588, 1045 HR, A1011 HR, 1008, 1018, 4140, A36, A366, A572, A653, G90, Tool Steel D1, O1": "/src/assets/image26.jpeg",
+  "Stainless 17-4 PH, 17-7, 301, 304, 316, 410, 430, 440C, CPM 154, S30V": "/src/assets/image27.jpeg",
+  "Titanium Grade 2 and 5, Nickel Alloy": "/src/assets/image28.jpeg",
+  "Cherry, Hardboard, MDF, Poplar, Red Oak, Wood Laminate (Plywood)": "/src/assets/image29.jpeg",
+  "Carbon Fiber, Garolite G-10, Garolite G-11, Garolite LE (Phenolic)": "/src/assets/image30.jpeg",
+  "Design Tip: Explode Your Text": "/src/assets/image31.jpeg",
+  "Design Guide: Laser and Sheet Cutting": "/src/assets/image17.jpeg",
+  "Advantages of Laser Cutting Services": "/src/assets/image18.jpeg",
+  "High Quality Waterjet Cut Parts": "/src/assets/image32.jpeg", // Adjusted from "Waterjet Cutting"
+  "Advantages of Waterjet Cutting": "/src/assets/image33.jpeg",
+  "How Waterjets Work": "/src/assets/image34.jpeg",
+  "Why Choose X for Waterjet Cutting?": "/src/assets/image35.jpeg",
+  "Sizes and Tolerances": "/src/assets/image36.jpeg",
+  "Shapes and Materials": "/src/assets/image37.jpeg",
+  "Tube Bending Sizes and Tolerances": "/src/assets/image38.jpeg",
+  "Recommended Center Line Radius to Outer Diameter": "/src/assets/image39.jpeg",
+  "(Above: Center Line Radius, CLR)": "/src/assets/image40.jpeg",
+};
 
 // Dynamic Component
 function SheetMetalStamping() {
   return (
-    <div className="p-10">
+    <div className="container mx-auto p-10">
       {/* Main Header */}
       <Typography variant="h1" className="text-center">
         {sheetMetalStampingData.title}
@@ -1328,45 +1544,83 @@ function SheetMetalStamping() {
                 <Typography variant="h3" className="text-xl">
                   {subsection.title}
                 </Typography>
-                {subsection.content && subsection.content.map((item, itemIndex) => (
-                  <div key={itemIndex} className="mt-2">
-                    {typeof item === 'string' ? (
-                      <Typography>{item}</Typography>
-                    ) : (
-                      <>
-                        {item.subheading && <Typography className="font-bold">{item.subheading}</Typography>}
-                        {item.text && <Typography>{item.text}</Typography>}
-                        {item.example && <Typography className="italic">{item.example}</Typography>}
-                        {item.question && (
-                          <>
-                            <Typography className="font-bold">{item.question}</Typography>
-                            <Typography>{item.answer}</Typography>
-                          </>
-                        )}
-                        {item.additional && <Typography>{item.additional}</Typography>}
-                        {item.list && (
-                          <ul className="list-disc list-outside mt-2 ml-4">
-                            {item.list.map((listItem, listIndex) => (
-                              <li key={listIndex} className="flex items-start">
-                                <span className="mr-2">•</span>
-                                <Typography className="inline">{listItem}</Typography>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </>
-                    )}
-                  </div>
-                ))}
+                {subsection.content &&
+                  subsection.content.map((item, itemIndex) => (
+                    <div key={itemIndex} className="mt-2">
+                      {typeof item === "string" ? (
+                        <Typography>{item}</Typography>
+                      ) : (
+                        <>
+                          {item.subheading && (
+                            <Typography className="font-bold">{item.subheading}</Typography>
+                          )}
+                          {item.text && <Typography>{item.text}</Typography>}
+                          {item.example && (
+                            <Typography className="italic">{item.example}</Typography>
+                          )}
+                          {item.question && (
+                            <>
+                              <Typography className="font-bold">{item.question}</Typography>
+                              <Typography>{item.answer}</Typography>
+                            </>
+                          )}
+                          {item.additional && <Typography>{item.additional}</Typography>}
+                          {item.list && (
+                            <ul className="list-disc list-outside mt-2 ml-4">
+                              {item.list.map((listItem, listIndex) => (
+                                <li key={listIndex} className="flex items-start">
+                                  <span className="mr-2">•</span>
+                                  <Typography className="inline">
+                                    {typeof listItem === "string" ? (
+                                      listItem
+                                    ) : (
+                                      <>
+                                        <strong>{listItem.name}</strong>
+                                        {listItem.description && `: ${listItem.description}`}
+                                        {listItem.sublist && (
+                                          <ul className="list-disc list-outside ml-6 mt-1">
+                                            {listItem.sublist.map((subItem, subItemIndex) => (
+                                              <li key={subItemIndex} className="flex items-start">
+                                                <span className="mr-2">•</span>
+                                                <Typography className="inline">{subItem}</Typography>
+                                              </li>
+                                            ))}
+                                          </ul>
+                                        )}
+                                        {listItem.additional && (
+                                          <Typography className="block mt-1">{listItem.additional}</Typography>
+                                        )}
+                                      </>
+                                    )}
+                                  </Typography>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                          {/* Add Image for Subheading */}
+                          {item.subheading && subsectionImages[item.subheading] && (
+                            <img
+                              src={subsectionImages[item.subheading]}
+                              className="container max-w-xl h-auto mx-auto object-cover mt-4"
+                              alt={`${item.subheading} Illustration`}
+                            />
+                          )}
+                        </>
+                      )}
+                    </div>
+                  ))}
                 {subsection.list && (
                   <ul className="list-disc list-outside mt-2 ml-4">
                     {subsection.list.map((listItem, listIndex) => (
                       <li key={listIndex} className="flex items-start">
                         <span className="mr-2">•</span>
                         <Typography className="inline">
-                          {typeof listItem === 'string' ? listItem : (
+                          {typeof listItem === "string" ? (
+                            listItem
+                          ) : (
                             <>
-                              <strong>{listItem.name}</strong>{listItem.description && `: ${listItem.description}`}
+                              <strong>{listItem.name}</strong>
+                              {listItem.description && `: ${listItem.description}`}
                               {listItem.sublist && (
                                 <ul className="list-disc list-outside ml-6 mt-1">
                                   {listItem.sublist.map((subItem, subItemIndex) => (
@@ -1377,7 +1631,9 @@ function SheetMetalStamping() {
                                   ))}
                                 </ul>
                               )}
-                              {listItem.additional && <Typography className="block mt-1">{listItem.additional}</Typography>}
+                              {listItem.additional && (
+                                <Typography className="block mt-1">{listItem.additional}</Typography>
+                              )}
                             </>
                           )}
                         </Typography>
@@ -1434,6 +1690,14 @@ function SheetMetalStamping() {
                 {subsection.quote && (
                   <Typography className="mt-2 italic">{subsection.quote}</Typography>
                 )}
+                {/* Add Image for Subsection Title */}
+                {subsectionImages[subsection.title] && (
+                  <img
+                    src={subsectionImages[subsection.title]}
+                    className="container max-w-3xl h-auto mx-auto object-cover mt-4"
+                    alt={`${subsection.title} Illustration`}
+                  />
+                )}
                 {subsection.button && (
                   <div className="mt-4 flex justify-center">
                     <Button asChild>
@@ -1443,20 +1707,34 @@ function SheetMetalStamping() {
                 )}
                 {(subsection.additionalContent || subsection.additionalContent2) && (
                   <>
-                    {subsection.additionalContent && subsection.additionalContent.map((addContent, addIndex) => (
-                      <Typography key={addIndex} className="mt-2">
-                        {typeof addContent === 'string' ? addContent : (
-                          <>
-                            {addContent.subheading && <Typography className="font-bold">{addContent.subheading}</Typography>}
-                            {addContent.text && <Typography>{addContent.text}</Typography>}
-                            {addContent.additional && <Typography>{addContent.additional}</Typography>}
-                          </>
-                        )}
-                      </Typography>
-                    ))}
-                    {subsection.additionalContent2 && subsection.additionalContent2.map((addContent, addIndex) => (
-                      <Typography key={addIndex} className="mt-2">{addContent}</Typography>
-                    ))}
+                    {subsection.additionalContent &&
+                      subsection.additionalContent.map((addContent, addIndex) => (
+                        <div key={addIndex} className="mt-2">
+                          {typeof addContent === "string" ? (
+                            <Typography>{addContent}</Typography>
+                          ) : (
+                            <>
+                              {addContent.subheading && (
+                                <Typography className="font-bold">{addContent.subheading}</Typography>
+                              )}
+                              {addContent.text && <Typography>{addContent.text}</Typography>}
+                              {addContent.additional && <Typography>{addContent.additional}</Typography>}
+                              {/* Add Image for Additional Content Subheading */}
+                              {addContent.subheading && subsectionImages[addContent.subheading] && (
+                                <img
+                                  src={subsectionImages[addContent.subheading]}
+                                  className="container h-auto mx-auto object-cover mt-4"
+                                  alt={`${addContent.subheading} Illustration`}
+                                />
+                              )}
+                            </>
+                          )}
+                        </div>
+                      ))}
+                    {subsection.additionalContent2 &&
+                      subsection.additionalContent2.map((addContent, addIndex) => (
+                        <Typography key={addIndex} className="mt-2">{addContent}</Typography>
+                      ))}
                   </>
                 )}
               </div>

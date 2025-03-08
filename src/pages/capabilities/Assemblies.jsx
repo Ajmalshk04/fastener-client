@@ -1,146 +1,115 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Separator } from "@/components/ui/separator";
+import Typography from "@/components/custom/typography"; // Custom Typography component
+import { assembliesData } from "@/data/assembliesData"; // Adjust path as needed
 
-const LandingPage = () => {
-  return (
-    <div className="max-w-5xl mx-auto p-6">
-      <header className="text-center mb-8">
-        <h1 className="text-4xl font-bold">Zetwerk Assemblies</h1>
-        <p className="text-lg mt-2">Manufacture Globally, Assemble Locally</p>
-        <Button className="mt-4">Get a Quote</Button>
-      </header>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Our Capabilities</h2>
-        <p className="text-gray-700 mb-4">
-          Save production time and labor costs by using Zetwerk’s assembly
-          capabilities from our factories in the US and Mexico.
-        </p>
-        <Accordion type="single" collapsible>
-          <AccordionItem value="item1">
-            <AccordionTrigger>Aluminum Extrusions</AccordionTrigger>
-            <AccordionContent>
-              Manufacturing of aluminum parts for various applications.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item2">
-            <AccordionTrigger>Die Casting</AccordionTrigger>
-            <AccordionContent>
-              Precision die casting for complex shapes and components.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item3">
-            <AccordionTrigger>CNC Machining</AccordionTrigger>
-            <AccordionContent>
-              High-precision CNC machining services.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item4">
-            <AccordionTrigger>Injection Molding</AccordionTrigger>
-            <AccordionContent>
-              Efficient production of plastic parts.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item5">
-            <AccordionTrigger>Prototyping and Preproduction</AccordionTrigger>
-            <AccordionContent>
-              Rapid prototyping services to validate designs.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item6">
-            <AccordionTrigger>Sheet Metal Stamping</AccordionTrigger>
-            <AccordionContent>
-              Precision stamping for various metal components.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item7">
-            <AccordionTrigger>Investment Casting</AccordionTrigger>
-            <AccordionContent>
-              High-quality casting for complex geometries.
-            </AccordionContent>
-          </AccordionItem>
-        </Accordion>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Why Choose Zetwerk?</h2>
-        <Card>
-          <CardHeader>
-            <CardTitle>Quality Assurance</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p className="text-gray-700 mb-4">
-              Our ISO 9001-certified NPI process ensures quality and efficiency
-              in manufacturing and assembly.
-            </p>
-            <p className="text-gray-700 mb-4">
-              We offer vendor-managed inventory and JIT deliveries, providing
-              flexible lead times of less than 5 days.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Our team of Licensed Customs Brokers designs a tariff and
-              logistics engineered supply chain for reduced tariff and
-              best-in-class landed cost for finished products.
-            </p>
-            <p className="text-gray-700 mb-4">
-              We can manufacture parts and ship them to US/MX as Completely
-              Knocked Down (CKD) in the most efficient packaging and then
-              assemble them locally or kit them for efficient assembly at your
-              factory.
-            </p>
-          </CardContent>
-        </Card>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">
-          Zetwerk Global Supply Chain
-        </h2>
-        <p className="text-gray-700 mb-4">
-          Zetwerk provides a full suite of manufacturing and assembly services
-          focused on reducing turnaround time and improving efficiency and
-          value.
-        </p>
-        <Accordion>
-          <AccordionItem value="engineering">
-            <AccordionTrigger>Engineering Design</AccordionTrigger>
-            <AccordionContent>
-              Reverse engineering to take your physical parts and develop
-              detailed drawings for manufacturing.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="metal-fabrication">
-            <AccordionTrigger>Metal Fabrication</AccordionTrigger>
-            <AccordionContent>
-              Metal fabrication for enclosures, cabinets, and racks. Heavy and
-              medium duty fabrication for automotive chassis and frames.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="testing">
-            <AccordionTrigger>Testing Services</AccordionTrigger>
-            <AccordionContent>
-              Part testing options such as Salt spray, NDT, and pressure testing
-              to qualify child parts and sub-assemblies.
-            </AccordionContent>
-          </AccordionItem>
-        </Accordion>
-      </section>
-
-      <footer className="text-center">
-        <h2 className="text-2xl font-semibold mb-4">
-          Get Your Products Assembled Locally
-        </h2>
-        <Button>Get a Quote</Button>
-      </footer>
-    </div>
-  );
+// Placeholder for image mapping (add images here if provided)
+const assembliesImages = {
+  // Example: "Assembly Services": "/src/assets/assemblyImage.jpg",
 };
 
-export default LandingPage;
+function Assemblies() {
+  return (
+    <div className="container mx-auto p-10">
+      {/* Main Header */}
+      <Typography variant="h1" className="text-center">
+        {assembliesData.title}
+      </Typography>
+      <Typography variant="lead" className="text-center mt-4">
+        {assembliesData.lead}
+      </Typography>
+      <div className="mt-6 flex justify-center">
+        <Button size="lg">Get a Quote</Button>
+      </div>
+
+      <Separator className="my-8" />
+
+      {/* Dynamic Sections */}
+      {assembliesData.sections.map((section, sectionIndex) => (
+        <Card key={sectionIndex} className="mb-8">
+          <CardHeader>
+            <CardTitle className="text-2xl">{section.title}</CardTitle>
+          </CardHeader>
+          <CardContent>
+            {/* Section-level Image (if added later) */}
+            {assembliesImages[section.title] && (
+              <img
+                src={assembliesImages[section.title]}
+                className="container w-auto h-auto mx-auto object-cover mt-4"
+                alt={`${section.title} Illustration`}
+              />
+            )}
+            {section.content.map((contentItem, contentIndex) => (
+              <div key={contentIndex} className="mb-4">
+                <Typography variant="h3" className="text-xl">
+                  {contentItem.heading}
+                </Typography>
+                {contentItem.text &&
+                  contentItem.text.map((text, textIndex) => (
+                    <Typography key={textIndex} className="mt-2">
+                      {text}
+                    </Typography>
+                  ))}
+                {contentItem.list && (
+                  <ul className="list-disc pl-4 pt-2 mt-2">
+                    {contentItem.list.map((item, listIndex) => (
+                      <li key={listIndex}>
+                        <Typography>{item}</Typography>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {/* Subsection-level Image (if added later) */}
+                {assembliesImages[contentItem.heading] && (
+                  <img
+                    src={assembliesImages[contentItem.heading]}
+                    className="container w-auto h-auto mx-auto object-cover mt-4"
+                    alt={`${contentItem.heading} Illustration`}
+                  />
+                )}
+                {contentItem.subSections &&
+                  contentItem.subSections.map((subSection, subIndex) => (
+                    <div key={subIndex} className="mt-4">
+                      <Typography variant="h4" className="text-lg">
+                        {subSection.heading}
+                      </Typography>
+                      {subSection.text && (
+                        <Typography className="mt-2">{subSection.text}</Typography>
+                      )}
+                      {subSection.list && (
+                        <ul className="list-disc pl-4 pt-2 mt-2">
+                          {subSection.list.map((item, listIndex) => (
+                            <li key={listIndex}>
+                              <Typography>{item}</Typography>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                      {/* Nested Subsection Image (if added later) */}
+                      {assembliesImages[subSection.heading] && (
+                        <img
+                          src={assembliesImages[subSection.heading]}
+                          className="container w-auto h-auto mx-auto object-cover mt-4"
+                          alt={`${subSection.heading} Illustration`}
+                        />
+                      )}
+                    </div>
+                  ))}
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+      ))}
+
+      {/* Final Call to Action */}
+      <div className="mt-8 flex justify-center">
+        <Button variant="outline" asChild>
+          <a href="/contact">Contact Us for More Information</a>
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+export default Assemblies;

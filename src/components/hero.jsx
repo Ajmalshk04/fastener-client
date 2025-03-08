@@ -1,6 +1,3 @@
-// src/components/HeroSection.js
-
-import * as React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -13,110 +10,79 @@ import Autoplay from "embla-carousel-autoplay";
 
 const heroData = [
   {
-    title: "Manufacturing Processes",
+    title: "Advanced Manufacturing Solutions",
     description:
-      "Explore manufacturing capabilities that support a wide range of applications and processes.",
+      "Discover cutting-edge manufacturing technologies designed to optimize production and quality.",
     items: [
       {
-        title: "Extrusions",
-        icon: "icon-extrusion",
-        link: "/capabilities/aluminum-extrusions/",
+        title: "3D Printing",
+        imageUrl: "/src/assets/1584.jpg", 
       },
       {
-        title: "Die Casting",
-        icon: "icon-die-casting",
-        link: "/capabilities/die-casting/",
+        title: "Laser Cutting",
+        imageUrl: "/src/assets/4465.jpg",
       },
       {
-        title: "CNC Machining",
-        icon: "icon-machining",
-        link: "/capabilities/cnc-machining/",
+        title: "Robotic Automation",
+        imageUrl: "/src/assets/133.jpg", // Assuming this might represent robotics
       },
       {
-        title: "Forging",
-        icon: "icon-forging",
-        link: "/capabilities/forging/",
+        title: "Precision Welding",
+        imageUrl: "/src/assets/119.jpg", // Welding-related image
       },
       {
-        title: "Injection Molding",
-        icon: "icon-injection",
-        link: "/capabilities/injection-molding/",
+        title: "Surface Treatment",
+        imageUrl: "/src/assets/20130.jpg", // General manufacturing image as placeholder
       },
       {
-        title: "Sheet Metal Stamping",
-        icon: "icon-fabricated-metal",
-        link: "/capabilities/sheet-metal-stamping/",
-      },
-      {
-        title: "Prototyping and Pre-Production",
-        icon: "icon-manufacturing",
-        link: "/capabilities/prototyping-and-preproduction/",
-      },
-      {
-        title: "Investment Casting",
-        icon: "icon-investment",
-        link: "/capabilities/investment-casting/",
-      },
-      {
-        title: "Assemblies",
-        icon: "icon-zet",
-        link: "/capabilities/assemblies/",
+        title: "Tool & Die Making",
+        imageUrl: "/src/assets/3953.jpg", // General manufacturing image as placeholder
       },
     ],
   },
   {
-    title: "Manufacturing for Industries",
-    description: "Explore a full spectrum of solutions across industries.",
+    title: "Industries We Serve",
+    description: "Providing tailored manufacturing solutions for diverse industry needs.",
     items: [
       {
-        title: "Transportation",
-        icon: "icon-transportation",
-        link: "/industries/transportation/",
+        title: "Automotive",
+        imageUrl: "/src/assets/596.jpg",
       },
       {
-        title: "Industrial Machinery & Equipment",
-        icon: "icon-industrial-machinery",
-        link: "/industries/industrial-machinery-equipment/",
+        title: "Medical Devices",
+        imageUrl: "/src/assets/14029.jpg", // Medical-related image
       },
       {
-        title: "Consumer Products, Electronics & Appliances",
-        icon: "icon-consumer-products",
-        link: "/industries/consumer-products-electronics-appliances/",
+        title: "Renewable Energy",
+        imageUrl: "/src/assets/2148907418.jpg", // Wind turbines or renewable energy image
       },
       {
-        title: "Construction & Infrastructure",
-        icon: "icon-construction",
-        link: "/industries/construction-infrastructure/",
+        title: "Telecommunications",
+        imageUrl: "/src/assets/194.jpg", // Placeholder for telecommunications
       },
       {
-        title: "Energy & Utilities",
-        icon: "icon-energy",
-        link: "/industries/energy-utilities/",
+        title: "Food Processing",
+        imageUrl: "/src/assets/13411.jpg", // Placeholder for food processing
       },
       {
-        title: "Aerospace & Defense",
-        icon: "icon-aerospace",
-        link: "/industries/aerospace-defense/",
+        title: "Robotics",
+        imageUrl: "/src/assets/2149408315.jpg", // Another robotics-related image
       },
     ],
   },
 ];
 
-const dummyImageUrl = "https://via.placeholder.com/300x200";
-
 export function HeroSection() {
   return (
-    <div className="hero-section flex flex-col md:flex-row p-8">
-      <div className="left-section md:w-1/2 mb-8 md:mb-0 flex flex-col justify-center px-4 lg:px-40 ">
-        <h1 className="text-3xl font-bold mb-4">MAXIMIZE MANUFACTURING</h1>
+    <div className="hero-section mx-40 flex flex-col md:flex-row gap-2 mt-14">
+      <div className="left-section md:w-1/2 mb-8 md:mb-0 flex flex-col justify-center px-16 ">
+        <h1 className="text-3xl font-bold mb-4">X COMPANY INNOVATION</h1>
         <p className="mb-8">
-          With an unbreakable supply chain and virtually unlimited manufacturing
-          capacity, Zetwerk is your solution for getting the components you need
-          when you need them.
+          X Company delivers state-of-the-art manufacturing solutions, ensuring precision, efficiency, and reliability for all your production needs.
         </p>
-        <a href="/get-quote">
+        <a href="/contact-us">
           <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
-            Get a Quote
+            Contact Us
           </button>
         </a>
       </div>
@@ -138,18 +104,16 @@ export function HeroSection() {
                 {section.items.map((item, itemIndex) => (
                   <CarouselItem key={itemIndex} className="basis-1/5 z-auto">
                     <div className="">
-                      <a href={item.link}>
-                        <Card className="bg-opacity-0 border-none shadow-none z-0">
-                          <CardContent className="flex flex-col aspect-square items-center justify-center p-2 text-center bg-opacity-10 z-10">
-                            <div className="icon-wrapper z-0">
-                              <img src={dummyImageUrl} alt={item.title} />
-                            </div>
-                            <span className="text-sm font-semibold mt-2">
-                              {item.title}
-                            </span>
-                          </CardContent>
-                        </Card>
-                      </a>
+                      <Card className="bg-opacity-0 border-none shadow-none z-0">
+                        <CardContent className="flex flex-col aspect-square items-center justify-center p-2 text-center bg-opacity-10 z-10">
+                          <div className="icon-wrapper z-0">
+                            <img src={item.imageUrl} alt={item.title} className="w-44 h-36 object-cover" />
+                          </div>
+                          <span className="text-sm font-semibold mt-2">
+                            {item.title}
+                          </span>
+                        </CardContent>
+                      </Card>
                     </div>
                   </CarouselItem>
                 ))}
@@ -165,4 +129,3 @@ export function HeroSection() {
 }
 
 export default HeroSection;
-//==============================================

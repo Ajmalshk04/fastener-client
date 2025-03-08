@@ -1,119 +1,116 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Separator } from "@/components/ui/separator";
+import Typography from "@/components/custom/typography";
+import { forgingData } from "@/data/forgingData";
 
-function ForgingLandingPage() {
+// Placeholder for image mapping
+const forgingImages = {};
+
+function Forging() {
   return (
-    <div className="container mx-auto p-6">
-      <section className="mb-8">
-        <h1 className="text-3xl font-bold">Forging Services</h1>
-        <p className="text-lg mt-4">
-          The forging manufacturing process utilizes metal that is hammered,
-          pressed, or rolled under intense, localized pressure. The parts are
-          shaped into high-strength components known as forgings.
-        </p>
-        <p className="text-lg mt-2">
-          Forged parts are stronger than the parts manufactured through other
-          processes and are often used in applications where strength,
-          reliability, and safety are critical.
-        </p>
-      </section>
+    <div className="container mx-auto p-10">
+      {/* Main Header */}
+      <Typography variant="h1" className="text-center">
+        {forgingData.title}
+      </Typography>
+      <Typography variant="lead" className="text-center mt-4">
+        {forgingData.lead}
+      </Typography>
+      <div className="mt-6 flex justify-center">
+        <Button size="lg">Get a Quote</Button>
+      </div>
 
-      <section className="mb-8">
-        <Card>
+      <Separator className="my-8" />
+
+      {/* Dynamic Sections */}
+      {forgingData.sections.map((section, sectionIndex) => (
+        <Card key={sectionIndex} className="mb-8">
           <CardHeader>
-            <CardTitle>Zetwerk’s Forging Capabilities</CardTitle>
+            <CardTitle className="text-2xl">{section.title}</CardTitle>
           </CardHeader>
           <CardContent>
-            <p>
-              Zetwerk has extensive experience in forging high-quality, highly
-              specialized rings for wind turbine towers and other industrial
-              applications.
-            </p>
-            <p className="mt-4">
-              Our commitment to precision and customer satisfaction allows us to
-              deliver high-quality, well-priced products on schedule. Once
-              forged, components can be post-processed by precision CNC
-              machining and surface finishing.
-            </p>
-            <Button className="mt-4">Get a Quote</Button>
+            {forgingImages[section.title] && (
+              <img
+                src={forgingImages[section.title]}
+                className="container w-auto h-auto mx-auto object-cover mt-4"
+                alt={`${section.title} Illustration`}
+              />
+            )}
+            {section.content.map((contentItem, contentIndex) => (
+              <div key={contentIndex} className="mb-4">
+                <Typography variant="h3" className="text-xl">
+                  {contentItem.heading}
+                </Typography>
+                {contentItem.text &&
+                  contentItem.text.map((text, textIndex) => (
+                    <Typography key={textIndex} className="mt-2">
+                      {text}
+                    </Typography>
+                  ))}
+                {contentItem.list && (
+                  <ul className="list-disc pl-4 pt-2 mt-2">
+                    {contentItem.list.map((item, listIndex) => (
+                      <li key={listIndex}>
+                        <Typography>{item}</Typography>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {forgingImages[contentItem.heading] && (
+                  <img
+                    src={forgingImages[contentItem.heading]}
+                    className="container w-auto h-auto mx-auto object-cover mt-4"
+                    alt={`${contentItem.heading} Illustration`}
+                  />
+                )}
+                {contentItem.subSections &&
+                  contentItem.subSections.map((subSection, subIndex) => (
+                    <div key={subIndex} className="mt-4">
+                      <Typography variant="h4" className="text-lg">
+                        {subSection.heading}
+                      </Typography>
+                      {subSection.list && (
+                        <ul className="list-disc pl-4 pt-2 mt-2">
+                          {subSection.list.map((item, listIndex) => (
+                            <li key={listIndex}>
+                              <Typography>{item}</Typography>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                      {forgingImages[subSection.heading] && (
+                        <img
+                          src={forgingImages[subSection.heading]}
+                          className="container w-auto h-auto mx-auto object-cover mt-4"
+                          alt={`${subSection.heading} Illustration`}
+                        />
+                      )}
+                    </div>
+                  ))}
+                {contentItem.button && (
+                  <div className="mt-4 flex justify-center">
+                    <Button asChild>
+                      <a href={contentItem.button.href}>
+                        {contentItem.button.text}
+                      </a>
+                    </Button>
+                  </div>
+                )}
+              </div>
+            ))}
           </CardContent>
         </Card>
-      </section>
+      ))}
 
-      <section className="mb-8">
-        <Card>
-          <CardHeader>
-            <CardTitle>Forging Process</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p>
-              Zetwerk performs open-die forging between flat dies with no
-              pre-cut profiles in the dies. This method involves moving the
-              workpiece to shape it. We can forge large parts weighing over 150
-              tons and up to 25 meters in length.
-            </p>
-            <p className="mt-4">
-              Open-die forgings impart similar grain flow orientation,
-              deformation, and other beneficial characteristics when compared to
-              closed-die forgings.
-            </p>
-          </CardContent>
-        </Card>
-      </section>
-
-      <section className="mb-8">
-        <Card>
-          <CardHeader>
-            <CardTitle>Industries & Applications</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p>
-              Zetwerk provides forging components for various industries,
-              including:
-            </p>
-            <ul className="list-disc pl-4 mt-2">
-              <li>Aircraft & Aerospace</li>
-              <li>Oil & Gas</li>
-              <li>Construction & Infrastructure</li>
-              <li>Mining</li>
-              <li>Vehicle Manufacturing</li>
-              <li>Power Generation</li>
-              <li>… and many more</li>
-            </ul>
-            <p className="mt-4">
-              Applications include Ring Gear Blanks, Flanges, Manway Rings &
-              Flanges, Tires, Bearings, Tank Rings, and many more.
-            </p>
-          </CardContent>
-        </Card>
-      </section>
-
-      <section className="mb-8">
-        <Card>
-          <CardHeader>
-            <CardTitle>The Zetwerk Manufacturing Difference</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p>
-              Zetwerk provides a full suite of services focused on reducing
-              turnaround time and improving efficiency and value. We offer:
-            </p>
-            <ul className="list-disc pl-4 mt-2">
-              <li>Unlimited manufacturing capacity</li>
-              <li>Global raw material sourcing</li>
-              <li>
-                Secondary processing, including anodizing, powder coating, and
-                CNC machining
-              </li>
-              <li>Assembly, packaging, and distribution</li>
-              <li>Quality control – AS 9100D & ISO 9001:2015 certified</li>
-            </ul>
-            <Button className="mt-4">Request a Quote</Button>
-          </CardContent>
-        </Card>
-      </section>
+      {/* Final Call to Action */}
+      <div className="mt-8 flex justify-center">
+        <Button variant="outline" asChild>
+          <a href="/contact">Contact Us for More Information</a>
+        </Button>
+      </div>
     </div>
   );
 }
 
-export default ForgingLandingPage;
+export default Forging;
