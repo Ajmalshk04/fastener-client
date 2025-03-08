@@ -488,9 +488,9 @@ import { metalFabricationData } from "@/data/DieCasting";
 
 // Mapping of headings to their corresponding images
 const fabricationImages = {
-  "Custom Die Casting Services": "/assets/image65.jpeg",
-  "Metal Stamping": "/assets/SHEETMETALSTAMPING.jpg",
-  "Metal Extrusion": "/assets/image66.jpeg",
+  "Custom Die Casting Services": "/src/assets/image65.jpeg",
+  "Metal Stamping": "/src/assets/SHEETMETALSTAMPING.jpg",
+  "Metal Extrusion": "/src/assets/image66.jpeg",
 };
 
 function MetalFabrication() {

@@ -1208,21 +1208,21 @@ import { cncMachiningData } from "@/data/cncMachine";
 
 // Mapping of subsection titles to their corresponding images
 const subsectionImages = {
-  "X has a diverse range of CNC Machining Capabilities": "/assets/image3.jpeg",
-  "High Quality Rapid CNC Milling Service": "/assets/image4.jpeg",
-  "CNC Milling Tolerances & Standards": "/assets/image5.jpeg",
-  "The Basics Of CNC Mills": "/assets/image6.jpeg",
-  "CNC Turning Service Overview": "/assets/image7.jpeg",
-  "The Basics Of CNC Lathes": "/assets/image8.jpeg",
-  "Custom Wire EDM Machining With X": "/assets/image9.jpeg",
-  "Applications of Medical CNC Machining": "/assets/image10.jpeg",
-  "Medical Devices": "/assets/image11.jpeg",
-  "Wire EDM Medical Machining": "/assets/image12.jpeg",
-  "X Includes CNC Machining in Aluminum": "/assets/EXTRUSIONS.jpg",
-  "Advantages of Medical CNC Machining with X": "/assets/image12.jpeg",
-  "METAL STAMPING & FORMING PROCESSES": "/assets/image13.jpeg",
-  "X SUPPORTS A VARIETY OF MATERIALS FOR SHEET METAL STAMPINGS": "/assets/image14.jpeg",
-  "SECONDARY SHEET METAL STAMPING FINISHING SERVICES": "/assets/image15.jpeg",
+  "X has a diverse range of CNC Machining Capabilities": "/src/assets/image3.jpeg",
+  "High Quality Rapid CNC Milling Service": "/src/assets/image4.jpeg",
+  "CNC Milling Tolerances & Standards": "/src/assets/image5.jpeg",
+  "The Basics Of CNC Mills": "/src/assets/image6.jpeg",
+  "CNC Turning Service Overview": "/src/assets/image7.jpeg",
+  "The Basics Of CNC Lathes": "/src/assets/image8.jpeg",
+  "Custom Wire EDM Machining With X": "/src/assets/image9.jpeg",
+  "Applications of Medical CNC Machining": "/src/assets/image10.jpeg",
+  "Medical Devices": "/src/assets/image11.jpeg",
+  "Wire EDM Medical Machining": "/src/assets/image12.jpeg",
+  "X Includes CNC Machining in Aluminum": "/src/assets/EXTRUSIONS.jpg",
+  "Advantages of Medical CNC Machining with X": "/src/assets/image12.jpeg",
+  "METAL STAMPING & FORMING PROCESSES": "/src/assets/image13.jpeg",
+  "X SUPPORTS A VARIETY OF MATERIALS FOR SHEET METAL STAMPINGS": "/src/assets/image14.jpeg",
+  "SECONDARY SHEET METAL STAMPING FINISHING SERVICES": "/src/assets/image15.jpeg",
 };
 
 // Dynamic Component

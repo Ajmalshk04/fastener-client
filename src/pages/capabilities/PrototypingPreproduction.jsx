@@ -6,7 +6,7 @@ import { prototypePreproductionData } from "@/data/prototypePreproductionData"; 
 
 // Placeholder for image mapping (add images here if provided)
 const prototypeImages = {
-  // Example: "Prototyping Processes": "/assets/prototypeImage.jpg",
+  // Example: "Prototyping Processes": "/src/assets/prototypeImage.jpg",
 };
 
 function PrototypePreproduction() {

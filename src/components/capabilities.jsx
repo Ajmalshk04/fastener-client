@@ -9,60 +9,71 @@ import {
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/typography";
 
+// Import images
+import ExtrusionsImg from "/src/assets/EXTRUSIONS.jpg";
+import DieCastingImg from "/src/assets/DIECASTING.jpg";
+import CNCMachiningImg from "/src/assets/CNCMACHINING.jpg";
+import ForgingImg from "/src/assets/FORGING.jpg";
+import InjectionMoldingImg from "/src/assets/INJECTIONMOLDING.jpg";
+import SheetMetalStampingImg from "/src/assets/SHEETMETALSTAMPING.jpg";
+import PrototypingImg from "/src/assets/PROTOTYPINGANDPRE-PRODUCTION.jpg";
+import InvestmentCastingImg from "/src/assets/INVESTMENTCASTING.jpg";
+import AssembliesImg from "/src/assets/ASSEMBLIES.jpg";
+
 const capabilitiesData = [
   {
     title: "EXTRUSIONS",
     description:
       "X delivers top-notch extrusions crafted from various aluminum alloys, tailored to meet even the most intricate cross-sectional demands of clients.",
-    imageUrl: "/assets/EXTRUSIONS.jpg",
+    image: ExtrusionsImg, // Use imported image
   },
   {
     title: "DIE CASTING",
     description:
       "X produces premium die-cast parts using an assortment of materials such as aluminum, zinc, copper, brass, and bronze alloys.",
-    imageUrl: "/assets/DIECASTING.jpg",
+    image: DieCastingImg,
   },
   {
     title: "CNC MACHINING",
     description:
       "X offers precisely machined, high-quality components from bar stock, along with finishing services for as-cast and as-forged parts.",
-    imageUrl: "/assets/CNCMACHINING.jpg",
+    image: CNCMachiningImg,
   },
   {
     title: "FORGING",
     description:
       "X provides a range of forging techniques, including drop forging, hot/cold forging, rolled ring forging, and press forging.",
-    imageUrl: "/assets/FORGING.jpg",
+    image: ForgingImg,
   },
   {
     title: "INJECTION MOLDING",
     description:
       "With injection molding, X creates parts of varying sizes and complexities, effortlessly capturing small details, intricate shapes, and thin walls.",
-    imageUrl: "/assets/INJECTIONMOLDING.jpg",
+    image: InjectionMoldingImg,
   },
   {
     title: "SHEET METAL STAMPING",
     description:
       "X crafts custom sheet metal stampings using a diverse selection of tailored materials.",
-    imageUrl: "/assets/SHEETMETALSTAMPING.jpg",
+    image: SheetMetalStampingImg,
   },
   {
     title: "PROTOTYPING AND PRE-PRODUCTION",
     description:
       "X supports businesses and innovators globally by manufacturing prototypes to bring their ideas to life.",
-    imageUrl: "/assets/PROTOTYPINGANDPRE-PRODUCTION.jpg",
+    image: PrototypingImg,
   },
   {
     title: "INVESTMENT CASTING",
     description:
       "X creates investment cast parts using carbon steel, low-alloy steel, stainless steel, and a broad array of non-ferrous metals.",
-    imageUrl: "/assets/INVESTMENTCASTING.jpg",
+    image: InvestmentCastingImg,
   },
   {
     title: "ASSEMBLIES",
     description:
       "Equipped with spacious, adaptable factories, X establishes dedicated assembly lines to meet volume needs for a wide range of electro-mechanical products and assemblies.",
-    imageUrl: "/assets/ASSEMBLIES.jpg",
+    image: AssembliesImg,
   },
 ];
 
@@ -89,10 +100,10 @@ const Capabilities = () => {
   );
 };
 
-const CapabilityCard = ({ title, description, imageUrl }) => {
+const CapabilityCard = ({ title, description, image }) => {
   return (
     <Card className="overflow-hidden">
-      <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
+      <img src={image} alt={title} className="w-full h-48 object-cover" />
       <CardHeader>
         <CardTitle>{title}</CardTitle>
       </CardHeader>

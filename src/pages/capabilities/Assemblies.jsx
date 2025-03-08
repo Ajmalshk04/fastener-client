@@ -6,7 +6,7 @@ import { assembliesData } from "@/data/assembliesData"; // Adjust path as needed
 
 // Placeholder for image mapping (add images here if provided)
 const assembliesImages = {
-  // Example: "Assembly Services": "/assets/assemblyImage.jpg",
+  // Example: "Assembly Services": "/src/assets/assemblyImage.jpg",
 };
 
 function Assemblies() {
@@ -52,7 +52,7 @@ function Assemblies() {
                     </Typography>
                   ))}
                 {contentItem.list && (
-                  <ul className="list-disc pl-4 pt-2 mt-2">
+                  <ul className="list-disc mt-2">
                     {contentItem.list.map((item, listIndex) => (
                       <li key={listIndex}>
                         <Typography>{item}</Typography>
@@ -78,7 +78,7 @@ function Assemblies() {
                         <Typography className="mt-2">{subSection.text}</Typography>
                       )}
                       {subSection.list && (
-                        <ul className="list-disc pl-4 pt-2 mt-2">
+                        <ul className="list-disc list-inside mt-2">
                           {subSection.list.map((item, listIndex) => (
                             <li key={listIndex}>
                               <Typography>{item}</Typography>
