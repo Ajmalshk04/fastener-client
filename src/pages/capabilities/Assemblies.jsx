@@ -6,7 +6,7 @@ import { assembliesData } from "@/data/assembliesData"; // Adjust path as needed
 
 // Placeholder for image mapping (add images here if provided)
 const assembliesImages = {
-  // Example: "Assembly Services": "/src/assets/assemblyImage.jpg",
+  // Example: "Assembly Services": "/assets/assemblyImage.jpg",
 };
 
 function Assemblies() {

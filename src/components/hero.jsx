@@ -16,27 +16,27 @@ const heroData = [
     items: [
       {
         title: "3D Printing",
-        imageUrl: "/src/assets/1584.jpg", 
+        imageUrl: "/assets/1584.jpg", 
       },
       {
         title: "Laser Cutting",
-        imageUrl: "/src/assets/4465.jpg",
+        imageUrl: "/assets/4465.jpg",
       },
       {
         title: "Robotic Automation",
-        imageUrl: "/src/assets/133.jpg", // Assuming this might represent robotics
+        imageUrl: "/assets/133.jpg", // Assuming this might represent robotics
       },
       {
         title: "Precision Welding",
-        imageUrl: "/src/assets/119.jpg", // Welding-related image
+        imageUrl: "/assets/119.jpg", // Welding-related image
       },
       {
         title: "Surface Treatment",
-        imageUrl: "/src/assets/20130.jpg", // General manufacturing image as placeholder
+        imageUrl: "/assets/20130.jpg", // General manufacturing image as placeholder
       },
       {
         title: "Tool & Die Making",
-        imageUrl: "/src/assets/3953.jpg", // General manufacturing image as placeholder
+        imageUrl: "/assets/3953.jpg", // General manufacturing image as placeholder
       },
     ],
   },
@@ -46,27 +46,27 @@ const heroData = [
     items: [
       {
         title: "Automotive",
-        imageUrl: "/src/assets/596.jpg",
+        imageUrl: "/assets/596.jpg",
       },
       {
         title: "Medical Devices",
-        imageUrl: "/src/assets/14029.jpg", // Medical-related image
+        imageUrl: "/assets/14029.jpg", // Medical-related image
       },
       {
         title: "Renewable Energy",
-        imageUrl: "/src/assets/2148907418.jpg", // Wind turbines or renewable energy image
+        imageUrl: "/assets/2148907418.jpg", // Wind turbines or renewable energy image
       },
       {
         title: "Telecommunications",
-        imageUrl: "/src/assets/194.jpg", // Placeholder for telecommunications
+        imageUrl: "/assets/194.jpg", // Placeholder for telecommunications
       },
       {
         title: "Food Processing",
-        imageUrl: "/src/assets/13411.jpg", // Placeholder for food processing
+        imageUrl: "/assets/13411.jpg", // Placeholder for food processing
       },
       {
         title: "Robotics",
-        imageUrl: "/src/assets/2149408315.jpg", // Another robotics-related image
+        imageUrl: "/assets/2149408315.jpg", // Another robotics-related image
       },
     ],
   },

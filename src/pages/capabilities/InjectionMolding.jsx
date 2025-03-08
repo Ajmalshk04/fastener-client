@@ -1895,16 +1895,16 @@ import { injectionMoldingData } from "@/data/injectionMolding";
 
 // Mapping of titles (subsection and subheadings) to their corresponding images
 const subsectionImages = {
-  "Custom Plastic Injection Molding Materials": "/src/assets/image55.jpeg",
-  "Elastomer and Rubber Molded Materials": "/src/assets/image56.jpeg",
-  "Why Choose X for Injection Molding?": "/src/assets/image57.jpeg",
-  "Prototype Molding Service With X": "/src/assets/image58.jpeg",
-  "Production With X": "/src/assets/image59.jpeg",
-  "Custom Insert Molding With X": "/src/assets/image60.jpeg",
-  "Compression Molding": "/src/assets/image61.jpeg",
-  "Society of Plastics Industry (SPI) Mold Finishes": "/src/assets/image62.jpeg",
-  "Custom Plastic Fabrication Services": "/src/assets/image63.jpeg",
-  "Micro Molding Services": "/src/assets/image64.jpeg",
+  "Custom Plastic Injection Molding Materials": "/assets/image55.jpeg",
+  "Elastomer and Rubber Molded Materials": "/assets/image56.jpeg",
+  "Why Choose X for Injection Molding?": "/assets/image57.jpeg",
+  "Prototype Molding Service With X": "/assets/image58.jpeg",
+  "Production With X": "/assets/image59.jpeg",
+  "Custom Insert Molding With X": "/assets/image60.jpeg",
+  "Compression Molding": "/assets/image61.jpeg",
+  "Society of Plastics Industry (SPI) Mold Finishes": "/assets/image62.jpeg",
+  "Custom Plastic Fabrication Services": "/assets/image63.jpeg",
+  "Micro Molding Services": "/assets/image64.jpeg",
 };
 
 // Dynamic Component
