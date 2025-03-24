@@ -76,7 +76,7 @@ import ProjectListTable from "./components/Dashboard/components/ProjectsTable";
 import ProjectDetailsPage from "./components/Customer/ProjectDetails";
 import QuotationManagement from "./components/Dashboard/components/QuotationManagement";
 import AdminProjectUpdates from "./components/Dashboard/components/AdminProjectUpdates";
-import Industries from "./pages/industries/industries";
+import Industries from "./pages/industries";
 import AllManufacturingServices from "./pages/manufacturing-services/AllManufacturingServices";
 import About from "./components/about";
 import MyOrderDetail from "./components/Supplier/components/MyOrderDetail";
