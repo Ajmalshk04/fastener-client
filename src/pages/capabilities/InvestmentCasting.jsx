@@ -27,7 +27,7 @@ const InvestmentCastingLandingPage = () => {
           Precision Investment-Cast Components
         </h2>
         <p className="text-lg text-gray-700 mb-4">
-          Zetwerk provides high-quality investment cast components produced
+          Xofah provides high-quality investment cast components produced
           using a range of ferrous and non-ferrous alloys. We also perform
           necessary secondary operations on the cast parts such as finish
           machining, heat treatment, and surface treatment.
@@ -171,7 +171,7 @@ const InvestmentCastingLandingPage = () => {
 
       <section className="mb-12">
         <h2 className="text-3xl font-semibold mb-6">
-          The Zetwerk Manufacturing Difference
+          The Xofah Manufacturing Difference
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Card>
@@ -223,7 +223,7 @@ const InvestmentCastingLandingPage = () => {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-3xl font-semibold mb-6">Why Choose Zetwerk?</h2>
+        <h2 className="text-3xl font-semibold mb-6">Why Choose Xofah?</h2>
         <ul className="list-disc pl-6 text-lg text-gray-700">
           <li>Unlimited manufacturing capacity</li>
           <li>Global raw material sourcing</li>

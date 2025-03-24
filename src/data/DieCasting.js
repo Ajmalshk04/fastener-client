@@ -1,6 +1,6 @@
 export const metalFabricationData = {
     title: "Metal Fabrication Services",
-    lead: "X provides high-quality metal fabrication services including die casting, metal stamping, and metal extrusion, catering to diverse industries with precision and efficiency.",
+    lead: "Xofah provides high-quality metal fabrication services including die casting, metal stamping, and metal extrusion, catering to diverse industries with precision and efficiency.",
     sections: [
       {
         title: "Die Casting",
@@ -18,17 +18,17 @@ export const metalFabricationData = {
             ]
           },
           {
-            heading: "X's Die Casting Service",
+            heading: "Xofah's Die Casting Service",
             subSections: [
-              { heading: "Start A Quote", text: "Upload your files to the X Quote Engine and configure your project. Our team will consult with you to ensure your specifications, lead time, and price fit your project needs. We will provide a DFM report for approval before kicking off tooling." },
+              { heading: "Start A Quote", text: "Upload your files to the Xofah Quote Engine and configure your project. Our team will consult with you to ensure your specifications, lead time, and price fit your project needs. We will provide a DFM report for approval before kicking off tooling." },
               { heading: "Sample Approval", text: "Once your project is kicked off we will build a high-quality die. After the tooling is created we will send out part samples, called T1s, for approval." },
-              { heading: "Production Begins", text: "Once satisfied with your samples, we move forward with production and deliver the parts. Rest easy knowing X is handling supplier management and logistics throughout the process. You own your tooling and can easily re-order as needed to meet demand." }
+              { heading: "Production Begins", text: "Once satisfied with your samples, we move forward with production and deliver the parts. Rest easy knowing Xofah is handling supplier management and logistics throughout the process. You own your tooling and can easily re-order as needed to meet demand." }
             ]
           },
           {
-            heading: "Die Casting Types Available from X",
+            heading: "Die Casting Types Available from Xofah",
             text: [
-              "X partners with die casters that utilize the latest die casting machines and technology to deliver high-quality, on-demand parts to a wide variety of industries. Our offering focuses on the two leading types of die casting: hot chamber casting and cold chamber casting. Both types can produce parts with complex geometry, close tolerances, and robust mechanical properties."
+              "Xofah partners with die casters that utilize the latest die casting machines and technology to deliver high-quality, on-demand parts to a wide variety of industries. Our offering focuses on the two leading types of die casting: hot chamber casting and cold chamber casting. Both types can produce parts with complex geometry, close tolerances, and robust mechanical properties."
             ],
             subSections: [
               {
@@ -56,7 +56,7 @@ export const metalFabricationData = {
                   "Good stiffness",
                   "High thermal and electrical conductivity"
                 ],
-                additionalText: "Engineers and designers can choose from a wide range of alloys for their aluminum casting parts. X offers the most popular aluminum die casting alloys, including:",
+                additionalText: "Engineers and designers can choose from a wide range of alloys for their aluminum casting parts. Xofah offers the most popular aluminum die casting alloys, including:",
                 list2: ["A360.0", "A380.0", "A383.0 (ADC12)", "A413.0"]
               },
               {
@@ -69,7 +69,7 @@ export const metalFabricationData = {
                   "High-quality surface finish and easily plated",
                   "Low melting point"
                 ],
-                additionalText: "X offers the most popular types of Zamak and ZA die casting zinc alloys. More specifically, those alloys include:",
+                additionalText: "Xofah offers the most popular types of Zamak and ZA die casting zinc alloys. More specifically, those alloys include:",
                 list2: ["Zamak 2 (ZA-2)", "Zamak 3 (ZA-3)"]
               }
             ]
@@ -126,7 +126,7 @@ export const metalFabricationData = {
             ]
           },
           {
-            heading: "Why Choose X for Online Die Casting Services?",
+            heading: "Why Choose Xofah for Online Die Casting Services?",
             list: [
               { label: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
               { label: "Easy to Use", description: "Get started with our easy-to-use platform and let our experts take care of managing the project from locating the right manufacturing partner to delivery logistics." },
@@ -142,8 +142,8 @@ export const metalFabricationData = {
             heading: "The Stamping Process",
             text: [
               "Metal stamping is a manufacturing process in which coils or flat sheets of material are formed into specific shapes. Stamping encompasses multiple forming techniques such as blanking, punching, embossing, and progressive die stamping, to mention just a few. Parts use either a combination of these techniques or independently, depending on the piece’s complexity. In the process, blank coils or sheets get fed into a stamping press which uses tools and dies to form features and surfaces in the metal. Metal stamping is an excellent way to mass-produce various complex parts, from car door panels and gears to small electrical components used in phones and computers. Stamping processes are highly-adopted in automotive, industrial, lighting, medical, and other industries.",
-              "X manufactures custom metal stampings in various materials, including copper, brass, stainless steel, and steel alloys. We offer production volumes up to over one million stamping parts and maintain tight tolerances, all with competitive lead times. Please take advantage of our precision metal stamping service by starting an online quote at the top of this page.",
-              "Our standard sheet metal stampings can make small, medium, and large parts. X’s supplier network has a maximum press bed length of 10 feet and a maximum press bed width of 20 feet. We can readily stamp metal thicknesses from .025 - .188 inches but can go up to .25 inches thick and beyond, depending on the forming technique and material used.",
+              "Xofah manufactures custom metal stampings in various materials, including copper, brass, stainless steel, and steel alloys. We offer production volumes up to over one million stamping parts and maintain tight tolerances, all with competitive lead times. Please take advantage of our precision metal stamping service by starting an online quote at the top of this page.",
+              "Our standard sheet metal stampings can make small, medium, and large parts. Xofah’s supplier network has a maximum press bed length of 10 feet and a maximum press bed width of 20 feet. We can readily stamp metal thicknesses from .025 - .188 inches but can go up to .25 inches thick and beyond, depending on the forming technique and material used.",
               "Our project managers and experts personally review and manually quote each metal stamping project to ensure we meet your unique needs while providing a fast and easy manufacturing experience. Learn more about the process and our capabilities in the sections below."
             ]
           },
@@ -168,19 +168,19 @@ export const metalFabricationData = {
           },
           {
             heading: "Metal Stamping Materials",
-            text: ["X offers the following materials for both our standard and custom metal stampings:"],
+            text: ["Xofah offers the following materials for both our standard and custom metal stampings:"],
             list: [
               "Steel: CRS steel like 1008, 1010, or 1018 is popular; general-purpose material is perfect for cold forming.",
               "Stainless Steel: such as 301, 304, and 316/316L. 301 stainless steel has excellent tensile strength, while 304 has more significant performance and corrosion resistance at higher temperatures. 316/316L steel features the best corrosion resistance of the three, though it also costs more.",
               "Copper: including C110, which is a powerful conductor and easily formable.",
               "Brass: brass 230 (85/15) and 260 (70/30) are highly formable and corrosion-resistant. These brass alloys are also known as red brass and yellow brass, respectively."
             ],
-            additionalText: "X can stamp other sheet metal materials on request, so feel free to contact our experts about the materials you need. Our stamping materials can be post-processed with bead blasting, powder coating, chem film, anodizing, and plating in gold, silver, or electroless nickel. Learn more about our finishing options on our main sheet metal fabrication page."
+            additionalText: "Xofah can stamp other sheet metal materials on request, so feel free to contact our experts about the materials you need. Our stamping materials can be post-processed with bead blasting, powder coating, chem film, anodizing, and plating in gold, silver, or electroless nickel. Learn more about our finishing options on our main sheet metal fabrication page."
           },
           {
             heading: "Types of Stamping",
             text: [
-              "We offer single and multistage, progressive die, deep draw, fourslide, and other stamping methods to ensure the most effective method for manufacturing your products. X’s experts can match your project with the appropriate stamping by reviewing your uploaded 3D model and technical drawings."
+              "We offer single and multistage, progressive die, deep draw, fourslide, and other stamping methods to ensure the most effective method for manufacturing your products. Xofah’s experts can match your project with the appropriate stamping by reviewing your uploaded 3D model and technical drawings."
             ],
             list: [
               "Progressive Die Stamping uses multiple dies and steps to create deeper parts than would typically be achievable through single dies. It also enables multiple geometries per part as they go through various dies. This technique is best suited to high volume and large parts such as those in the automotive industry. Transfer die stamping is a similar process, except progressive die stamping involves a workpiece attached to a metal strip pulled through the entire process. Transfer die stamping removes the workpiece and moves it along a conveyor.",
@@ -196,11 +196,11 @@ export const metalFabricationData = {
           },
           {
             heading: "Metal Stamping Production Volumes",
-            text: ["X offers a wide variety of production volumes for sheet metal stamping, including:"],
+            text: ["Xofah offers a wide variety of production volumes for sheet metal stamping, including:"],
             subSections: [
               {
                 heading: "Low Volume Production",
-                text: "Low volume production is any amount up to 100,000 units. Most stamping projects are at least 1000 units to ensure cost-effectiveness for the customer. Customers use smaller metal stamping orders to bridge the development of a product between prototypes and mass manufacturing and to see how well a product will do on the market. Low volume production also helps if a buyer is looking for customized products. X offers low per-unit costs, even for small volumes."
+                text: "Low volume production is any amount up to 100,000 units. Most stamping projects are at least 1000 units to ensure cost-effectiveness for the customer. Customers use smaller metal stamping orders to bridge the development of a product between prototypes and mass manufacturing and to see how well a product will do on the market. Low volume production also helps if a buyer is looking for customized products. Xofah offers low per-unit costs, even for small volumes."
               },
               {
                 heading: "Medium Volume Production",
@@ -237,7 +237,7 @@ export const metalFabricationData = {
             ]
           },
           {
-            heading: "Why Use X's Metal Stamping Services?",
+            heading: "Why Use Xofah's Metal Stamping Services?",
             list: [
               { label: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
               { label: "Easy to Use", description: "Get started with our easy-to-use platform and let our experts take care of managing the project from locating the right manufacturing partner to delivery logistics." },
@@ -253,22 +253,22 @@ export const metalFabricationData = {
             heading: "The Extrusion Process",
             text: [
               "Metal extrusion is the manufacturing process of choice when producing high volumes of material with a constant cross-section. With the extrusion process, metal material is forced through the shaped opening of a die using high pressure, resulting in an extruded profile. These profiles range from simple shapes like round or rectangular tubes, U- or H-channels, or more complex profiles with multiple internal hollows and external features, such as 80/20 and T-slot framing bar. Extrusion is also standard for wall and window trim as a cosmetic and structural framing component. The raw material typically comes in billet form, which is heated and placed into part of the extrusion press called the container. A die stack sits on the other end of the container, forming the opening, which shapes the material to the desired shape using direct or indirect extrusion methods. The extrusion is then quenched, straightened, sawed to the specified length, and inspected for dimensional consistency and accuracy. Extruded products can easily be post-processed to add features outside the channeled profile.",
-              "The extrusion profile can be almost any shape and be either solid or hollow with one or more hollow sections. Extrusions with hollow sections require a multi-part die. The material is forced around piercing mandrels supported in the first die, forming the inner profile. The material separates and then is forced or “welded” back together by the second die, creating the outer profile. The smallest circle that will fit around the profile determines the press size. The larger the circumscribed circle, the larger the extrusion press required. X specializes in extruding aluminum materials, representing roughly 80% of all extruded metal parts. Aluminum extrusions are everywhere, from window casings to handrails to electrical housings.",
+              "The extrusion profile can be almost any shape and be either solid or hollow with one or more hollow sections. Extrusions with hollow sections require a multi-part die. The material is forced around piercing mandrels supported in the first die, forming the inner profile. The material separates and then is forced or “welded” back together by the second die, creating the outer profile. The smallest circle that will fit around the profile determines the press size. The larger the circumscribed circle, the larger the extrusion press required. Xofah specializes in extruding aluminum materials, representing roughly 80% of all extruded metal parts. Aluminum extrusions are everywhere, from window casings to handrails to electrical housings.",
               "Our project managers and experts personally review and manually quote each metal extrusion project to ensure we meet your unique needs while providing a fast and easy manufacturing experience. Learn more about the process and our capabilities in the sections below."
             ]
           },
           {
-            heading: "Metal Extrusion With X",
+            heading: "Metal Extrusion With Xofah",
             subSections: [
-              { heading: "Start A Quote", text: "Upload your files to the X Quote Engine and configure your project. Our team will consult with you to ensure your specifications, lead time, and price fit your project needs. We will provide a DFM report for approval before kicking off tooling." },
+              { heading: "Start A Quote", text: "Upload your files to the Xofah Quote Engine and configure your project. Our team will consult with you to ensure your specifications, lead time, and price fit your project needs. We will provide a DFM report for approval before kicking off tooling." },
               { heading: "Sample Approval", text: "Once your project is kicked off we will build a high-quality metal extrusion die. After the tooling is created we will run and send out part samples for approval." },
-              { heading: "Production Begins", text: "Once you're satisfied with your samples, we move forward with production and deliver the parts. Rest easy knowing X is handling supplier management and logistics throughout the process. You own your tooling and can easily re-order as needed to meet demand." }
+              { heading: "Production Begins", text: "Once you're satisfied with your samples, we move forward with production and deliver the parts. Rest easy knowing Xofah is handling supplier management and logistics throughout the process. You own your tooling and can easily re-order as needed to meet demand." }
             ]
           },
           {
             heading: "Types of Extrusion and Extrusion Profiles",
             text: [
-              "X partners with the leading extrusion suppliers who utilize the most sophisticated technology to deliver high-quality extrusions. Thanks to our manufacturing network, we can support multiple types of metal extrusion and an endless array of extrusion profiles. The sections below dive deeper into the different extrusion methods and provide examples of standard extrusion profiles."
+              "Xofah partners with the leading extrusion suppliers who utilize the most sophisticated technology to deliver high-quality extrusions. Thanks to our manufacturing network, we can support multiple types of metal extrusion and an endless array of extrusion profiles. The sections below dive deeper into the different extrusion methods and provide examples of standard extrusion profiles."
             ],
             subSections: [
               {
@@ -334,7 +334,7 @@ export const metalFabricationData = {
           {
             heading: "Available Extruded Part Finishes",
             text: [
-              "X makes adding additional finishing steps to your metal extrusion project easy. Our vast network of finishing suppliers allows us to apply a variety of finishes to your parts. We have what you need, whether it’s functional or cosmetic finishes. The finishes we offer for our metal extrusion process are detailed below."
+              "Xofah makes adding additional finishing steps to your metal extrusion project easy. Our vast network of finishing suppliers allows us to apply a variety of finishes to your parts. We have what you need, whether it’s functional or cosmetic finishes. The finishes we offer for our metal extrusion process are detailed below."
             ],
             list: [
               { label: "As-Extruded", description: "The finish will be left unprocessed and remain as-extruded. Surface roughness can vary between alloys due to differences in grain structure but typically will fall between 64µin - 125µin Ra. Noticeable grain lines or discolored streaks may be present." },
@@ -385,7 +385,7 @@ export const metalFabricationData = {
             ]
           },
           {
-            heading: "Why Choose X for Extrusion Services?",
+            heading: "Why Choose Xofah for Extrusion Services?",
             list: [
               { label: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
               { label: "Easy to Use", description: "Get started with our easy-to-use platform and let our experts take care of managing the project from locating the right manufacturing partner to delivery logistics." },

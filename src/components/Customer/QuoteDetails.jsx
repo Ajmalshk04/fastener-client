@@ -95,7 +95,7 @@ const QuoteDetail = () => {
             <p className="text-xl font-semibold">
               Order Value: 101,20 € excl. VAT
             </p>
-            <p className="text-sm text-gray-500">You will earn 102 X-points</p>
+            <p className="text-sm text-gray-500">You will earn 102 Xofah-points</p>
           </CardContent>
         </Card>
       </div>

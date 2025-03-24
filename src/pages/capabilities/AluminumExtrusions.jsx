@@ -9,7 +9,7 @@
 // import { Badge } from "@/components/ui/badge";
 
 // const aluminumExtrusionsData = {
-//   overview: `Zetwerk manufactures high-quality extrusions with complex cross-sections produced using a range of aluminum alloys. We cut the aluminum extrusion to length and perform all necessary secondary operations such as CNC machining and surface treatment.`,
+//   overview: `Xofah manufactures high-quality extrusions with complex cross-sections produced using a range of aluminum alloys. We cut the aluminum extrusion to length and perform all necessary secondary operations such as CNC machining and surface treatment.`,
 //   benefits: [
 //     "Lightweight yet strong",
 //     "Good resistance to corrosion",
@@ -48,10 +48,10 @@
 //     "IATF 16949:2016",
 //     "ISO 13485:2016",
 //   ],
-//   projectManagement: `Zetwerk offers comprehensive project management throughout the manufacturing extrusion process. Our team guides you through each step, keeping you updated on production progress and project timelines.`,
+//   projectManagement: `Xofah offers comprehensive project management throughout the manufacturing extrusion process. Our team guides you through each step, keeping you updated on production progress and project timelines.`,
 //   toolingDesign: `Tooling design is an optimization step that improves manufacturing speed and ensures tooling meets project needs, considering tolerances and wear.`,
 //   fairApproval: `A first-article inspection report (FAIR) is critical for avoiding out-of-tolerance components and rework, ensuring confidence in the parts received.`,
-//   managedInventory: `Zetwerk offers vendor-managed inventory to optimize material availability and improve supply chain resiliency, helping you respond to demand fluctuations effectively.`,
+//   managedInventory: `Xofah offers vendor-managed inventory to optimize material availability and improve supply chain resiliency, helping you respond to demand fluctuations effectively.`,
 // };
 
 // const AluminumExtrusions = () => {
@@ -172,7 +172,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 
 const aluminumExtrusionsData = {
-  overview: `Zetwerk manufactures high-quality extrusions with complex cross-sections produced using a range of aluminum alloys. We cut the aluminum extrusion to length and perform all necessary secondary operations such as CNC machining and surface treatment.`,
+  overview: `Xofah manufactures high-quality extrusions with complex cross-sections produced using a range of aluminum alloys. We cut the aluminum extrusion to length and perform all necessary secondary operations such as CNC machining and surface treatment.`,
   benefits: [
     "Lightweight yet strong",
     "Good resistance to corrosion",
@@ -211,10 +211,10 @@ const aluminumExtrusionsData = {
     "IATF 16949:2016",
     "ISO 13485:2016",
   ],
-  projectManagement: `Zetwerk offers comprehensive project management throughout the manufacturing extrusion process. Our team guides you through each step, keeping you updated on production progress and project timelines.`,
+  projectManagement: `Xofah offers comprehensive project management throughout the manufacturing extrusion process. Our team guides you through each step, keeping you updated on production progress and project timelines.`,
   toolingDesign: `Tooling design is an optimization step that improves manufacturing speed and ensures tooling meets project needs, considering tolerances and wear.`,
   fairApproval: `A first-article inspection report (FAIR) is critical for avoiding out-of-tolerance components and rework, ensuring confidence in the parts received.`,
-  managedInventory: `Zetwerk offers vendor-managed inventory to optimize material availability and improve supply chain resiliency, helping you respond to demand fluctuations effectively.`,
+  managedInventory: `Xofah offers vendor-managed inventory to optimize material availability and improve supply chain resiliency, helping you respond to demand fluctuations effectively.`,
 };
 
 const AluminumExtrusionsPage = () => {
@@ -223,7 +223,7 @@ const AluminumExtrusionsPage = () => {
       {/* Page Header */}
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-center">
-          Aluminum Extrusions by Zetwerk
+          Aluminum Extrusions by Xofah
         </h1>
         <p className="text-center text-gray-700 mt-2">
           High-quality extrusions with complex cross-sections in various
@@ -370,7 +370,7 @@ const AluminumExtrusionsPage = () => {
         </CardHeader>
         <CardContent>
           <p className="text-gray-700">
-            Zetwerk is your one-stop solution for complete end-to-end contract
+            Xofah is your one-stop solution for complete end-to-end contract
             manufacturing and distribution. Request a quote today for aluminum
             extrusions or any other manufactured component.
           </p>

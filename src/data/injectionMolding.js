@@ -1,6 +1,6 @@
 export const injectionMoldingData = {
   title: "Injection Molding Services",
-  lead: "X provides a comprehensive range of injection molding services, delivering high-quality plastic parts from prototyping to production across various industries.",
+  lead: "Xofah provides a comprehensive range of injection molding services, delivering high-quality plastic parts from prototyping to production across various industries.",
   sections: [
     {
       title: "Plastic Injection Moulding",
@@ -9,7 +9,7 @@ export const injectionMoldingData = {
           title: "What Is Injection Molding?",
           content: [
             "Injection molding is the most cost-effective way to make a plastic part at scale. The injection molding process involves injecting molten plastic into a mold tool, then ejecting the solidified part. This process quickly repeats hundreds or thousands of times, amortizing the cost of the mold tool and driving down the cost of each unit to a few dollars or less. Since the injection molding process uses the same mold tool for each part, it offers consistent quality across every part. Injection molding also has the highest variety of materials, colors, cosmetics, polishes, and surface textures when compared to CNC machining or even 3D printing.",
-            "X's custom plastic mold service is a service providing on-demand prototype and production molding. We take a customer-first approach which means we find the right injection molding supplier within our manufacturing supplier network to mold the parts the way you need them—without design compromises—at the right price point. We offer expert consultation on each injection mold quote and project managers on every order to move your parts from design to production. Our team has experience in every industry, especially medical injection molding and liquid silicone rubber molding. First-time buyers receive $500 off their first mold with X. We offer both domestic and China injection molding options, as well as ITAR injection molding."
+            "Xofah's custom plastic mold service is a service providing on-demand prototype and production molding. We take a customer-first approach which means we find the right injection molding supplier within our manufacturing supplier network to mold the parts the way you need them—without design compromises—at the right price point. We offer expert consultation on each injection mold quote and project managers on every order to move your parts from design to production. Our team has experience in every industry, especially medical injection molding and liquid silicone rubber molding. First-time buyers receive $500 off their first mold with Xofah. We offer both domestic and China injection molding options, as well as ITAR injection molding."
           ]
         },
         {
@@ -25,13 +25,13 @@ export const injectionMoldingData = {
               ["Tool Ownership", "Customer-owned with mold maintenance"],
               ["Mold Cavity Tolerances", "+/- 0.005\" when machining the mold and an additional +/- 0.002\" per inch when calculating for shrink rate"],
               ["Part to Part Repeatability", "+/- 0.004\" or less"],
-              ["Critical Feature Tolerances", "Tighter tolerances can be requested and may increase the cost of tooling because of additional sampling and grooming. X will mill to a steel-safe condition on critical features."],
-              ["Available Mold Types", "Steel and aluminum; Production grades range from Class 105, a prototype mold, to Class 101, an extremely high production mold. X typically produces Class 104, 103, and 102 tools."]
+              ["Critical Feature Tolerances", "Tighter tolerances can be requested and may increase the cost of tooling because of additional sampling and grooming. Xofah will mill to a steel-safe condition on critical features."],
+              ["Available Mold Types", "Steel and aluminum; Production grades range from Class 105, a prototype mold, to Class 101, an extremely high production mold. Xofah typically produces Class 104, 103, and 102 tools."]
             ]
           }
         },
         {
-          title: "X Injection Molding Mold Classes",
+          title: "Xofah Injection Molding Mold Classes",
           content: [
             { subheading: "What is a SPI Mold Classifcation?", text: "Standard injection mold tooling is defined by classes from Class 105 (prototype) to Class 101 (high volume production). These mold classes help manage expectations for both customers and suppliers on the overall tool requirements and scope." },
             { subheading: "What is a Class 105 Mold?", text: "Under 500 cycles. Prototype only. This mold will be constructed in the least expensive manner possible to produce a minimal quantity of prototype parts. Class 105 molds are also known as Class V tools.", example: "Example: a one-and-done market test of 100 molded units." },
@@ -45,7 +45,7 @@ export const injectionMoldingData = {
           title: "How Custom Plastic Injection Molding Works",
           content: [
             "The plastic injection molding process requires an injection molding machine, raw plastic material, and a machined mold. The raw plastic material is first melted in the injection unit and is then injected into the mold—most often machined from steel or aluminum—where it cools and solidifies into the final plastic part.",
-            "At X, we first review your plastic injection molding online quote, then consult with you to ensure your specifications, lead time, and price fit your project needs. We then use your 3D part data to CNC machine a high-quality injection mold. Once the molded parts are created, X sends ten part samples (T1) for approval. Once the mold is refined and approved, X begins production. X molds a variety of products and parts from the smallest medical insert up to large automotive, aerospace, and defense parts."
+            "At Xofah, we first review your plastic injection molding online quote, then consult with you to ensure your specifications, lead time, and price fit your project needs. We then use your 3D part data to CNC machine a high-quality injection mold. Once the molded parts are created, Xofah sends ten part samples (T1) for approval. Once the mold is refined and approved, Xofah begins production. Xofah molds a variety of products and parts from the smallest medical insert up to large automotive, aerospace, and defense parts."
           ]
         },
         {
@@ -95,7 +95,7 @@ export const injectionMoldingData = {
             },
             {
               subheading: "Elastomer and Rubber Molded Materials",
-              content: ["Manufacturing elastomeric parts can be accomplished through injection molding, transfer molding, or compression molding. When getting a quote through X, our team can help you decide the best method depending on the part geometry, estimated annual volume, and the type of material required."],
+              content: ["Manufacturing elastomeric parts can be accomplished through injection molding, transfer molding, or compression molding. When getting a quote through Xofah, our team can help you decide the best method depending on the part geometry, estimated annual volume, and the type of material required."],
               list: [
                 { name: "EPDM (ethylene propylene diene monomer rubber (Viton))", description: "One of the highest performing rubber elastomers with high heat resistance, chemical resistance, and moisture sealing properties. EPDM is commonly found in automotive seals, gaskets, O-rings, and electrical insulators." },
                 { name: "PEBA (polyether block amide)", description: "A soft, flexible, plastic or elastomer used for medical devices such as catheters. PEBA foams are used for padding, shoe insoles, and sports equipment. PEBA is resistant to moisture and UV exposure." },
@@ -120,7 +120,7 @@ export const injectionMoldingData = {
             { name: "Threaded Inserts", description: "We can install most commonly used standard inserts in UNF and metric sizes." },
             { name: "Pad Printing", description: "Transfer a 2D image onto a 3D part. All images are subject to review." },
             { name: "Laser Engraving", description: "Engrave part numbers, logos, and more onto your parts." },
-            { name: "Assembly", description: "X has the ability to assemble and label injection molded parts. Discuss your needs with your salesperson." }
+            { name: "Assembly", description: "Xofah has the ability to assemble and label injection molded parts. Discuss your needs with your salesperson." }
           ]
         },
         {
@@ -150,12 +150,12 @@ export const injectionMoldingData = {
             { question: "What industries use injection molding?", answer: "Injection molding is used across a wide range of industries including aerospace, medical devices, consumer goods, energy, electronics, automotive, robotics, toys, and more." },
             { question: "What is the difference between molding and printing?", answer: "With molding, plastic or metal parts are created inside a mold. They are then removed from the mold as fully-formed parts. 3D printing, on the other hand, is an additive manufacturing process, meaning that the part is built layer-by-layer using processes like deposition or sintering." },
             { question: "What is the process after ordering?", answer: "After receiving the order, the statement of work is reviewed by one of our manufacturing engineers. A case manager is assigned, and an appropriate manufacturing supplier is identified. A comprehensive DFM/PEG report is created and provided for approval. Upon approval, tooling and mold production is commenced. T1 samples are produced and shipped for approval. Upon approval, the remaining parts are made." },
-            { question: "Who owns the tool?", answer: "At X, our customers own their injection mold tools! After a run is complete, the tool will remain at our facilities. Tools can be shipped to you upon request; however, you will be responsible for any associated shipping and packaging costs. Our engineers will work with you regarding tool compatibility with your equipment if you're unsure." },
+            { question: "Who owns the tool?", answer: "At Xofah, our customers own their injection mold tools! After a run is complete, the tool will remain at our facilities. Tools can be shipped to you upon request; however, you will be responsible for any associated shipping and packaging costs. Our engineers will work with you regarding tool compatibility with your equipment if you're unsure." },
             { question: "Can you run different colors of the same material?", answer: "Yes, multiple colors can be run even on the same order! When running multiple colors on the same order, a purge charge will be added." }
           ]
         },
         {
-          title: "Why Use X Injection Mold Services?",
+          title: "Why Use Xofah Injection Mold Services?",
           list: [
             { name: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
             { name: "Easy to Use", description: "Get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping." },
@@ -168,10 +168,10 @@ export const injectionMoldingData = {
       title: "Quick Turn Molding",
       subsections: [
         {
-          title: "Quick Turn Injection Molding With X",
+          title: "Quick Turn Injection Molding With Xofah",
           content: [
-            "X offers an array of injection molding solutions, such as Prototype Molding and Production Molding, to meet your needs no matter your development stage. Thanks to X’s vast manufacturing network, we can deliver injection molded parts faster than ever. With quick turn injection molding, a domestic molding service, we can achieve lead times as low as five business days!",
-            "This service is ideal for molding projects that require parts to be expedited and delivered as quickly as possible. With X’s quick turn injection molding, you can take advantage of benefits such as:"
+            "Xofah offers an array of injection molding solutions, such as Prototype Molding and Production Molding, to meet your needs no matter your development stage. Thanks to Xofah’s vast manufacturing network, we can deliver injection molded parts faster than ever. With quick turn injection molding, a domestic molding service, we can achieve lead times as low as five business days!",
+            "This service is ideal for molding projects that require parts to be expedited and delivered as quickly as possible. With Xofah’s quick turn injection molding, you can take advantage of benefits such as:"
           ],
           list: [
             "Dozens of production-grade material options to choose from",
@@ -179,7 +179,7 @@ export const injectionMoldingData = {
             "Up to 2,500 shots per mold",
             "Made in USA",
             "Own your tooling",
-            "DFM analysis and project support from X's molding experts"
+            "DFM analysis and project support from Xofah's molding experts"
           ]
         },
         {
@@ -235,8 +235,8 @@ export const injectionMoldingData = {
         {
           title: "Injection Molding FAQ",
           content: [
-            { question: "What are the lead times for quick turn molding?", answer: "X's quick turn molding process involves using a proprietary insert and base system to produce molded parts rapidly. Depending on your project's requirements and complexity, parts can be delivered as quickly as 5 business days!" },
-            { question: "Will I receive design for manufacturing (DFM) feedback?", answer: "Yes! As part of X's service, we offer DFM feedback on all projects both pre-sale as well as during final tool kickoff to ensure the project is a success." },
+            { question: "What are the lead times for quick turn molding?", answer: "Xofah's quick turn molding process involves using a proprietary insert and base system to produce molded parts rapidly. Depending on your project's requirements and complexity, parts can be delivered as quickly as 5 business days!" },
+            { question: "Will I receive design for manufacturing (DFM) feedback?", answer: "Yes! As part of Xofah's service, we offer DFM feedback on all projects both pre-sale as well as during final tool kickoff to ensure the project is a success." },
             { question: "What is the process after ordering?", answer: "After receiving the order, one of our manufacturing engineers reviews the statement of work. A case manager is assigned, and an appropriate manufacturing supplier is identified. A comprehensive DFM/PEG report is created and provided for approval. Upon approval, tooling and mold production is commenced. T1 samples are produced and shipped for approval. Upon approval, the remaining parts are made." },
             { question: "What is the minimum order quantity with quick turn molding?", answer: "Quick turn molding is available for order quantities of 50 and greater. We offer urethane casting and 3D printing services, which are great options for lower-quantity orders." },
             { question: "What industries use injection molding?", answer: "Injection molding is used across various industries, including aerospace, medical devices, consumer goods, energy, electronics, automotive, robotics, toys, and more." },
@@ -245,7 +245,7 @@ export const injectionMoldingData = {
           ]
         },
         {
-          title: "Why Choose X for Injection Molding?",
+          title: "Why Choose Xofah for Injection Molding?",
           list: [
             { name: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
             { name: "Expert Help", description: "Our experts help get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping." },
@@ -258,16 +258,16 @@ export const injectionMoldingData = {
       title: "Prototype Molding",
       subsections: [
         {
-          title: "Prototype Molding Service With X",
+          title: "Prototype Molding Service With Xofah",
           content: [
-            "At X, we help our customers bring their ideas to reality. While we offer an array of services, such as CNC Machining or 3D Printing which are used to prototype parts, many of our customers are looking to take their prototyping needs to the next level. Our prototype molding services can help you bridge the gap between initial prototypes to validating your product for full production runs.",
-            "Our prototyping molding services are non-limiting. Take advantage of all the same technologies, materials, and finishing options X offers within our plastic injection molding services to get the same quality of parts you can expect from a total production run with no minimums. Our project managers and engineers will work closely with you to understand your project's unique requirements and help you make informed decisions to optimize for the lowest costs and fastest lead times."
+            "At Xofah, we help our customers bring their ideas to reality. While we offer an array of services, such as CNC Machining or 3D Printing which are used to prototype parts, many of our customers are looking to take their prototyping needs to the next level. Our prototype molding services can help you bridge the gap between initial prototypes to validating your product for full production runs.",
+            "Our prototyping molding services are non-limiting. Take advantage of all the same technologies, materials, and finishing options Xofah offers within our plastic injection molding services to get the same quality of parts you can expect from a total production run with no minimums. Our project managers and engineers will work closely with you to understand your project's unique requirements and help you make informed decisions to optimize for the lowest costs and fastest lead times."
           ]
         },
         {
           title: "Why Start With Prototype Injection Molding?",
           content: [
-            "Sometimes it can be challenging to determine whether or not you should start with Prototype Molding or jump straight into Production Molding. X understands every project is unique, and our experts will work with you to make an informed decision. There are a few characteristics that Prototype Molding may be best suited for:"
+            "Sometimes it can be challenging to determine whether or not you should start with Prototype Molding or jump straight into Production Molding. Xofah understands every project is unique, and our experts will work with you to make an informed decision. There are a few characteristics that Prototype Molding may be best suited for:"
           ],
           list: [
             { name: "Low-cost Tooling", description: "Tooling used is optimized for smaller runs and is typically made of cheaper materials, is less complex, and thus less expensive to produce." },
@@ -290,7 +290,7 @@ export const injectionMoldingData = {
               ["Gating Methods", "Gates may be constrained to edge, direct & fan techniques. Gating that requires high shear or hot runners is better suited for Bridge or Production tooling."],
               ["Mold Classes", "Class 105 & 104 molds are the most suitable for prototyping molding runs and are typically made of Aluminum or Mild Steel. Projects requiring class 103,102 or 101 molds may be better suited for other tiers of production and be made of higher tier materials."],
               ["Material Selection", "All injection molding materials we offer are available for prototype mold applications. That said, abrasive materials such as glass-filled ones may result in increased wear on a prototype tool's life."],
-              ["Tool Origin", "X offers both domestic (India) and international molding options. India-based prototyping molding is typically the quickest, while international prototype tooling will be the most economical at the expense of a few extra days."]
+              ["Tool Origin", "Xofah offers both domestic (India) and international molding options. India-based prototyping molding is typically the quickest, while international prototype tooling will be the most economical at the expense of a few extra days."]
             ]
           }
         },
@@ -301,14 +301,14 @@ export const injectionMoldingData = {
             { question: "Why would I prototype with injection molding rather than 3D printing?", answer: "3D printing is an excellent process for rapid prototyping! However, prototyping with injection molding enables a much more comprehensive range of materials, finishes, and textures that other processes do not offer. Prototyping with injection molding also paves the way for potential full-scale production in the future. You can iterate and tune the design to fit the same process used for production quantities. Many customers do initial prototyping using 3D printing but later move onto injection molding when preparing to scale production and bring their creation to its final vision." },
             { question: "What are mold classes?", answer: "The SPI (Society of Plastic Engineers) developed mold classifications to standardize mold type definitions based on mold material, tool design, features, and production volume. Mold classes range from 101 (most advanced, highest volume production) to 105 (prototyping applications) to simplify the type of injection mold required for thermoplastic molding based on production needs. Mold classes are intended to be used as a guideline." },
             { question: "What is MUD tooling?", answer: "A MUD (Master Unit Die) is a type of mold that uses a standard injection molding frame that utilizes inserts that define the shape of the internal cavity and thus the eventual part. Think of it as a quick-change system akin to swapping out the head of a disposable razor. Ultimately this type of tool helps drive lower-cost and lead time as most of the machining time will be focused on the core and cavity work, rather than all other aspects of a more complicated tooling setup. MUD tooling is often used with prototype molding applications. Learn more about injection molding tooling and processes." },
-            { question: "What are lead times like with prototype injection molding?", answer: "X can typically deliver a prototype injection mold component within 3 weeks. We can deliver in as few as 10 business days, depending on the specific requirements of your project!" },
+            { question: "What are lead times like with prototype injection molding?", answer: "Xofah can typically deliver a prototype injection mold component within 3 weeks. We can deliver in as few as 10 business days, depending on the specific requirements of your project!" },
             { question: "What materials are available for prototype molding?", answer: "All of our usual injection molding material offerings are available for prototype molding! Read more about choosing the right injection molded plastic." },
             { question: "Can you run different colors of the same material?", answer: "Yes, multiple colors can be run even on the same order! When running multiple colors on the same order, a purge charge will be added." },
             { question: "What is the process after ordering?", answer: "After receiving the order, the statement of work is reviewed by one of our manufacturing engineers. A case manager is assigned, and an appropriate manufacturing supplier is identified. A comprehensive DFM/PEG report is created and provided for approval. Upon approval, tooling and mold production is commenced. T1 samples are produced and shipped for approval. Upon approval, the remaining parts are made." }
           ]
         },
         {
-          title: "Why Choose X for Prototype Tooling?",
+          title: "Why Choose Xofah for Prototype Tooling?",
           list: [
             { name: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
             { name: "Expert Help", description: "Our experts help get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping." },
@@ -321,10 +321,10 @@ export const injectionMoldingData = {
       title: "Production Molding",
       subsections: [
         {
-          title: "Production With X",
+          title: "Production With Xofah",
           content: [
             "We are here to provide personalized support with getting projects off the ground and see them through to their final vision! We understand that fully realizing a product demands volume, strict schedules, logistics, and reasonable pricing.",
-            "Our production injection mold tooling services complement many of our other services, such as prototype molding and bridge tooling, which our customers use to get to a production-ready stage. Below are just some of the advantages you can expect by working with X on your high-volume production needs:"
+            "Our production injection mold tooling services complement many of our other services, such as prototype molding and bridge tooling, which our customers use to get to a production-ready stage. Below are just some of the advantages you can expect by working with Xofah on your high-volume production needs:"
           ],
           list: [
             { name: "Your project managed", description: "We remove the headaches caused by handling all the complexities related to high-volume production. Leave the sourcing, tool design, fabrication, problem-solving, logistics, and more to us!" },
@@ -337,7 +337,7 @@ export const injectionMoldingData = {
         {
           title: "How It Works",
           content: [
-            { subheading: "Start A Quote", text: "Upload your files to the X Quote Engine. Our team will consult with you to ensure your specifications, lead time, and price fit your project needs. We will provide a DFM report for approval before kicking off tooling." },
+            { subheading: "Start A Quote", text: "Upload your files to the Xofah Quote Engine. Our team will consult with you to ensure your specifications, lead time, and price fit your project needs. We will provide a DFM report for approval before kicking off tooling." },
             { subheading: "T1 Sample Approval", text: "Once your project is kicked off we will build a high-quality injection mold. After the mold is created we will send out part samples, called T1s, for approval." },
             { subheading: "Production Begins", text: "Once samples are approved, we move forward with production and deliver parts. You own your tool and can easily re-order as needed to meet demand." }
           ]
@@ -345,7 +345,7 @@ export const injectionMoldingData = {
         {
           title: "Quality & Certifications",
           content: [
-            "X is ITAR-registered and certified to ISO 9001:2015, AS9100D, IATF 16949:2016 and ISO 13485:2016. Our diverse manufacturing suppliers have the certifications you require."
+            "Xofah is ITAR-registered and certified to ISO 9001:2015, AS9100D, IATF 16949:2016 and ISO 13485:2016. Our diverse manufacturing suppliers have the certifications you require."
           ],
           list: [
             "ITAR Registered",
@@ -364,13 +364,13 @@ export const injectionMoldingData = {
             { question: "What is the lead time for remaining parts?", answer: "After your tool has been made and samples have been approved, production will commence. The average lead time to produce the remaining parts in the run is 10-15 days." },
             { question: "What materials are available?", answer: "We offer a wide array of materials, including the most commercially available resins and engineering materials! We can also source custom materials upon request. Read more about choosing the right injection molded plastic." },
             { question: "Can I run multiple materials or colors in the same mold?", answer: "Yes, most of the time, if they're in the same family of resins (i.e., two grades of ABS). We can also run different colors of the same material in the same mold. Changing to glass-filled or drastically different materials may present some potential concerns, which our engineers will be happy to work with you on. A purge charge is added to your order when changing materials or colors in the same order." },
-            { question: "Who owns the tool?", answer: "At X, our customers own their injection mold tools! After a run is complete, the tool will remain at our facilities. Tools can be shipped to you upon request; however, you will be responsible for any associated shipping and packaging costs. Our engineers will work with you regarding tool compatibility with your equipment if you're unsure." },
+            { question: "Who owns the tool?", answer: "At Xofah, our customers own their injection mold tools! After a run is complete, the tool will remain at our facilities. Tools can be shipped to you upon request; however, you will be responsible for any associated shipping and packaging costs. Our engineers will work with you regarding tool compatibility with your equipment if you're unsure." },
             { question: "How much will shipping cost?", answer: "Exact shipping costs are calculated once the order is kicked off. We need to determine the facility and location from which the parts will ship and work out the size, weight, and packaging requirements. We can ship on a provided DHL, UPS, or FedEx shipping account or provide a shipping quote on our account." },
             { question: "What is the process after ordering?", answer: "After receiving the order, the statement of work is reviewed by one of our manufacturing engineers. A case manager is assigned, and an appropriate manufacturing supplier is identified. A comprehensive DFM/PEG report is created and provided for approval. Upon approval, tooling and mold production is commenced. T1 samples are produced and shipped for approval. Upon approval, production begins." }
           ]
         },
         {
-          title: "Why Choose X for Your Tooling Needs?",
+          title: "Why Choose Xofah for Your Tooling Needs?",
           list: [
             { name: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
             { name: "Expert Help", description: "Our experts help get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping." },
@@ -383,19 +383,19 @@ export const injectionMoldingData = {
       title: "Over Molding",
       subsections: [
         {
-          title: "Custom Overmolding With X",
+          title: "Custom Overmolding With Xofah",
           content: [
-            "Need overmolded parts that are truly custom? You have come to the right place. X delivers high-quality, on-demand injection molding for prototypes and production parts.",
+            "Need overmolded parts that are truly custom? You have come to the right place. Xofah delivers high-quality, on-demand injection molding for prototypes and production parts.",
             "Simply put, the overmolding process lets you combine multiple materials into one part. One material, usually a thermoplastic elastomer (TPE/TPV), is molded onto a second material, which is often a rigid plastic. Think about your toothbrush handle where the single piece has both rigid and rubbery components. It’s a great way to make plastic parts perform and look better. For a complete list of our thermoplastic elastomer and rigid plastic material choices, please see our injection molding capabilities page.",
-            "X takes a “have it your way” approach to all types of injection molding, no matter your level of experience. We specialize in complex projects, including those requiring side action or hand loaded inserts. Our goal is to provide a long-term overmolding solution, moving beyond rapid prototyping, with dedicated overmolding project managers and engineering experts to communicate through all project stages from design to production. We offer molding solutions for every industry, including medical injection molding, and both US and China injection molding services."
+            "Xofah takes a “have it your way” approach to all types of injection molding, no matter your level of experience. We specialize in complex projects, including those requiring side action or hand loaded inserts. Our goal is to provide a long-term overmolding solution, moving beyond rapid prototyping, with dedicated overmolding project managers and engineering experts to communicate through all project stages from design to production. We offer molding solutions for every industry, including medical injection molding, and both US and China injection molding services."
           ]
         },
         {
-          title: "X's Overmolding Finishes",
+          title: "Xofah's Overmolding Finishes",
           list: [
             { name: "SPI Finishes", description: "Range of finishes from Grade 3 diamond / high polish to 320 stone low polish. Finishes include: SPI A-1 SPI A-2 SPI A-3 SPI B-1 SPI B-2 SPI B-3 SPI C-1 SPI C-2 SPI C-3 SPI D-1 SPI D-2 SPI D-3" },
             { name: "As Molded", description: "No secondary polishing or grinding. Part will show tooling marks." },
-            { name: "Other Mold Texturing", description: "X can match other mold textures upon request." }
+            { name: "Other Mold Texturing", description: "Xofah can match other mold textures upon request." }
           ]
         },
         {
@@ -411,15 +411,15 @@ export const injectionMoldingData = {
           ]
         },
         {
-          title: "Other Types of Injection Molding at X",
+          title: "Other Types of Injection Molding at Xofah",
           content: [
-            { subheading: "Thermoplastic Injection Molding", text: "X delivers top quality plastic injection molded parts in as little as 10 business days. Our Manufacturing Partner Network can help you design and manufacture tools, dies, and molds for rapid tooling for prototyping to advanced mold making for production runs. Full injection molding capabilities including insert molding, unlimited undercuts, and internal/external threads are available." },
-            { subheading: "Insert Molding", text: "X now also offers insert molding as part of its injection molding capabilities. We can even use our CNC machining services to produce custom metal and plastic inserts to integrate into the part. For a free insert molding design review and quote, upload your CAD files. Our expert team of injection molders will get back to you within 24 hours." },
-            { subheading: "Range of Mold Making Options", text: "Our vetted network of partners allow us to quickly convert your 3D part data into a high-quality injection mold at top speed. We offer services from design and manufacturing for tools, dies, and molds for prototyping and production runs. Plastic blow molds, aluminum and steel tooling, 2-shot and 3-shot molding are also available. And with X, you own your own tools, so our partner network also offers mold maintenance services." }
+            { subheading: "Thermoplastic Injection Molding", text: "Xofah delivers top quality plastic injection molded parts in as little as 10 business days. Our Manufacturing Partner Network can help you design and manufacture tools, dies, and molds for rapid tooling for prototyping to advanced mold making for production runs. Full injection molding capabilities including insert molding, unlimited undercuts, and internal/external threads are available." },
+            { subheading: "Insert Molding", text: "Xofah now also offers insert molding as part of its injection molding capabilities. We can even use our CNC machining services to produce custom metal and plastic inserts to integrate into the part. For a free insert molding design review and quote, upload your CAD files. Our expert team of injection molders will get back to you within 24 hours." },
+            { subheading: "Range of Mold Making Options", text: "Our vetted network of partners allow us to quickly convert your 3D part data into a high-quality injection mold at top speed. We offer services from design and manufacturing for tools, dies, and molds for prototyping and production runs. Plastic blow molds, aluminum and steel tooling, 2-shot and 3-shot molding are also available. And with Xofah, you own your own tools, so our partner network also offers mold maintenance services." }
           ]
         },
         {
-          title: "Why Choose X for Overmolding?",
+          title: "Why Choose Xofah for Overmolding?",
           list: [
             { name: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
             { name: "Easy to Use", description: "Get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping." },
@@ -432,9 +432,9 @@ export const injectionMoldingData = {
       title: "Insert Molding",
       subsections: [
         {
-          title: "Custom Insert Molding With X",
+          title: "Custom Insert Molding With Xofah",
           content: [
-            "X offers insert mold services as part of its injection molding capabilities. For a free insert molding design review and quote, upload your CAD files here. Our expert team of injection molders will get back to you within 24 hours. If you want to learn more about our injection molding capabilities, download our design guide here. If injection molding isn’t the best fit for you, you could also try urethane casting or 3D printing.",
+            "Xofah offers insert mold services as part of its injection molding capabilities. For a free insert molding design review and quote, upload your CAD files here. Our expert team of injection molders will get back to you within 24 hours. If you want to learn more about our injection molding capabilities, download our design guide here. If injection molding isn’t the best fit for you, you could also try urethane casting or 3D printing.",
             "Insert Molding is an injection molding process that works especially well for parts that have threaded holes. It can also help you create better wheels, pulleys, fan blades, and other similar parts. Done correctly, insert molding can help:"
           ],
           list: [
@@ -463,15 +463,15 @@ export const injectionMoldingData = {
           ]
         },
         {
-          title: "Other Types of Injection Molding at X",
+          title: "Other Types of Injection Molding at Xofah",
           content: [
-            { subheading: "Thermoplastic Injection Molding", text: "X delivers top quality plastic injection molded parts in as little as 10 business days. Our Manufacturing Partner Network can help you design and manufacture tools, dies, and molds for rapid tooling for prototyping to advanced mold making for production runs. Full injection molding capabilities including overmolding, unlimited undercuts, and internal/external threads are available." },
+            { subheading: "Thermoplastic Injection Molding", text: "Xofah delivers top quality plastic injection molded parts in as little as 10 business days. Our Manufacturing Partner Network can help you design and manufacture tools, dies, and molds for rapid tooling for prototyping to advanced mold making for production runs. Full injection molding capabilities including overmolding, unlimited undercuts, and internal/external threads are available." },
             { subheading: "Overmolding", text: "Overmolding lets you combine multiple materials into one part. One material, usually a thermoplastic elastomer (TPE/TPV), is molded onto a second material, which is often a rigid plastic. Think about your toothbrush handle where the single piece has both rigid and rubbery components. It’s a great way to make plastic parts perform and look better." },
-            { subheading: "Range of Mold Making Options", text: "Our vetted network of partners allow us to quickly convert your 3D part data into a high-quality injection mold at top speed. We offer services from design and manufacturing for tools, dies, and molds for prototyping and production runs. Plastic blow molds, aluminum and steel tooling, 2-shot and 3-shot molding are also available. And with X, you own your own tools, so our partner network also offers mold maintenance services." }
+            { subheading: "Range of Mold Making Options", text: "Our vetted network of partners allow us to quickly convert your 3D part data into a high-quality injection mold at top speed. We offer services from design and manufacturing for tools, dies, and molds for prototyping and production runs. Plastic blow molds, aluminum and steel tooling, 2-shot and 3-shot molding are also available. And with Xofah, you own your own tools, so our partner network also offers mold maintenance services." }
           ]
         },
         {
-          title: "Why Choose X for Molded Inserts?",
+          title: "Why Choose Xofah for Molded Inserts?",
           list: [
             { name: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
             { name: "Easy to Use", description: "Get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping." },
@@ -486,7 +486,7 @@ export const injectionMoldingData = {
         {
           title: "Compression Molding",
           content: [
-            "Compression molding is used across many industries and is a popular choice among X customers. Although it came onto the scene in 1905, it has held its ground over the years through all of our technological advances. There are still plenty of reasons why companies and manufacturers turn to it over other methods. It has proven to be a solid and reliable choice for making everything from dental devices to video game controllers. Up ahead, we’ll go into detail about how compression molding works, what it’s used for, and both its advantages and disadvantages."
+            "Compression molding is used across many industries and is a popular choice among Xofah customers. Although it came onto the scene in 1905, it has held its ground over the years through all of our technological advances. There are still plenty of reasons why companies and manufacturers turn to it over other methods. It has proven to be a solid and reliable choice for making everything from dental devices to video game controllers. Up ahead, we’ll go into detail about how compression molding works, what it’s used for, and both its advantages and disadvantages."
           ]
         },
         {
@@ -558,7 +558,7 @@ export const injectionMoldingData = {
         {
           title: "Advantages and Disadvantages",
           content: [
-            "There are pros and cons to think about when you’re weighing up compression molding and other similar processes. Here are some of the advantages and disadvantages that X makes their customers aware of when considering the process:"
+            "There are pros and cons to think about when you’re weighing up compression molding and other similar processes. Here are some of the advantages and disadvantages that Xofah makes their customers aware of when considering the process:"
           ],
           advantages: [
             "Ultra-strong parts that last through immense wear and tear and heavy-duty use.",
@@ -580,7 +580,7 @@ export const injectionMoldingData = {
         {
           title: "The Future of Compression Molding",
           content: [
-            "At X, we have only seen demand for compression-molded products increase over time. The need for products that are produced through this method is increasing thanks to specific industries seeing a boom in growth—whether that’s new medical and dental developments or an influx of new car parts.",
+            "At Xofah, we have only seen demand for compression-molded products increase over time. The need for products that are produced through this method is increasing thanks to specific industries seeing a boom in growth—whether that’s new medical and dental developments or an influx of new car parts.",
             "Machine learning, AI, and automated systems is also making compression molding simpler to execute. While the demand for compression molded products is growing, so are the available materials that can be used in these types of machines. With how easy it is to manufacture everyday items like dishes and more advanced components for a computer to function, it’s hard to see this manufacturing process winding down in the near future."
           ]
         },
@@ -592,15 +592,15 @@ export const injectionMoldingData = {
           ]
         },
         {
-          title: "How X Can Help",
+          title: "How Xofah Can Help",
           content: [
-            "X provides a wide range of manufacturing capabilities, including injection molding and other value-added services for all of your prototyping and production needs. Get an instant quote today."
+            "Xofah provides a wide range of manufacturing capabilities, including injection molding and other value-added services for all of your prototyping and production needs. Get an instant quote today."
           ]
         },
         {
           title: "Disclaimer",
           content: [
-            "The content appearing on this webpage is for informational purposes only. X makes no representation or warranty of any kind, be it expressed or implied, as to the accuracy, completeness, or validity of the information. Any performance parameters, geometric tolerances, specific design features, quality and types of materials, or processes should not be inferred to represent what will be delivered by third-party suppliers or manufacturers through X’s network. Buyers seeking quotes for parts are responsible for defining the specific requirements for those parts. Please refer to our terms and conditions for more information."
+            "The content appearing on this webpage is for informational purposes only. Xofah makes no representation or warranty of any kind, be it expressed or implied, as to the accuracy, completeness, or validity of the information. Any performance parameters, geometric tolerances, specific design features, quality and types of materials, or processes should not be inferred to represent what will be delivered by third-party suppliers or manufacturers through Xofah’s network. Buyers seeking quotes for parts are responsible for defining the specific requirements for those parts. Please refer to our terms and conditions for more information."
           ]
         }
       ]
@@ -611,8 +611,8 @@ export const injectionMoldingData = {
         {
           title: "An Overview of Injection Molded Surface Finishes",
           content: [
-            "X offers SPI injection molding finishes and Mold-Tech and VDI injection molding finish options for polished, matte, to textured molded parts.",
-            "A common question we hear at X is, \"What do your molded parts look like?\" The answer is: however you want it! X has access to a diverse marketplace of molding suppliers and all standard mold finishing options. Our mold finishes include SPI, MoldTech, VDI (EDM), and others. Mold finishes can range from glossy to matte to even patterned. Finishes applied to the surface of the mold cavity transfer to the surface of the molded part. For example, a mold surface that is polished to be reflective will make a reflective (or transparent) part. Mold finishes are different from finishes for CNC machined, or 3D printed parts, where each component is treated individually. Adding a finish or texture can change the tool's price depending on the process required, but it does not alter the price of the individual parts.",
+            "Xofah offers SPI injection molding finishes and Mold-Tech and VDI injection molding finish options for polished, matte, to textured molded parts.",
+            "A common question we hear at Xofah is, \"What do your molded parts look like?\" The answer is: however you want it! Xofah has access to a diverse marketplace of molding suppliers and all standard mold finishing options. Our mold finishes include SPI, MoldTech, VDI (EDM), and others. Mold finishes can range from glossy to matte to even patterned. Finishes applied to the surface of the mold cavity transfer to the surface of the molded part. For example, a mold surface that is polished to be reflective will make a reflective (or transparent) part. Mold finishes are different from finishes for CNC machined, or 3D printed parts, where each component is treated individually. Adding a finish or texture can change the tool's price depending on the process required, but it does not alter the price of the individual parts.",
             "The most common finishes used include those from the Society of the Plastics Industry (SPI), which are a set of standard mold finishes starting from heavily polished (SPI A) to semi-gloss (SPI B) to fine and coarse matte (SPI C and SPI D). Where polished textures can increase a parts' cosmetic reflection or transparency on transparent polymers, matte finishes can help provide more subdued tones and even help prevent fingerprints on handled products (e.g., your laptop's frame and keyboard)."
           ]
         },
@@ -679,7 +679,7 @@ export const injectionMoldingData = {
           },
           additionalContent: [
             "Unless otherwise specified, an injection molded part will typically have an SPI B-2 default finish to enable better part release from the mold and remove tool marks. Surface finishes can be applied to some or all faces; for example, an opaque molded part can have a custom outer surface. The interior, non-cosmetic surface, can remain default. Multiple finishes and texturing can be applied to a single tool cavity if required.Transparent parts are typically polished on both sides to achieve the highest clarity.",
-            "X offers a wide variety of surface finishes and additional mold textures to ensure that your parts meet all of their structural and cosmetic requirements. Learn more about our injection molding service."
+            "Xofah offers a wide variety of surface finishes and additional mold textures to ensure that your parts meet all of their structural and cosmetic requirements. Learn more about our injection molding service."
           ]
         }
       ]
@@ -691,7 +691,7 @@ export const injectionMoldingData = {
           title: "Custom Plastic Fabrication Services",
           content: [
             "High quality custom plastic fabricated production parts in days | AS9100D | ISO 9001:2015 | ISO 13485 | IATF 16949:2016 | ITAR Registered",
-            "Plastic can be processed using a wide range of manufacturing methods. One of the lowest-cost methods is plastic fabrication. Plastic fabrication includes techniques such as: machining, precision cutting, bonding, welding, and thermoforming. X offers a custom plastic fabrication service that can help you succeed with any plastic fabrication project while also maintaining the highest levels of quality."
+            "Plastic can be processed using a wide range of manufacturing methods. One of the lowest-cost methods is plastic fabrication. Plastic fabrication includes techniques such as: machining, precision cutting, bonding, welding, and thermoforming. Xofah offers a custom plastic fabrication service that can help you succeed with any plastic fabrication project while also maintaining the highest levels of quality."
           ]
         },
         {
@@ -760,7 +760,7 @@ export const injectionMoldingData = {
           list: [
             { name: "Electronics", description: "Electronics make extensive use of plastic for their structural enclosures, electrical connections, and screen guards. This is due in part to the low weight of plastics, their low cost, as well as their ability to behave as electrical insulators." },
             { name: "Automotive", description: "The automotive industry requires parts that are lightweight, tough, and long-lasting. Plastics that fit these requirements are used for a number of applications such as: gear wheels, valves, and exterior or interior panels." },
-            { name: "Healthcare", description: "Plastic fabrication is used in the healthcare industry due to its transparency to X-rays (for some grades), low weight, sterilizability, and chemical resistance. Typical applications include diagnostic equipment and surgical tools." },
+            { name: "Healthcare", description: "Plastic fabrication is used in the healthcare industry due to its transparency to Xofah-rays (for some grades), low weight, sterilizability, and chemical resistance. Typical applications include diagnostic equipment and surgical tools." },
             { name: "Consumer Goods", description: "Household appliances, tools, consumer electronics, and product packaging all make extensive use of plastic fabrication. Its prevalence is due to its low raw material cost, low weight, and low-cost fabrication techniques." },
             { name: "Aerospace", description: "Aerospace components need to be lightweight, strong, and resistant to a wide range of chemicals and environmental conditions. Plastic fabrication can be used to shape the plastic with the specific properties required into a long-lasting, low-weight part." },
             { name: "Process Engineering", description: "Plastic in general has excellent resistance to chemicals. Regardless of the chemical that is being handled, there is most likely a type of plastic that can resist it. As such, plastic fabricated equipment like tanks, vessels, and piping are often used in the chemical processing industry." }
@@ -778,7 +778,7 @@ export const injectionMoldingData = {
           ]
         },
         {
-          title: "Why Choose X for Custom Plastic Fabrication Services?",
+          title: "Why Choose Xofah for Custom Plastic Fabrication Services?",
           list: [
             { name: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
             { name: "Easy to Use", description: "Get started with our easy-to-use platform and let our experts take care of managing the project from locating the right manufacturing partner to delivery logistics." },
@@ -793,9 +793,9 @@ export const injectionMoldingData = {
         {
           title: "Micro Molding Services",
           content: [
-            "X offers the highest quality micro molding services and can assist in the production of parts with intricate and complex geometries and excellent surface finishes. Subject to availability. X doesn't guarantee that we can provide this service at any given time.",
+            "Xofah offers the highest quality micro molding services and can assist in the production of parts with intricate and complex geometries and excellent surface finishes. Subject to availability. Xofah doesn't guarantee that we can provide this service at any given time.",
             "Micro molding is a highly advanced and specialized manufacturing process that enables the fabrication of complex, miniature parts with incredible precision. Considered a subset of plastic injection molding, micro molding is tailored for producing parts with features typically less than one millimeter. It has gained prominence in industries like: medical device manufacturing, electronics, automotive, and aerospace. The ability to efficiently create precise parts with minute features in large volumes and in a wide range of compatible materials are some of the biggest advantages of custom plastic injection micro molding.",
-            "X offers high-quality micro molding services for a variety of industries and applications. Common applications for micro injection molding include integrated circuit components and automotive door-locking mechanisms. Our vast manufacturing network coupled with our extensive manufacturing experience ensures your parts will be made to the highest standards of quality with short lead times."
+            "Xofah offers high-quality micro molding services for a variety of industries and applications. Common applications for micro injection molding include integrated circuit components and automotive door-locking mechanisms. Our vast manufacturing network coupled with our extensive manufacturing experience ensures your parts will be made to the highest standards of quality with short lead times."
           ]
         },
         {
@@ -890,21 +890,21 @@ export const injectionMoldingData = {
           ]
         },
         {
-          title: "Other Features of X Micro Molding Services",
+          title: "Other Features of Xofah Micro Molding Services",
           content: [
-            "Listed below are the other features of X’s micro molding service:"
+            "Listed below are the other features of Xofah’s micro molding service:"
           ],
           list: [
             { name: "Surface Finish", description: "Surface finish is a significant factor for micro molded parts, not only when it comes to aesthetic appeal, but also the functionality of a micro molded product. Advanced manufacturing methods like micro-machining and EDM are used to attain precise dimensions in the cavities of small micro molds. While EDM can be used to achieve precise dimensions, it also has the ability to create desirable mold textures in cavities that lead to smooth, finished parts." },
-            { name: "FDA Registered", description: "FDA standards regulate devices and components that can be used in the medical industry. X is ISO 14385 certified and has extensive manufacturing and industry experience. This means your micro molded parts are fabricated to the highest standards of quality and to comply with regulatory standards." },
+            { name: "FDA Registered", description: "FDA standards regulate devices and components that can be used in the medical industry. Xofah is ISO 14385 certified and has extensive manufacturing and industry experience. This means your micro molded parts are fabricated to the highest standards of quality and to comply with regulatory standards." },
             { name: "High-Volume Production", description: "High volumes of precise parts can be made with micro molding just like with standard injection molding. Molds used in micro injection molding can have multiple cavities which enable the production of several parts in a typical 30 to 60 second cycle time. Manufacturers can easily produce hundreds to thousands of parts a day with micro molding." },
-            { name: "Drug Delivery Devices", description: "Drug delivery devices are medical devices that deliver and/or control the release of a medicine or therapeutic agent to specific sites in the human body. Typical drug delivery can be accomplished by digestion, inhalation, injection, or topical techniques. However, advancements in medicine have led to the use of micro molding to create drug-delivery devices with new methods for administering medicines. Microneedle patches that have an array of tiny needles thinner than a strand of hair and small robotic pills that help treat various digestive disorders are examples of drug delivery devices that utilize micro molding. X’s micro molding capability enables the fabrication of such devices." }
+            { name: "Drug Delivery Devices", description: "Drug delivery devices are medical devices that deliver and/or control the release of a medicine or therapeutic agent to specific sites in the human body. Typical drug delivery can be accomplished by digestion, inhalation, injection, or topical techniques. However, advancements in medicine have led to the use of micro molding to create drug-delivery devices with new methods for administering medicines. Microneedle patches that have an array of tiny needles thinner than a strand of hair and small robotic pills that help treat various digestive disorders are examples of drug delivery devices that utilize micro molding. Xofah’s micro molding capability enables the fabrication of such devices." }
           ]
         },
         {
           title: "Alternatives to Micro Molding",
           content: [
-            "X offers alternative methods for micro molding as listed below:"
+            "Xofah offers alternative methods for micro molding as listed below:"
           ],
           list: [
             { name: "3D Printing", description: "3D printing is a great alternative to micro molding due to the process’s ability to produce tiny plastic or metal parts with complex features. 3D printing is the process of producing parts layer-by-layer until the complete 3-dimensional part is created. 3D printing methods such as stereolithography (SLA), digital light processing (DLP), selective laser sintering (SLS), and selective laser melting (SLM) can achieve precise dimensions as small as +0.010. While 3D printing can achieve tolerances similar to micro molding, the process is often more expensive due to the equipment required and the slower processing time." },
@@ -912,7 +912,7 @@ export const injectionMoldingData = {
           ]
         },
         {
-          title: "Why Choose X for Micro Molding Services?",
+          title: "Why Choose Xofah for Micro Molding Services?",
           list: [
             { name: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
             { name: "Easy to Use", description: "Get started with our easy-to-use platform and let our experts take care of managing the project from locating the right manufacturing partner to delivery logistics." },

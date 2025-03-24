@@ -92,11 +92,11 @@ export function HeroSection() {
   return (
     <div className="hero-section mx-40 flex flex-col md:flex-row gap-2 mt-14">
       <div className="left-section md:w-1/2 mb-8 md:mb-0 flex flex-col justify-center px-16">
-        <h1 className="text-3xl font-bold mb-4">X COMPANY INNOVATION</h1>
+        <h1 className="text-3xl font-bold mb-4">XOFAH COMPANY INNOVATION</h1>
         <p className="mb-8">
-          X Company delivers state-of-the-art manufacturing solutions, ensuring precision, efficiency, and reliability for all your production needs.
+          Xofah Company delivers state-of-the-art manufacturing solutions, ensuring precision, efficiency, and reliability for all your production needs.
         </p>
-        <a href="/contact-us">
+        <a href="/customer/support">
           <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
             Contact Us
           </button>
@@ -118,7 +118,7 @@ export function HeroSection() {
             >
               <CarouselContent className="z-10">
                 {section.items.map((item, itemIndex) => (
-                  <CarouselItem key={itemIndex} className="basis-1/5 z-auto">
+                  <CarouselItem key={itemIndex} className="basis-1/3 z-auto">
                     <div className="">
                       <Card className="bg-opacity-0 border-none shadow-none z-0">
                         <CardContent className="flex flex-col aspect-square items-center justify-center p-2 text-center bg-opacity-10 z-10">

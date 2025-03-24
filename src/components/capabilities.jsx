@@ -24,55 +24,55 @@ const capabilitiesData = [
   {
     title: "EXTRUSIONS",
     description:
-      "X delivers top-notch extrusions crafted from various aluminum alloys, tailored to meet even the most intricate cross-sectional demands of clients.",
+      "Xofah delivers top-notch extrusions crafted from various aluminum alloys, tailored to meet even the most intricate cross-sectional demands of clients.",
     image: ExtrusionsImg, // Use imported image
   },
   {
     title: "DIE CASTING",
     description:
-      "X produces premium die-cast parts using an assortment of materials such as aluminum, zinc, copper, brass, and bronze alloys.",
+      "Xofah produces premium die-cast parts using an assortment of materials such as aluminum, zinc, copper, brass, and bronze alloys.",
     image: DieCastingImg,
   },
   {
     title: "CNC MACHINING",
     description:
-      "X offers precisely machined, high-quality components from bar stock, along with finishing services for as-cast and as-forged parts.",
+      "Xofah offers precisely machined, high-quality components from bar stock, along with finishing services for as-cast and as-forged parts.",
     image: CNCMachiningImg,
   },
   {
     title: "FORGING",
     description:
-      "X provides a range of forging techniques, including drop forging, hot/cold forging, rolled ring forging, and press forging.",
+      "Xofah provides a range of forging techniques, including drop forging, hot/cold forging, rolled ring forging, and press forging.",
     image: ForgingImg,
   },
   {
     title: "INJECTION MOLDING",
     description:
-      "With injection molding, X creates parts of varying sizes and complexities, effortlessly capturing small details, intricate shapes, and thin walls.",
+      "With injection molding, Xofah creates parts of varying sizes and complexities, effortlessly capturing small details, intricate shapes, and thin walls.",
     image: InjectionMoldingImg,
   },
   {
     title: "SHEET METAL STAMPING",
     description:
-      "X crafts custom sheet metal stampings using a diverse selection of tailored materials.",
+      "Xofah crafts custom sheet metal stampings using a diverse selection of tailored materials.",
     image: SheetMetalStampingImg,
   },
   {
     title: "PROTOTYPING AND PRE-PRODUCTION",
     description:
-      "X supports businesses and innovators globally by manufacturing prototypes to bring their ideas to life.",
+      "Xofah supports businesses and innovators globally by manufacturing prototypes to bring their ideas to life.",
     image: PrototypingImg,
   },
   {
     title: "INVESTMENT CASTING",
     description:
-      "X creates investment cast parts using carbon steel, low-alloy steel, stainless steel, and a broad array of non-ferrous metals.",
+      "Xofah creates investment cast parts using carbon steel, low-alloy steel, stainless steel, and a broad array of non-ferrous metals.",
     image: InvestmentCastingImg,
   },
   {
     title: "ASSEMBLIES",
     description:
-      "Equipped with spacious, adaptable factories, X establishes dedicated assembly lines to meet volume needs for a wide range of electro-mechanical products and assemblies.",
+      "Equipped with spacious, adaptable factories, Xofah establishes dedicated assembly lines to meet volume needs for a wide range of electro-mechanical products and assemblies.",
     image: AssembliesImg,
   },
 ];
@@ -88,7 +88,7 @@ const Capabilities = () => {
           variant="body1"
           className="text-center mb-12 max-w-3xl mx-auto"
         >
-          Leveraging our global network of owned, operated, and partnered manufacturing facilities, X delivers components built to your specifications right to your door, with industry-leading turnaround times. Here’s a glimpse of X’s manufacturing expertise.
+          Leveraging our global network of owned, operated, and partnered manufacturing facilities, Xofah delivers components built to your specifications right to your door, with industry-leading turnaround times. Here’s a glimpse of Xofah’s manufacturing expertise.
         </Typography>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {capabilitiesData.map((capability, index) => (

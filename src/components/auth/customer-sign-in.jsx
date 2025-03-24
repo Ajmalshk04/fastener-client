@@ -25,7 +25,7 @@ export default function SignIn() {
               <rect width="7" height="9" x="14" y="12" rx="1" />
               <rect width="7" height="5" x="3" y="16" rx="1" />
             </svg>
-            Logo
+            Xofah
           </div>
 
           <div className="flex items-center justify-center mx-auto mt-auto w-2/3 h-2/3">

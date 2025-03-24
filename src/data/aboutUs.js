@@ -6,13 +6,13 @@ export const aboutUsData = {
         content: [
           {
             text: [
-              "X is a global leader in manufacturing services, dedicated to transforming the way manufacturers innovate, produce, and deliver high-quality products. With over a decade of experience, we empower more than 600 customers across 25+ industries—from aerospace and defense to automotive, energy, consumer products, and robotics—by connecting them to a robust network of over 10,000 suppliers spanning 15+ countries.",
-              "Our mission is to eliminate the traditional barriers of manufacturing, such as long lead times, supply chain risks, and quality uncertainties. Whether you’re crafting precision components for a satellite, scaling production for electric vehicles, or developing cutting-edge medical devices, X provides the expertise, capacity, and reliability to turn your vision into reality."
+              "Xofah is a global leader in manufacturing services, dedicated to transforming the way manufacturers innovate, produce, and deliver high-quality products. With over a decade of experience, we empower more than 600 customers across 25+ industries—from aerospace and defense to automotive, energy, consumer products, and robotics—by connecting them to a robust network of over 10,000 suppliers spanning 15+ countries.",
+              "Our mission is to eliminate the traditional barriers of manufacturing, such as long lead times, supply chain risks, and quality uncertainties. Whether you’re crafting precision components for a satellite, scaling production for electric vehicles, or developing cutting-edge medical devices, Xofah provides the expertise, capacity, and reliability to turn your vision into reality."
             ]
           },
           {
             text: [
-              "Founded on the principle of 'Make in India, For the World,' X combines strategic global sourcing with localized execution, ensuring seamless access to manufacturing solutions worldwide. We’ve completed over 2,000 projects, ranging from rapid prototyping for hardware startups to mass production for industrial giants like General Electric."
+              "Founded on the principle of 'Make in India, For the World,' Xofah combines strategic global sourcing with localized execution, ensuring seamless access to manufacturing solutions worldwide. We’ve completed over 2,000 projects, ranging from rapid prototyping for hardware startups to mass production for industrial giants like General Electric."
             ]
           }
         ]
@@ -22,7 +22,7 @@ export const aboutUsData = {
         content: [
           {
             text: [
-              "X offers an unparalleled range of manufacturing capabilities tailored to meet the unique needs of diverse industries. Our services span the entire product lifecycle, from design and prototyping to full-scale production and post-processing. With a focus on precision, speed, and scalability, we support everything from low-volume runs with tolerances as tight as 2 microns to high-volume production exceeding millions of parts."
+              "Xofah offers an unparalleled range of manufacturing capabilities tailored to meet the unique needs of diverse industries. Our services span the entire product lifecycle, from design and prototyping to full-scale production and post-processing. With a focus on precision, speed, and scalability, we support everything from low-volume runs with tolerances as tight as 2 microns to high-volume production exceeding millions of parts."
             ]
           },
           {
@@ -36,7 +36,7 @@ export const aboutUsData = {
           },
           {
             text: [
-              "Our expertise is backed by a team of seasoned engineers, quality assurance specialists, and supply chain experts who bring decades of collective experience to every project. Whether it’s crafting cockpit instrumentation for aerospace or electronic assemblies for electric vehicles, X delivers precision and performance that exceed industry standards."
+              "Our expertise is backed by a team of seasoned engineers, quality assurance specialists, and supply chain experts who bring decades of collective experience to every project. Whether it’s crafting cockpit instrumentation for aerospace or electronic assemblies for electric vehicles, Xofah delivers precision and performance that exceed industry standards."
             ]
           }
         ]
@@ -46,21 +46,21 @@ export const aboutUsData = {
         content: [
           {
             text: [
-              "At X, we redefine manufacturing efficiency through our proprietary technology, unbreakable global supply chain, and customer-first philosophy. Our suite of managed services—X Managed Inventory™ (ZMI), X Project Management (ZPM™), and X Quality Certified (ZQC™)—ensures transparency, quality, and reliability at every step, setting us apart from traditional manufacturing providers."
+              "At Xofah, we redefine manufacturing efficiency through our proprietary technology, unbreakable global supply chain, and customer-first philosophy. Our suite of managed services—Xofah Managed Inventory™ (ZMI), Xofah Project Management (ZPM™), and Xofah Quality Certified (ZQC™)—ensures transparency, quality, and reliability at every step, setting us apart from traditional manufacturing providers."
             ]
           },
           {
             list: [
               {
-                label: "X Managed Inventory™ (ZMI)",
+                label: "Xofah Managed Inventory™ (ZMI)",
                 description: "Provides end-to-end inventory visibility and just-in-time delivery, blending North American lead times with overseas cost savings. Ideal for avoiding disruptions in industries like automotive and energy."
               },
               {
-                label: "X Project Management (ZPM™)",
+                label: "Xofah Project Management (ZPM™)",
                 description: "Offers real-time transparency with dedicated project managers who oversee every stage—from purchase order to delivery—ensuring deadlines are met and updates are clear."
               },
               {
-                label: "X Quality Certified (ZQC™)",
+                label: "Xofah Quality Certified (ZQC™)",
                 description: "Guarantees zero quality escapes with rigorous on-site inspections, backed by certifications like ISO 9001:2015, AS9100D, IATF 16949:2016, and ISO 13485."
               },
               {
@@ -75,7 +75,7 @@ export const aboutUsData = {
           },
           {
             text: [
-              "Our Instant Quoting Engine (X IQ℠), powered by data science, delivers DFM feedback, pricing, and lead times in clicks—not days—enabling faster decision-making. This technology, combined with our network’s scale, allows us to serve both startups and Fortune 500 companies with equal precision and agility."
+              "Our Instant Quoting Engine (Xofah IQ℠), powered by data science, delivers DFM feedback, pricing, and lead times in clicks—not days—enabling faster decision-making. This technology, combined with our network’s scale, allows us to serve both startups and Fortune 500 companies with equal precision and agility."
             ]
           }
         ]
@@ -85,7 +85,7 @@ export const aboutUsData = {
         content: [
           {
             text: [
-              "X’s operations extend across continents, fostering a thriving ecosystem for both customers and suppliers. With a presence in over 46 states and multiple countries, including India, the US, and Mexico, we’ve built a distributed manufacturing network that supports over 2,000 projects annually. Our 'Make in India, For the World' initiative drives a 20% increase in inbound orders for suppliers by connecting them to international markets."
+              "Xofah’s operations extend across continents, fostering a thriving ecosystem for both customers and suppliers. With a presence in over 46 states and multiple countries, including India, the US, and Mexico, we’ve built a distributed manufacturing network that supports over 2,000 projects annually. Our 'Make in India, For the World' initiative drives a 20% increase in inbound orders for suppliers by connecting them to international markets."
             ]
           },
           {
@@ -98,7 +98,7 @@ export const aboutUsData = {
           },
           {
             text: [
-              "From manufacturing vortex generators for wind turbines to ground mounts for solar projects, X contributes to sustainable energy solutions. Our work with automotive OEMs and aftermarket vendors powers the transportation sector, while partnerships with hardware startups accelerate innovation globally."
+              "From manufacturing vortex generators for wind turbines to ground mounts for solar projects, Xofah contributes to sustainable energy solutions. Our work with automotive OEMs and aftermarket vendors powers the transportation sector, while partnerships with hardware startups accelerate innovation globally."
             ]
           }
         ]
@@ -108,7 +108,7 @@ export const aboutUsData = {
         content: [
           {
             text: [
-              "Quality is the cornerstone of X’s operations. Our rigorous quality assurance processes ensure every component meets exacting specifications, backed by certifications like ISO 9001:2015, AS9100D, IATF 16949:2016, and ISO 13485. Whether it’s a ventilator part for medical use or a precision slewing ring for wind turbines, we deliver certified excellence."
+              "Quality is the cornerstone of Xofah’s operations. Our rigorous quality assurance processes ensure every component meets exacting specifications, backed by certifications like ISO 9001:2015, AS9100D, IATF 16949:2016, and ISO 13485. Whether it’s a ventilator part for medical use or a precision slewing ring for wind turbines, we deliver certified excellence."
             ]
           },
           {
@@ -122,11 +122,11 @@ export const aboutUsData = {
         ]
       },
       {
-        heading: "Why Choose X",
+        heading: "Why Choose Xofah",
         content: [
           {
             text: [
-              "X is your strategic partner in manufacturing success, offering unmatched scale, speed, and quality. We help manufacturers of all sizes—from startups needing rapid prototyping to industrial leaders seeking supply chain resilience—achieve their goals with precision and efficiency. Our technology-driven approach, global network, and comprehensive services unlock new possibilities for growth and innovation."
+              "Xofah is your strategic partner in manufacturing success, offering unmatched scale, speed, and quality. We help manufacturers of all sizes—from startups needing rapid prototyping to industrial leaders seeking supply chain resilience—achieve their goals with precision and efficiency. Our technology-driven approach, global network, and comprehensive services unlock new possibilities for growth and innovation."
             ]
           },
           {
@@ -137,8 +137,8 @@ export const aboutUsData = {
             ]
           },
           {
-            text: ["Ready to experience the X difference? Contact us today to explore how we can support your next project."],
-            button: { text: "Contact Us", href: "/contact" }
+            text: ["Ready to experience the Xofah difference? Contact us today to explore how we can support your next project."],
+            button: { text: "Contact Us", href: "/customer/support" }
           }
         ]
       }

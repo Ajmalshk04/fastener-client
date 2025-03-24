@@ -63,14 +63,14 @@ export const headerData = [
       //   title: "Managed Supply Chain",
       //   link: "/manufacturing-services/managed-supply-chain",
       // },
-      // { title: "How Zetwerk", link: "/manufacturing-services/how-zetwerk" },
+      // { title: "How Xofah", link: "/manufacturing-services/how-Xofah" },
       // {
       //   title: "Quality Control",
       //   link: "/manufacturing-services/quality-control",
       // },
       // {
-      //   title: "Zetwerk Managed Inventory",
-      //   link: "/manufacturing-services/zetwerk-managed-inventory",
+      //   title: "Xofah Managed Inventory",
+      //   link: "/manufacturing-services/Xofah-managed-inventory",
       // },
       // {
       //   title: "Managed Logistics",

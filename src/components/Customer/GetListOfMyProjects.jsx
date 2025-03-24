@@ -242,6 +242,106 @@
 
 // export default GetListOfMyProjects;
 //=====================================================
+// import React, { useState } from "react";
+// import { useNavigate } from "react-router-dom";
+// import {
+//   Card,
+//   CardHeader,
+//   CardContent,
+//   CardTitle,
+//   CardDescription,
+//   CardFooter,
+// } from "@/components/ui/card";
+// import { Button } from "@/components/ui/button";
+// import { Pagination } from "@/components/ui/pagination";
+
+// const GetListOfMyProjects = ({ projects }) => {
+//   const navigate = useNavigate();
+//   const [currentPage, setCurrentPage] = useState(1);
+//   const itemsPerPage = 10;
+
+//   const handlePageChange = (page) => {
+//     setCurrentPage(page);
+//   };
+
+//   const handleProjectDetails = (project) => {
+//     navigate("/customer/quote-details", { state: { project } });
+//   };
+
+//   const paginatedProjects = projects?.slice(
+//     (currentPage - 1) * itemsPerPage,
+//     currentPage * itemsPerPage
+//   );
+
+//   if (!projects || projects.length === 0) {
+//     return <p>No projects available in this category.</p>;
+//   }
+
+//   return (
+//     <div className="space-y-6">
+//       <div className="grid gap-4 mt-8">
+//         {paginatedProjects.map((project) => (
+//           <Card key={project._id}>
+//             <CardHeader>
+//               <CardTitle>{project.title}</CardTitle>
+//               <CardDescription>
+//                 Delivery Date:{" "}
+//                 {new Date(project.deliveryDate).toLocaleDateString()}
+//               </CardDescription>
+//             </CardHeader>
+//             <CardContent>
+//               <div className="mb-2">
+//                 <span
+//                   className={`bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded`}
+//                 >
+//                   {project.status === "AVAILABLE" 
+//                     ? "QUOTED"
+//                     : project.status}
+//                 </span>
+//               </div>
+//               <p>
+//                 <strong>Material:</strong> {project.requirements.material}
+//               </p>
+//               <p>
+//                 <strong>Process:</strong> {project.requirements.process}
+//               </p>
+//               <p>
+//                 <strong>Quantity:</strong> {project.requirements.quantity}
+//               </p>
+//               <p>
+//                 <strong>Tolerance:</strong> {project.requirements.tolerance}
+//               </p>
+//               <p>
+//                 <strong>Finish:</strong> {project.requirements.finish}
+//               </p>
+//               <p>
+//                 <strong>Description:</strong> {project.description}
+//               </p>
+//             </CardContent>
+//             <CardFooter className="flex justify-between">
+//               <Button
+//                 className="text-white"
+//                 onClick={() => handleProjectDetails(project)}
+//               >
+//                 View Details
+//               </Button>
+//             </CardFooter>
+//           </Card>
+//         ))}
+//       </div>
+//       <Pagination
+//         totalItems={projects.length}
+//         currentPage={currentPage}
+//         itemsPerPage={itemsPerPage}
+//         onPageChange={handlePageChange}
+//         className="mt-6"
+//       />
+//     </div>
+//   );
+// };
+
+// export default GetListOfMyProjects;
+
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {
@@ -253,7 +353,15 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Pagination } from "@/components/ui/pagination";
+import { Badge } from "@/components/ui/badge";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 
 const GetListOfMyProjects = ({ projects }) => {
   const navigate = useNavigate();
@@ -268,60 +376,82 @@ const GetListOfMyProjects = ({ projects }) => {
     navigate("/customer/quote-details", { state: { project } });
   };
 
-  const paginatedProjects = projects?.slice(
+  const totalPages = Math.ceil(projects.length / itemsPerPage);
+  const paginatedProjects = projects.slice(
     (currentPage - 1) * itemsPerPage,
     currentPage * itemsPerPage
   );
 
   if (!projects || projects.length === 0) {
-    return <p>No projects available in this category.</p>;
+    return (
+      <div className="text-center text-muted-foreground py-12">
+        No projects available in this category.
+      </div>
+    );
   }
 
   return (
     <div className="space-y-6">
-      <div className="grid gap-4 mt-8">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {paginatedProjects.map((project) => (
-          <Card key={project._id}>
-            <CardHeader>
-              <CardTitle>{project.title}</CardTitle>
-              <CardDescription>
-                Delivery Date:{" "}
-                {new Date(project.deliveryDate).toLocaleDateString()}
+          <Card
+            key={project._id}
+            className="shadow-sm border-0 hover:shadow-md transition-shadow"
+          >
+            <CardHeader className="pb-2">
+              <CardTitle className="text-lg font-semibold truncate">
+                {project.title}
+              </CardTitle>
+              <CardDescription className="text-sm text-muted-foreground">
+                Delivery: {new Date(project.deliveryDate).toLocaleDateString()}
               </CardDescription>
             </CardHeader>
-            <CardContent>
-              <div className="mb-2">
-                <span
-                  className={`bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded`}
-                >
-                  {project.status === "AVAILABLE" 
-                    ? "QUOTED"
-                    : project.status}
-                </span>
+            <CardContent className="pb-4 text-sm space-y-2">
+              <Badge
+                variant="secondary"
+                className={`${
+                  project.status === "AVAILABLE"
+                    ? "bg-green-100 text-green-800"
+                    : project.status === "IN_PRODUCTION"
+                    ? "bg-blue-100 text-blue-800"
+                    : "bg-gray-100 text-gray-800"
+                }`}
+              >
+                {project.status === "AVAILABLE" ? "Quoted" : project.status.replace("_", " ")}
+              </Badge>
+              <div className="grid gap-1">
+                <p>
+                  <span className="font-medium text-muted-foreground">Material:</span>{" "}
+                  {project.requirements.material || "N/A"}
+                </p>
+                <p>
+                  <span className="font-medium text-muted-foreground">Process:</span>{" "}
+                  {project.requirements.process || "N/A"}
+                </p>
+                <p>
+                  <span className="font-medium text-muted-foreground">Quantity:</span>{" "}
+                  {project.requirements.quantity || "N/A"}
+                </p>
+                <p>
+                  <span className="font-medium text-muted-foreground">Tolerance:</span>{" "}
+                  {project.requirements.tolerance || "N/A"}
+                </p>
+                <p>
+                  <span className="font-medium text-muted-foreground">Finish:</span>{" "}
+                  {project.requirements.finish || "N/A"}
+                </p>
+                <p className="truncate">
+                  <span className="font-medium text-muted-foreground">Description:</span>{" "}
+                  {project.description || "N/A"}
+                </p>
               </div>
-              <p>
-                <strong>Material:</strong> {project.requirements.material}
-              </p>
-              <p>
-                <strong>Process:</strong> {project.requirements.process}
-              </p>
-              <p>
-                <strong>Quantity:</strong> {project.requirements.quantity}
-              </p>
-              <p>
-                <strong>Tolerance:</strong> {project.requirements.tolerance}
-              </p>
-              <p>
-                <strong>Finish:</strong> {project.requirements.finish}
-              </p>
-              <p>
-                <strong>Description:</strong> {project.description}
-              </p>
             </CardContent>
-            <CardFooter className="flex justify-between">
+            <CardFooter>
               <Button
-                className="text-white"
+                variant="outline"
+                size="sm"
                 onClick={() => handleProjectDetails(project)}
+                className="w-full"
               >
                 View Details
               </Button>
@@ -329,13 +459,34 @@ const GetListOfMyProjects = ({ projects }) => {
           </Card>
         ))}
       </div>
-      <Pagination
-        totalItems={projects.length}
-        currentPage={currentPage}
-        itemsPerPage={itemsPerPage}
-        onPageChange={handlePageChange}
-        className="mt-6"
-      />
+      {totalPages > 1 && (
+        <Pagination className="mt-6">
+          <PaginationContent>
+            <PaginationItem>
+              <PaginationPrevious
+                onClick={() => currentPage > 1 && handlePageChange(currentPage - 1)}
+                disabled={currentPage === 1}
+              />
+            </PaginationItem>
+            {[...Array(totalPages)].map((_, index) => (
+              <PaginationItem key={index}>
+                <PaginationLink
+                  onClick={() => handlePageChange(index + 1)}
+                  isActive={currentPage === index + 1}
+                >
+                  {index + 1}
+                </PaginationLink>
+              </PaginationItem>
+            ))}
+            <PaginationItem>
+              <PaginationNext
+                onClick={() => currentPage < totalPages && handlePageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}
+              />
+            </PaginationItem>
+          </PaginationContent>
+        </Pagination>
+      )}
     </div>
   );
 };

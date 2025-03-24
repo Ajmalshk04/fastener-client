@@ -1,7 +1,7 @@
 // Data object for Sheet Metal Stamping
 export const sheetMetalStampingData = {
   title: "Sheet Metal Stamping Services",
-  lead: "X provides custom precision sheet metal stampings and fabrication services, delivering high-quality parts for prototyping and production across various industries.",
+  lead: "Xofah provides custom precision sheet metal stampings and fabrication services, delivering high-quality parts for prototyping and production across various industries.",
   sections: [
     {
       title: "Sheet Metal Stamping",
@@ -10,9 +10,9 @@ export const sheetMetalStampingData = {
           title: "Overview",
           content: [
             "Sheet metal stamping is a process of using tools and dies to press and stamp metal blanks into their desired final shape. Sheet metal services are often used across a variety of industries such as automotive, aerospace, consumer electronics, and electronic manufacturing.",
-            "X provides custom precision sheet metal stampings from coiled or blanked sheet metal. We can produce sheet metal parts in short runs or high volumes using processes like bending, cutting, and welding.",
+            "Xofah provides custom precision sheet metal stampings from coiled or blanked sheet metal. We can produce sheet metal parts in short runs or high volumes using processes like bending, cutting, and welding.",
             "Production processes include blanking, bending, embossing, punching, drawing, forming, piercing, laser cutting, welding, secondary machining, and fabrication.",
-            "X produces custom sheet metal stampings in a wide range of custom materials. Some of the materials include cold-rolled steel (CRS), hot-rolled steel, stainless steel, galvanized, brass, aluminum, and beryllium copper among others. We offer complete secondary operations include powder coating, painting, anodizing, silk screening, and pad printing. Assembly services are also available."
+            "Xofah produces custom sheet metal stampings in a wide range of custom materials. Some of the materials include cold-rolled steel (CRS), hot-rolled steel, stainless steel, galvanized, brass, aluminum, and beryllium copper among others. We offer complete secondary operations include powder coating, painting, anodizing, silk screening, and pad printing. Assembly services are also available."
           ]
         },
         {
@@ -32,12 +32,12 @@ export const sheetMetalStampingData = {
             },
             {
               name: "Prototype and Short-Run Stamping",
-              description: "X can produce sheet metal stamped parts in lower quantities for prototyping and production runs. This helps our customers validate their designs without having to worry about the costs associated with large production runs."
+              description: "Xofah can produce sheet metal stamped parts in lower quantities for prototyping and production runs. This helps our customers validate their designs without having to worry about the costs associated with large production runs."
             }
           ]
         },
         {
-          title: "X Supports a Variety of Materials for Sheet Metal Stampings",
+          title: "Xofah Supports a Variety of Materials for Sheet Metal Stampings",
           list: [
             "Aluminum Alloys",
             "Steel Alloys",
@@ -85,7 +85,7 @@ export const sheetMetalStampingData = {
         {
           title: "Project Management",
           content: [
-            "X offers project management throughout the manufacturing process. After you create a PO, our team will guide you through each step. They will keep you up-to-date with the information you need to monitor production and share project information with internal stakeholders."
+            "Xofah offers project management throughout the manufacturing process. After you create a PO, our team will guide you through each step. They will keep you up-to-date with the information you need to monitor production and share project information with internal stakeholders."
           ]
         },
         {
@@ -98,7 +98,7 @@ export const sheetMetalStampingData = {
         {
           title: "FAIR Approval",
           content: [
-            "A first-article inspection report (FAIR) is a part of any robust product development program. It is also critical to conduct detailed inspections to avoid out-of-tolerance components and rework for stamped parts. X’s process incorporates this essential step, giving you complete confidence in the parts you receive."
+            "A first-article inspection report (FAIR) is a part of any robust product development program. It is also critical to conduct detailed inspections to avoid out-of-tolerance components and rework for stamped parts. Xofah’s process incorporates this essential step, giving you complete confidence in the parts you receive."
           ]
         },
         {
@@ -110,7 +110,7 @@ export const sheetMetalStampingData = {
         {
           title: "Get a Quote for Sheet Metal Stamped Components",
           content: [
-            "X is your one-stop solution for complete end-to-end contract manufacturing and distribution. We provide:"
+            "Xofah is your one-stop solution for complete end-to-end contract manufacturing and distribution. We provide:"
           ],
           list: [
             "Unlimited manufacturing capacity, which decreases risk and improves your ability to respond to demand fluctuations",
@@ -123,7 +123,7 @@ export const sheetMetalStampingData = {
             "Project management for a hands-free experience, with weekly updates for project and timing accountability"
           ],
           additionalContent: [
-            "Experience the difference X makes in your manufacturing process. Request a quote today for sheet metal stamping or any other manufactured component."
+            "Experience the difference Xofah makes in your manufacturing process. Request a quote today for sheet metal stamping or any other manufactured component."
           ],
           button: { text: "Request a Quote", href: "#" }
         }
@@ -136,7 +136,7 @@ export const sheetMetalStampingData = {
           title: "What Is Sheet Metal Fabrication?",
           content: [
             "Sheet metal fabrication is a subtractive manufacturing process that forms parts from thin metal sheets. Engineers often choose sheet metal parts for their high precision and durability, especially for end-use applications like chassis, enclosures, and brackets.",
-            "X’s online sheet metal fabrication services provide a fast and cost-effective solution for any parts that need to be made from 3D CAD files or engineering drawings. X offers a range of sheet metal materials, including aluminum, copper, steel, and stainless steel, as well as assembly services like installing PEM inserts, welding, and finishing services. With a network of domestic and overseas fabricators, X can supply any quantity of sheet metal parts from low-volume, high-mix prototypes to high-volume production runs. X offers competitive, custom sheet metal fabricating prices for low volume prototypes and cost savings for high volume production runs."
+            "Xofah’s online sheet metal fabrication services provide a fast and cost-effective solution for any parts that need to be made from 3D CAD files or engineering drawings. Xofah offers a range of sheet metal materials, including aluminum, copper, steel, and stainless steel, as well as assembly services like installing PEM inserts, welding, and finishing services. With a network of domestic and overseas fabricators, Xofah can supply any quantity of sheet metal parts from low-volume, high-mix prototypes to high-volume production runs. Xofah offers competitive, custom sheet metal fabricating prices for low volume prototypes and cost savings for high volume production runs."
           ]
         },
         {
@@ -147,7 +147,7 @@ export const sheetMetalStampingData = {
           ]
         },
         {
-          title: "X Sheet Metal Fabrication Capabilities",
+          title: "Xofah Sheet Metal Fabrication Capabilities",
           table: {
             headers: ["Feature", "Description"],
             rows: [
@@ -163,14 +163,14 @@ export const sheetMetalStampingData = {
           }
         },
         {
-          title: "How X Sheet Metal Fabrication Works",
+          title: "How Xofah Sheet Metal Fabrication Works",
           content: [
-            "X's custom sheet metal fabrication services utilize the top sheet metal fabricators in the US and globally. Sheet metal fabricators first convert CAD and drawing data into machine code. A laser cutting, waterjet, or plasma cutting machine will then precisely remove sheet metal material. The raw material is formed into angular bends and features using brakes, punches, and dies. If any assembly or post-processing is required, our sheet metal manufacturers will weld, add inserts, or finish the part.",
-            "The efficiency and high precision of sheet metal fabrication, coupled with X’s variety of materials, range of sheet metal fabricators, and post-processing options means you can get parts for any application. Sheet metal applications include aerospace, defense, automotive, energy, industrial, medical, dental, and consumer products."
+            "Xofah's custom sheet metal fabrication services utilize the top sheet metal fabricators in the US and globally. Sheet metal fabricators first convert CAD and drawing data into machine code. A laser cutting, waterjet, or plasma cutting machine will then precisely remove sheet metal material. The raw material is formed into angular bends and features using brakes, punches, and dies. If any assembly or post-processing is required, our sheet metal manufacturers will weld, add inserts, or finish the part.",
+            "The efficiency and high precision of sheet metal fabrication, coupled with Xofah’s variety of materials, range of sheet metal fabricators, and post-processing options means you can get parts for any application. Sheet metal applications include aerospace, defense, automotive, energy, industrial, medical, dental, and consumer products."
           ]
         },
         {
-          title: "Sheet Metal Materials Available at X",
+          title: "Sheet Metal Materials Available at Xofah",
           content: [
             { subheading: "Aluminum", list: ["Aluminum 1100-H14", "Aluminum 5052-H32", "Aluminum 6061"], additional: "Learn more about aluminum sheet metal." },
             { subheading: "Copper", list: ["Copper 101", "Copper C110", "Copper C110, H02", "Copper 260 (Brass)"], additional: "Learn more about copper sheet metal." },
@@ -223,7 +223,7 @@ export const sheetMetalStampingData = {
           title: "What is Sheet Cutting?",
           content: [
             "Sheet cutting is a category of processes that slices into flat stock material following a profile to produce a shape. Sheet stock is cut using a high-powered CNC laser or waterjet. The material's gauge determines the thickness of the part. From a one-off batch to mass production, custom designs can be cut in various materials ranging from plastics, elastomers, composites, metals, and more. Sheet cutting is also typical for blank preparation in other manufacturing processes like sheet metal fabrication or metal stamping.",
-            "X's sheet cutting service can cut just about any material using lasers and waterjet capabilities. From clear acrylic panels to thick tool steel, X's manufacturing marketplace offers a one-stop-shop solution for any project with instant quoting and a wide selection of materials."
+            "Xofah's sheet cutting service can cut just about any material using lasers and waterjet capabilities. From clear acrylic panels to thick tool steel, Xofah's manufacturing marketplace offers a one-stop-shop solution for any project with instant quoting and a wide selection of materials."
           ],
           list: [
             "Metals",
@@ -239,27 +239,27 @@ export const sheetMetalStampingData = {
           content: [
             "Laser cutting is the most common form of blanking or creating a profile cut of a two-dimensional shape in a common stock of material. It uses a laser to concentrate heat and carve a path through the material. The thickness of the path carved is called kerf and is typically less than 0.010”. Unlike lasers, waterjet cutting takes advantage of the fact that water cannot be compressed, so when a thin stream of water is shot out of a nozzle at very high pressure it can cut through just about anything.",
             "Waterjets have an advantage over some thicker metals since they do not create excess heat which can affect temper. A waterjet’s kerf has a cut thickness of 0.040” to 0.050” but the general tolerance of both waterjet and lasers are the same at +/- 0.010\". Waterjets are also better for soft materials like foams or gaskets versus a laser since it does not compress or burn. This is also important for materials like PVC, PC, and even galvanized metals that should only be cut by waterjet to avoid hazardous fumes such as fluorine, chlorine, or zinc when exposed to heat. Lasers have an advantage of speed and availability, since they can quickly handle most plastics and thinner metals deftly. Lasers are also used for engraving and part marking.",
-            "Laser and waterjet processes are common tools for creating profile cuts on sheets. Because of their versatility, X has made the inclusive category of Sheet Cutting to allow users to focus on what materials they want to cut based on their CAD.",
-            "X has a diverse range of suppliers with laser cutting or waterjet cutting services. The right supplier will be connected automatically based on the job requirements."
+            "Laser and waterjet processes are common tools for creating profile cuts on sheets. Because of their versatility, Xofah has made the inclusive category of Sheet Cutting to allow users to focus on what materials they want to cut based on their CAD.",
+            "Xofah has a diverse range of suppliers with laser cutting or waterjet cutting services. The right supplier will be connected automatically based on the job requirements."
           ]
         },
         {
-          title: "X Sheet Cutting Sizes and Tolerances",
+          title: "Xofah Sheet Cutting Sizes and Tolerances",
           table: {
             headers: ["Feature", "Description"],
             rows: [
-              ["Blank Size", "X has access to platforms up to 10’ x 20’ for laser cutting and waterjet cutting. However, many sheet stock sizes commonly cap out at 48” x 96” (4’ x 8’) or smaller."],
+              ["Blank Size", "Xofah has access to platforms up to 10’ x 20’ for laser cutting and waterjet cutting. However, many sheet stock sizes commonly cap out at 48” x 96” (4’ x 8’) or smaller."],
               ["Standard Lead Time", "3 business days"],
               ["Sheet Thickness", "0.020\" up to beyond 1.00\" depending on materials. Thinner or thicker stock may be possible through manual quoting."],
-              ["General Tolerances", "For full details on tolerances offered by X's sheet cutting service, including edge to edge tolerance and taper, please consult our manufacturing standards."]
+              ["General Tolerances", "For full details on tolerances offered by Xofah's sheet cutting service, including edge to edge tolerance and taper, please consult our manufacturing standards."]
             ]
           }
         },
         {
-          title: "How X Sheet Cutting Works",
+          title: "How Xofah Sheet Cutting Works",
           content: [
-            "X's sheet cutting services utilize the top laser cutting and waterjet suppliers in the US and globally. Fabricators first convert CAD and drawing data into machine code. A laser cutting, waterjet, or plasma cutting machine will then precisely remove sheet material. If any assembly or post-processing is required, our manufacturers will provide turnkey finishing to the part.",
-            "The efficiency and high precision of these CNC-controlled cutting tools, coupled with X’s variety of materials, range of suppliers, and post-processing options means you can get parts for any application. Sheet cut applications include aerospace, defense, automotive, energy, industrial, medical, dental, art, robotics, and consumer products."
+            "Xofah's sheet cutting services utilize the top laser cutting and waterjet suppliers in the US and globally. Fabricators first convert CAD and drawing data into machine code. A laser cutting, waterjet, or plasma cutting machine will then precisely remove sheet material. If any assembly or post-processing is required, our manufacturers will provide turnkey finishing to the part.",
+            "The efficiency and high precision of these CNC-controlled cutting tools, coupled with Xofah’s variety of materials, range of suppliers, and post-processing options means you can get parts for any application. Sheet cut applications include aerospace, defense, automotive, energy, industrial, medical, dental, art, robotics, and consumer products."
           ]
         },
         {
@@ -288,7 +288,7 @@ export const sheetMetalStampingData = {
             { subheading: "Standard", text: "A standard finish is available for all materials. No additional post-processing is performed, leaving the surface as-is after your choice of de-tabbing and deburring is performed. Plastics and cosmetically finished products may have an overwrap left on the faces for production. It is common for pre-polished, brushed, or textured materials to have only one side cosmetically finished." },
             { subheading: "Sanding with Grain", text: "Metal parts are sanded by hand, abrasive belt sander, or timesaver, in the direction of the grain to create a uniform finish. This is also called linear finishing." },
             { subheading: "Sanding Random", text: "Metal parts are sanded by hand, orbital sander, or timesaver, in a random pattern or swirl to create a uniform finish. This is also called a random swirl finish." },
-            { subheading: "Other Finishes", text: "Like our other services, X can offer turnkey finishing services like anodizing, chem-film, metal plating, powder coating, heat treating, passivation, and even multiple custom finishes. See samples and learn more by visiting our Metal Finishes Gallery." }
+            { subheading: "Other Finishes", text: "Like our other services, Xofah can offer turnkey finishing services like anodizing, chem-film, metal plating, powder coating, heat treating, passivation, and even multiple custom finishes. See samples and learn more by visiting our Metal Finishes Gallery." }
           ]
         },
         {
@@ -309,11 +309,11 @@ export const sheetMetalStampingData = {
             ]
           },
           additionalContent: [
-            { subheading: "Design Tip: Explode Your Text", text: "When text is added to a design it may be in an active state, meaning that although the text is visible on the screen it may not actually be outlined for laser or waterjet cutting. Make sure to convert text to a shape with an outline, or “explode” the text so it can be cut on the model.", additional: "It is also important to add joining or “stencil-like” bridges on free-floating text features like the hole in D, O, P, Q, or other closed-loop characters. Otherwise, the letters will just be a letter-shaped hole! The 3D viewer in X's quoting page will show you what features are registered. Learn more about how to prepare your DXF." },
+            { subheading: "Design Tip: Explode Your Text", text: "When text is added to a design it may be in an active state, meaning that although the text is visible on the screen it may not actually be outlined for laser or waterjet cutting. Make sure to convert text to a shape with an outline, or “explode” the text so it can be cut on the model.", additional: "It is also important to add joining or “stencil-like” bridges on free-floating text features like the hole in D, O, P, Q, or other closed-loop characters. Otherwise, the letters will just be a letter-shaped hole! The 3D viewer in Xofah's quoting page will show you what features are registered. Learn more about how to prepare your DXF." },
             { subheading: "Design Tip: Laser Cutting Notches and Slots", text: "Notches and slots must be designed in the file, even if they are at the kerf thickness of the sheet cutting process. For example, a notch or slot of 0.040” should be designed to that width. It is recommended for slot features to have exaggerated “lollipop” rounds on at least one side to help compensate for the pierce hole which will be larger than the cutting thickness (kerf)." },
-            { subheading: "Design Tip: Use Standard Gauges", text: "Sheet cutting depends on stock material sizes to provide economical and quick-turn parts. Using common stock sizes or standard gauges for the material you are designing around is necessary to prevent delays in material sourcing.", additional: "If a design thickness is within the tolerance range of a standard gauge, X will source that standard gauge for the project. Thickness tolerances are independent of cutting tolerances, as they rely on the raw stock material’s tolerance range. Some processes like plasma cutting, flame-cutting, and waterjet cutting can slice through very thick stock material but may require a manual quote review. Typically, the thicker the stock the less likely a large sheet size is available." },
+            { subheading: "Design Tip: Use Standard Gauges", text: "Sheet cutting depends on stock material sizes to provide economical and quick-turn parts. Using common stock sizes or standard gauges for the material you are designing around is necessary to prevent delays in material sourcing.", additional: "If a design thickness is within the tolerance range of a standard gauge, Xofah will source that standard gauge for the project. Thickness tolerances are independent of cutting tolerances, as they rely on the raw stock material’s tolerance range. Some processes like plasma cutting, flame-cutting, and waterjet cutting can slice through very thick stock material but may require a manual quote review. Typically, the thicker the stock the less likely a large sheet size is available." },
             { subheading: "Plastic material sheet stock in different gauges" },
-            { subheading: "Design Guide: Laser and Sheet Cutting", text: "We've compiled our best tips into this guide to help you understand laser and sheet cutting processes, how to prepare your files, important design considerations for optimizing your parts for manufacturing, and information about X's sheet cutting services." }
+            { subheading: "Design Guide: Laser and Sheet Cutting", text: "We've compiled our best tips into this guide to help you understand laser and sheet cutting processes, how to prepare your files, important design considerations for optimizing your parts for manufacturing, and information about Xofah's sheet cutting services." }
           ]
         }
       ]
@@ -324,14 +324,14 @@ export const sheetMetalStampingData = {
         {
           title: "Metal Laser Cutting Service",
           content: [
-            "X offers a high quality metal laser cutting service. Our metal laser cutting services support a variety of metal materials, including: Steel, Stainless Steel, Tool Steel, Spring Steel, Aluminum, Brass, Bronze, Copper, and Titanium. Our laser cutting machines use both fiber lasers and CO2 lasers and can cut through up to 4 inches of metal material. X offers instant quotes on metal laser cutting services, and free shipping on orders in the US.",
+            "Xofah offers a high quality metal laser cutting service. Our metal laser cutting services support a variety of metal materials, including: Steel, Stainless Steel, Tool Steel, Spring Steel, Aluminum, Brass, Bronze, Copper, and Titanium. Our laser cutting machines use both fiber lasers and CO2 lasers and can cut through up to 4 inches of metal material. Xofah offers instant quotes on metal laser cutting services, and free shipping on orders in the US.",
             "For more information see our Metal Laser Cutting Service page, or simply Start a Quote Now."
           ]
         },
         {
           title: "Metal Laser Cutting Materials List",
           content: [
-            "For a list of the metal materials supported by X's metal laser cutting service, see below. Other materials may also be available for quote."
+            "For a list of the metal materials supported by Xofah's metal laser cutting service, see below. Other materials may also be available for quote."
           ],
           list: [
             "1075 Spring Steel, annealed",
@@ -438,14 +438,14 @@ export const sheetMetalStampingData = {
         {
           title: "Acrylic Laser Cutting Service",
           content: [
-            "X offers a high quality Acrylic Laser Cutting service. We offer clear (transparent) acrylic materials, as well as a variety of colors. Advantages of laser cutting with acrylic include strength, easy of use, transparency, and waterproof/moisture resistance.",
+            "Xofah offers a high quality Acrylic Laser Cutting service. We offer clear (transparent) acrylic materials, as well as a variety of colors. Advantages of laser cutting with acrylic include strength, easy of use, transparency, and waterproof/moisture resistance.",
             "For more information see our Acrylic Laser Cutting Service page, or simply Start an Instant Quote Now."
           ]
         },
         {
           title: "Wood Laser Cutting Service",
           content: [
-            "X offers a high quality Wood Laser Cutting service. We offer a variety of wood materials including Cherry Hardwood, Hardboard, MDF, Poplar Hardwood, Red Oak Hardwood, Uncoated Wood Laminate (Plywood), Chipboard, and Birch.",
+            "Xofah offers a high quality Wood Laser Cutting service. We offer a variety of wood materials including Cherry Hardwood, Hardboard, MDF, Poplar Hardwood, Red Oak Hardwood, Uncoated Wood Laminate (Plywood), Chipboard, and Birch.",
             "For more information see our Wood Laser Cutting Service page, or simply Start an Instant Quote Now."
           ]
         },
@@ -456,7 +456,7 @@ export const sheetMetalStampingData = {
           ]
         },
         {
-          title: "Types Of Laser Cutters Available From X",
+          title: "Types Of Laser Cutters Available From Xofah",
           content: [
             { subheading: "C02 Laser Cutting Machines", text: "The most common laser cutter type because of their relatively high energy efficiency and high power output ratio. Best suited for cutting, boring, and engraving services." },
             { subheading: "Nd Laser Cutting Machines", text: "Nd lasers have a high energy, and are used for boring and welding.", additional: "A disadvantage of Nd lasers are their low repetition efficiency." },
@@ -469,7 +469,7 @@ export const sheetMetalStampingData = {
             { subheading: "Durability", text: "Laser Cutting produces highly durable parts well-suited for both functional laser-cut prototypes and end-use production." },
             { subheading: "Scalability", text: "All sheet metal parts are built on-demand and with lower setup costs compared to other manufacturing processes. Depending on your needs, order as little as a single prototype up to 10,000 production parts." },
             { subheading: "Material Selection", text: "Choose from a variety of materials across a wide range of strength, conductivity, weight, and corrosion resistance." },
-            { subheading: "Rapid Turnaround", text: "Combining the latest cutting, bending, and punching with automated technologies, X provides instant sheet quotes that can often ship the same week." }
+            { subheading: "Rapid Turnaround", text: "Combining the latest cutting, bending, and punching with automated technologies, Xofah provides instant sheet quotes that can often ship the same week." }
           ]
         },
         {
@@ -477,7 +477,7 @@ export const sheetMetalStampingData = {
           table: {
             headers: ["Description", "General Tolerance"],
             rows: [
-              ["General Tolerances", "For full details on tolerances offered by X's sheet cutting service, including edge to edge tolerance and taper, please consult our manufacturing standards."],
+              ["General Tolerances", "For full details on tolerances offered by Xofah's sheet cutting service, including edge to edge tolerance and taper, please consult our manufacturing standards."],
               ["Thickness Dimension", "Thickness tolerances are determined by the material blank."],
               ["Minimum Recommend Part Size", "1.000\""],
               ["Minimum Feature Size", "2X material thickness with a minimum of 0.062\""],
@@ -491,7 +491,7 @@ export const sheetMetalStampingData = {
           content: [
             { subheading: "The Basics Of Laser Cutting", text: "Laser cutting directs a high-powered laser through optics to cut materials for industrial applications. Laser cutting is both more precise and less energy-consuming than plasma cutting but has an upper threshold on the thickness of the material being cut.", additional: "A laser cutting machine is a type of CNC machine that uses a thin, high-powered focused laser beam to cut materials. Laser cutters are commonly used for quality welding and to cut industrial sheet metal, but laser cutters can also be used for other materials such as plastic, rubber, glass, wood, and aluminum." },
             { subheading: "The Laser Cutting Process", text: "Laser cutters focusing optics are used to direct electrical energy into a high-density light beam, and CNC is used to manage either the workpiece or the laser beam. The material processed by the laser cutter is then melted, burned, vaporized, or blown away by a jet of oxygen or nitrogen." },
-            { subheading: "Advantages of Laser Cutting Services", text: "The laser cutting process offers several advantages over traditional mechanical cutting or CNC machining processes, including quicker production, decreased contamination of the workpiece, and reduced chance of warping. A laser cutter produces clean laser cut parts and has a small chance of operator error making them great for fast prototyping.", additional: "X's custom laser cutting services offer a cost-effective on-demand solution for your sheet metal fabrication needs, including the material, details, and size of the project. From fast, low-volume prototypes to high-quality, high-volume production runs, X’s massive partner network has the ideal shop and the ideal machines for the job." }
+            { subheading: "Advantages of Laser Cutting Services", text: "The laser cutting process offers several advantages over traditional mechanical cutting or CNC machining processes, including quicker production, decreased contamination of the workpiece, and reduced chance of warping. A laser cutter produces clean laser cut parts and has a small chance of operator error making them great for fast prototyping.", additional: "Xofah's custom laser cutting services offer a cost-effective on-demand solution for your sheet metal fabrication needs, including the material, details, and size of the project. From fast, low-volume prototypes to high-quality, high-volume production runs, Xofah’s massive partner network has the ideal shop and the ideal machines for the job." }
           ]
         }
       ]
@@ -502,15 +502,15 @@ export const sheetMetalStampingData = {
         {
           title: "High Quality Waterjet Cut Parts",
           content: [
-            "Waterjet cutting, also known as water jet or abrasive waterjet cutting, is one of X's fabrication processes. It directs a high-pressure jet of water and an abrasive substance to cut materials for industrial applications such as machine part manufacturing. Modern water jet cutters are controlled by CNC (Computer Numerical Control) systems running G-code to position the water jet nozzle and increase accuracy. Important benefits of waterjet cutting with an abrasive substance include the ability to cut metals, plastics, foam, composites, and more without increasing the material surface temperature and compromising the internal structure of the material (no Heat Affected one, or HAZ); the ability to cut sharp corners, holes, and complex shapes with small inner radii; fast turnaround rates; and minimal material waste thanks to the precise cutting and the narrowness of the nozzle.",
-            "Our custom water cutting service offers a cost-effective and on-demand solution for your manufacturing needs. X's sheet cutting and sheet metal cutting services range from low-volume prototypes to high-volume production runs. X also offers a laser cutting service and a plasma cutting service.",
+            "Waterjet cutting, also known as water jet or abrasive waterjet cutting, is one of Xofah's fabrication processes. It directs a high-pressure jet of water and an abrasive substance to cut materials for industrial applications such as machine part manufacturing. Modern water jet cutters are controlled by CNC (Computer Numerical Control) systems running G-code to position the water jet nozzle and increase accuracy. Important benefits of waterjet cutting with an abrasive substance include the ability to cut metals, plastics, foam, composites, and more without increasing the material surface temperature and compromising the internal structure of the material (no Heat Affected one, or HAZ); the ability to cut sharp corners, holes, and complex shapes with small inner radii; fast turnaround rates; and minimal material waste thanks to the precise cutting and the narrowness of the nozzle.",
+            "Our custom water cutting service offers a cost-effective and on-demand solution for your manufacturing needs. Xofah's sheet cutting and sheet metal cutting services range from low-volume prototypes to high-volume production runs. Xofah also offers a laser cutting service and a plasma cutting service.",
             "You can get an instant quote from a 3D CAD file or DXF file in our Instant Quoting Engine."
           ]
         },
         {
           title: "Waterjet Cutting Materials",
           content: [
-            "X offers a comprehensive selection of waterjet materials in various thicknesses for cutting."
+            "Xofah offers a comprehensive selection of waterjet materials in various thicknesses for cutting."
           ],
           list: [
             "Metals alloys, up to 1\" thick",
@@ -527,7 +527,7 @@ export const sheetMetalStampingData = {
           content: [
             { subheading: "Durability", text: "Similar to CNC machining, sheet metal processes produce highly durable parts well-suited for both functional prototypes and end-use production." },
             { subheading: "Scalability", text: "All sheet metal parts are built on-demand and with lower setup costs compared to CNC Machining. Depending on your needs, order as little as a single prototype up to 10,000 production parts." },
-            { subheading: "Rapid Turnaround", text: "Combining the latest cutting, bending and punching with automated technologies, X provides instant sheet quotes and completed parts in as little 12 business days." },
+            { subheading: "Rapid Turnaround", text: "Combining the latest cutting, bending and punching with automated technologies, Xofah provides instant sheet quotes and completed parts in as little 12 business days." },
             { subheading: "Material Selection", text: "Choose from a variety of sheet metals across a wide range of strength, conductivity, weight, and corrosion-resistance." }
           ]
         },
@@ -536,7 +536,7 @@ export const sheetMetalStampingData = {
           table: {
             headers: ["Description", "General Tolerance"],
             rows: [
-              ["Distance Dimensions", "For full details on tolerances offered by X's sheet cutting service, including edge to edge tolerance and taper, please consult our manufacturing standards."],
+              ["Distance Dimensions", "For full details on tolerances offered by Xofah's sheet cutting service, including edge to edge tolerance and taper, please consult our manufacturing standards."],
               ["Thickness Dimension", "Thickness tolerances are determined by the material blank."],
               ["Minimum Recommend Part Size", "3.000\""],
               ["Minimum Feature Size", "2X material thickness with a minimum of 0.125\""],
@@ -555,7 +555,7 @@ export const sheetMetalStampingData = {
           ]
         },
         {
-          title: "Why Choose X for Waterjet Cutting?",
+          title: "Why Choose Xofah for Waterjet Cutting?",
           list: [
             { name: "Endless Options", description: "Choose from millions of possible combinations of materials, finishes, tolerances, markings, and certifications for your order." },
             { name: "Easy to Use", description: "Get your parts delivered right to your door without the hassle of sourcing, project management, logistics, or shipping." },
@@ -571,7 +571,7 @@ export const sheetMetalStampingData = {
           title: "Overview",
           content: [
             "Laser tube cutting is the process by which tube stock material is selectively cut to form various shapes, holes, designs, and/or channels using a controllable precision laser. The stock material (tube/pipe) is held in a controllable lathe, where the tube will rotate in line with the design specifications as the laser makes cuts. Laser tube cutting can create through-holes of any shape as small as the wall thickness of the material and is also often used to cut channels that allow for easy bending and welding of the tube for angled tubing.",
-            "X offers an extensive range of laser tube cutting services with instant online pricing, DFM, and lead times. Laser types utilized include fiber laser or CO2 lasers, depending upon the material and application, allowing for very tight tolerances and the ability to cut through wall thicknesses up to 1/2“. Using X’s online quote engine, it is simple to start a quote for your next laser tube cutting project, upload your 3D CAD, and select from our drop-downs to create your quote.",
+            "Xofah offers an extensive range of laser tube cutting services with instant online pricing, DFM, and lead times. Laser types utilized include fiber laser or CO2 lasers, depending upon the material and application, allowing for very tight tolerances and the ability to cut through wall thicknesses up to 1/2“. Using Xofah’s online quote engine, it is simple to start a quote for your next laser tube cutting project, upload your 3D CAD, and select from our drop-downs to create your quote.",
             "Our project managers and experts are here to assist you along the way with any questions or concerns, ensuring we meet your unique needs while providing a fast and easy manufacturing experience."
           ]
         },
@@ -579,7 +579,7 @@ export const sheetMetalStampingData = {
           title: "Sizes and Tolerances",
           content: [
             "Our laser tube cutting service can cut round, square, or rectangular tubes with a variety of sizes and wall thicknesses. Kerf sizes vary based on the specific material, laser type, laser power, and operation parameters but are overall much thinner than traditional cutting methods, reducing material waste.",
-            "Review X's Standard Tube Sizes for a comprehensive list of available tube stock."
+            "Review Xofah's Standard Tube Sizes for a comprehensive list of available tube stock."
           ],
           list: [
             "Minimum round outer diameter: .500\"",
@@ -590,7 +590,7 @@ export const sheetMetalStampingData = {
             "Maximum wall thickness: .500\""
           ],
           additionalContent: [
-            "Tolerances are outlined in X's Manufacturing Standards for Tube Cutting",
+            "Tolerances are outlined in Xofah's Manufacturing Standards for Tube Cutting",
             "Cut Type: Normal-to-Surface",
             "Edge-to-Edge Tolerances: +/- .010” nominal on the inner face of the tube.",
             "Minimum feature size: Generally no larger than the tube thickness."
@@ -676,13 +676,13 @@ export const sheetMetalStampingData = {
           title: "Overview of Tube Bending",
           content: [
             "Tube bending consists of a series of manufacturing processes that alter the shape of a pipe or tube to create the desired geometry or features that meet specific requirements. In the process, tube stock is loaded into a bending machine which uses mechanical forces to push the tube against dies and rollers that cause the tube to conform to a shape. Tubes can be bent two-dimensionally where the openings remain on the same plane or in three dimensions where they sit on different planes. Multiple bends are allowed in CNC tube bending, reducing the need to weld or fabricate a complex shape with elbow and straight tube sections.",
-            "X offers a full suite of custom tube bending services for your application with instant online quoting, DFM, and competitive lead times. Whether you are looking for standard rotary draw tube bending or highly precise mandrel tube bending, X offers different processes to meet your requirements for tube fabrication services in both low and high volumes. X also offers laser tube cutting services for parts that include cut features such as holes, slots, and more. Material choices for our tube bending services include stainless steel, aluminum, and alloy steel."
+            "Xofah offers a full suite of custom tube bending services for your application with instant online quoting, DFM, and competitive lead times. Whether you are looking for standard rotary draw tube bending or highly precise mandrel tube bending, Xofah offers different processes to meet your requirements for tube fabrication services in both low and high volumes. Xofah also offers laser tube cutting services for parts that include cut features such as holes, slots, and more. Material choices for our tube bending services include stainless steel, aluminum, and alloy steel."
           ]
         },
         {
           title: "Tube Bending Sizes and Tolerances",
           content: [
-            "Our tube bending service is built around typical industry standards to ensure a smooth manufacturing experience. X can achieve tighter tolerances after a manual review by one of our project engineers. In the list below, you'll find the standards and tolerances specific to our drawn or mandrel bending techniques for round profiles:"
+            "Our tube bending service is built around typical industry standards to ensure a smooth manufacturing experience. Xofah can achieve tighter tolerances after a manual review by one of our project engineers. In the list below, you'll find the standards and tolerances specific to our drawn or mandrel bending techniques for round profiles:"
           ],
           list: [
             "Minimum bendable tube diameter: .250\"",
@@ -705,7 +705,7 @@ export const sheetMetalStampingData = {
         {
           title: "Tube Bending Material Options",
           content: [
-            "X's tube bending services are for creating custom round tubes in a variety of shapes and materials:"
+            "Xofah's tube bending services are for creating custom round tubes in a variety of shapes and materials:"
           ],
           list: [
             { name: "Stainless Steel 304 and 316 (Welded or Seamless)", description: "are resistant to rust and corrosion, making them ideal for outdoor, wet, or salty environments. 316 has slightly better corrosion resistance than 304." },
@@ -759,7 +759,7 @@ export const sheetMetalStampingData = {
         {
           title: "Recommended Center Line Radius to Outer Diameter",
           content: [
-            "Beyond the bend distance guidelines, X has found the following tube diameter (OD) to center line radius (CLR) combinations more readily available across a broad network.",
+            "Beyond the bend distance guidelines, Xofah has found the following tube diameter (OD) to center line radius (CLR) combinations more readily available across a broad network.",
             "The list below shows a tube OD in decimals or fractions as the related CLR to help you design your project. It is recommended that single tubes contain only one CLR for ease of manufacturability.",
             "OD to CLR Recommended Combinations:"
           ],
@@ -784,7 +784,7 @@ export const sheetMetalStampingData = {
         {
           title: "Capabilities",
           content: [
-            "X offers a full range of tube bending capabilities and pipe bending services. These services include:"
+            "Xofah offers a full range of tube bending capabilities and pipe bending services. These services include:"
           ],
           list: [
             "Mandrel Tube Bending",

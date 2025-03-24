@@ -1,13 +1,13 @@
 export const prototypePreproductionData = {
     title: "Prototype and Preproduction",
-    lead: "X helps companies and entrepreneurs around the world manufacture prototypes for their businesses.",
+    lead: "Xofah helps companies and entrepreneurs around the world manufacture prototypes for their businesses.",
     sections: [
       {
         title: "Overview",
         content: [
           {
             heading: "Prototyping Processes",
-            text: ["Some of the processes used by X to produce prototypes are:"],
+            text: ["Some of the processes used by Xofah to produce prototypes are:"],
             list: [
               "3D Printing/Additive Manufacturing",
               "Low Volume CNC Machining",
@@ -18,14 +18,14 @@ export const prototypePreproductionData = {
             ],
           },
           {
-            heading: "Key Advantages of Working With X",
+            heading: "Key Advantages of Working With Xofah",
             text: [
-              "X’s prototyping and pre-production teams work with engineering and design teams of leading companies worldwide. Some of the key advantages of working with X for prototyping requirements are as follows:",
+              "Xofah’s prototyping and pre-production teams work with engineering and design teams of leading companies worldwide. Some of the key advantages of working with Xofah for prototyping requirements are as follows:",
             ],
             list: [
-              "No Minimum Order Quantity: X can supply parts to you without a MOQ so that you can iterate your designs and finalize the best material and manufacturing process without operating under artificial constraints.",
-              "Process Expertise: X works with a variety of manufacturing technologies and processes. This helps X provide you with the processes best suited to your requirements.",
-              "Capability to Scale: X can produce parts using a variety of high-volume manufacturing processes and you don’t have to look for other suppliers if you wish to scale up.",
+              "No Minimum Order Quantity: Xofah can supply parts to you without a MOQ so that you can iterate your designs and finalize the best material and manufacturing process without operating under artificial constraints.",
+              "Process Expertise: Xofah works with a variety of manufacturing technologies and processes. This helps Xofah provide you with the processes best suited to your requirements.",
+              "Capability to Scale: Xofah can produce parts using a variety of high-volume manufacturing processes and you don’t have to look for other suppliers if you wish to scale up.",
             ],
           },
           {
@@ -65,7 +65,7 @@ export const prototypePreproductionData = {
         content: [
           {
             heading: "Overview",
-            text: ["X provides the following types of 3D Printing Services:"],
+            text: ["Xofah provides the following types of 3D Printing Services:"],
           },
           {
             heading: "MJF 3D Printing Services",
@@ -88,13 +88,13 @@ export const prototypePreproductionData = {
           {
             heading: "SLA 3D Printing Services",
             text: [
-              "SLA 3D Printing is the ideal 3D Printing process for producing parts that have very intricate details and require a smooth surface finish. X can manufacture parts in a variety of SLA 3D Printing materials.",
+              "SLA 3D Printing is the ideal 3D Printing process for producing parts that have very intricate details and require a smooth surface finish. Xofah can manufacture parts in a variety of SLA 3D Printing materials.",
             ],
           },
           {
             heading: "Metal 3D Printing Services",
             text: [
-              "X can manufacture parts using a variety of metal 3D Printing processes like DMLS, SLM, etc. depending on your requirements. Some of the common materials are aluminum alloys, titanium, and steel alloys.",
+              "Xofah can manufacture parts using a variety of metal 3D Printing processes like DMLS, SLM, etc. depending on your requirements. Some of the common materials are aluminum alloys, titanium, and steel alloys.",
             ],
             button: {
               text: "Get a Quote",
@@ -104,7 +104,7 @@ export const prototypePreproductionData = {
           {
             heading: "Certifications",
             text: [
-              "X is ISO 9001:2015 and AS9100D certified. Our machine shops are IATF 16949:2016, ISO 13485:2016 and AS9100 certified.",
+              "Xofah is ISO 9001:2015 and AS9100D certified. Our machine shops are IATF 16949:2016, ISO 13485:2016 and AS9100 certified.",
             ],
           },
         ],
@@ -126,7 +126,7 @@ export const prototypePreproductionData = {
           {
             heading: "Low-Volume CNC Machining",
             text: [
-              "X can manufacture parts using CNC Machining in low volumes in a variety of materials. Some of the materials that we can support are:",
+              "Xofah can manufacture parts using CNC Machining in low volumes in a variety of materials. Some of the materials that we can support are:",
             ],
             list: [
               "Aluminum",
@@ -150,7 +150,7 @@ export const prototypePreproductionData = {
           {
             heading: "Low-Volume Injection Molding Overview",
             text: [
-              "X manufactures parts in lower volumes using aluminum molds. Low Volume Injection Molding is useful when the number of parts required is fewer than 10,000 units. This can help bring products to market fast without investing a lot in molds.",
+              "Xofah manufactures parts in lower volumes using aluminum molds. Low Volume Injection Molding is useful when the number of parts required is fewer than 10,000 units. This can help bring products to market fast without investing a lot in molds.",
             ],
           },
         ],
@@ -161,7 +161,7 @@ export const prototypePreproductionData = {
           {
             heading: "Low-Volume Sheet Metal Fabrication Overview",
             text: [
-              "X can manufacture parts for you in lower volumes using a variety of sheet metals like Aluminum, MS, GI, etc. X can provide secondary surface finishing on the fabricated parts using powder coating, electroplating, and painting.",
+              "Xofah can manufacture parts for you in lower volumes using a variety of sheet metals like Aluminum, MS, GI, etc. Xofah can provide secondary surface finishing on the fabricated parts using powder coating, electroplating, and painting.",
             ],
           },
         ],
@@ -172,7 +172,7 @@ export const prototypePreproductionData = {
           {
             heading: "Low-Volume Aluminum Extrusions Overview",
             text: [
-              "X can manufacture aluminum extrusions in lower volumes in a variety of aluminum alloys. Some of the common aluminum alloys that we work with are:",
+              "Xofah can manufacture aluminum extrusions in lower volumes in a variety of aluminum alloys. Some of the common aluminum alloys that we work with are:",
             ],
             list: [
               "6063-T5 and 6063-T6",
@@ -185,24 +185,24 @@ export const prototypePreproductionData = {
           {
             heading: "Quality Expertise",
             text: [
-              "X has global quality expertise in FMEA, APQP, PPAP, SPC, and MSA and is AS 9100D & ISO 9001:2015 certified.",
+              "Xofah has global quality expertise in FMEA, APQP, PPAP, SPC, and MSA and is AS 9100D & ISO 9001:2015 certified.",
             ],
           },
         ],
       },
       {
-        title: "The X Manufacturing Difference",
+        title: "The Xofah Manufacturing Difference",
         content: [
           {
             heading: "Efficiency and Value",
             text: [
-              "X provides a full suite of manufacturing services focused on reducing turnaround time and improving efficiency and value. X delivers projects that are more cost-effective and are brought to market sooner.",
+              "Xofah provides a full suite of manufacturing services focused on reducing turnaround time and improving efficiency and value. Xofah delivers projects that are more cost-effective and are brought to market sooner.",
             ],
           },
           {
             heading: "Project Management",
             text: [
-              "X offers project management throughout the manufacturing process. After you create a PO, our team will guide you through each step. They will keep you up-to-date with the information you need to monitor production and share project information with internal stakeholders.",
+              "Xofah offers project management throughout the manufacturing process. After you create a PO, our team will guide you through each step. They will keep you up-to-date with the information you need to monitor production and share project information with internal stakeholders.",
             ],
           },
           {
@@ -214,7 +214,7 @@ export const prototypePreproductionData = {
           {
             heading: "FAIR Approval",
             text: [
-              "A first-article inspection report (FAIR) is a part of any robust product development program. It is also critical to conduct detailed inspections to avoid out-of-tolerance components and rework for parts. X’s process incorporates this essential step, giving you complete confidence in the parts you receive.",
+              "A first-article inspection report (FAIR) is a part of any robust product development program. It is also critical to conduct detailed inspections to avoid out-of-tolerance components and rework for parts. Xofah’s process incorporates this essential step, giving you complete confidence in the parts you receive.",
             ],
           },
           {

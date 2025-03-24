@@ -49,20 +49,20 @@ import { useAuth } from "@/hooks/useAuth";
 
 const DashboardHeader = () => {
   const navigate = useNavigate();
-  const { handleLogOut } = useAuth();
+  const { handleLogOut,role } = useAuth();
   return (
     <header className="flex flex-col">
       <div className="flex items-center justify-between px-6 py-[14px] border-b">
         {/* <TopNavigation navItems={topNavItems} /> */}
         <div className="ml-auto flex items-center space-x-4">
-          <div className="relative">
+          {/* <div className="relative">
             <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
             <Input
               type="search"
               placeholder="Search products..."
               className="pl-8 sm:w-[300px] md:w-[200px] lg:w-[300px]"
             />
-          </div>
+          </div> */}
           <ModeToggle />
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -81,7 +81,9 @@ const DashboardHeader = () => {
               >
                 Settings
               </DropdownMenuItem>
-              <DropdownMenuItem>Support</DropdownMenuItem>
+              <DropdownMenuItem   onClick={() => {
+                  navigate("/supplier/dashboard/support");
+                }}>Support</DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem onClick={handleLogOut}>Logout</DropdownMenuItem>
             </DropdownMenuContent>

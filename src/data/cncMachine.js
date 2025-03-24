@@ -1,56 +1,56 @@
 // Data object for CNC Machining
 export const cncMachiningData = {
     title: "CNC Machining Services",
-    lead: "X provides custom online CNC machining services for engineers, product developers, and designers through a vetted network of 10,000+ suppliers, delivering high-quality parts for rapid prototyping and production.",
+    lead: "Xofah provides custom online CNC machining services for engineers, product developers, and designers through a vetted network of 10,000+ suppliers, delivering high-quality parts for rapid prototyping and production.",
     sections: [
       {
         title: "CNC Machining",
         subsections: [
           {
-            title: "Why Use X for Custom Online CNC Machining Services?",
+            title: "Why Use Xofah for Custom Online CNC Machining Services?",
             content: [
-              "X provides a custom online CNC machining service to engineers, product developers, designers, and more through our vetted network of 10,000+ suppliers. Our highly qualified AS9100D machine shops can make any custom design, simple or complex. We offer rapid machining, small-batch machining, and high-volume production, with all orders serviced by X from end to end. Upload a CAD file to the X Instant Quoting Engine℠ to get a price, lead time, and design-for-manufacturability feedback on your custom CNC parts. Our fast CNC machining capabilities include services for metals and plastics and flexible production and shipping options to meet you at the perfect price and product development stage.",
-              "X assures the quality of your machined parts with our ISO 9001:2015, ISO 13485, IATF 16949:2016, and AS9100D certified quality management system, ITAR registration, and options to add inspections, hardware traceability, material certifications, and CoCs. We accept technical drawings and have support teams to ensure you get quality CNC machined parts on time."
+              "Xofah provides a custom online CNC machining service to engineers, product developers, designers, and more through our vetted network of 10,000+ suppliers. Our highly qualified AS9100D machine shops can make any custom design, simple or complex. We offer rapid machining, small-batch machining, and high-volume production, with all orders serviced by Xofah from end to end. Upload a CAD file to the Xofah Instant Quoting Engine℠ to get a price, lead time, and design-for-manufacturability feedback on your custom CNC parts. Our fast CNC machining capabilities include services for metals and plastics and flexible production and shipping options to meet you at the perfect price and product development stage.",
+              "Xofah assures the quality of your machined parts with our ISO 9001:2015, ISO 13485, IATF 16949:2016, and AS9100D certified quality management system, ITAR registration, and options to add inspections, hardware traceability, material certifications, and CoCs. We accept technical drawings and have support teams to ensure you get quality CNC machined parts on time."
             ]
           },
           {
             title: "What is CNC Machining?",
             content: [
               "CNC, or computer numerical control machining, is a widely used manufacturing process that uses automated, high-speed cutting tools to form designs from metal or plastic stock. Standard CNC machines include 3-axis, 4-axis, and 5-axis milling machines, lathes, and routers. Machines may vary in how CNC parts are cut—the workpiece may remain in place while the tool moves, the tool may remain in place while the workpiece is rotated and moved, or both the cutting tool and workpiece may move together.",
-              "Skilled machinists operate a CNC machine by programming tool paths based on the geometry of the final machined parts. The part geometry information is provided by a CAD (computer-aided design) model. CNC machines can cut almost any metal alloy and rigid plastic with high precision and repeatability, making custom machined parts suitable for nearly every industry, including aerospace, medical, robotics, electronics, and industrial. X provides CNC services and offers custom CNC quotes on over 40 materials ranging from commodity aluminum and acetal to advanced titanium and engineered plastics like PEEK and Teflon."
+              "Skilled machinists operate a CNC machine by programming tool paths based on the geometry of the final machined parts. The part geometry information is provided by a CAD (computer-aided design) model. CNC machines can cut almost any metal alloy and rigid plastic with high precision and repeatability, making custom machined parts suitable for nearly every industry, including aerospace, medical, robotics, electronics, and industrial. Xofah provides CNC services and offers custom CNC quotes on over 40 materials ranging from commodity aluminum and acetal to advanced titanium and engineered plastics like PEEK and Teflon."
             ]
           },
           {
-            title: "X Precision CNC Machining Services",
+            title: "Xofah Precision CNC Machining Services",
             content: [
-              "X’s CNC machining factory is fully equipped with state-of-the-art equipment and in-house engineering services. We employ experienced, professional staff to ensure consistent compliance with your engineering specifications. X provides high-quality, tight-tolerance components machined from bar stock.",
-              "X also finishes as-cast and as-forged components. Additionally, we perform all necessary secondary operations on finished / semi-finished parts such as heat treatment, surface treatment etc."
+              "Xofah’s CNC machining factory is fully equipped with state-of-the-art equipment and in-house engineering services. We employ experienced, professional staff to ensure consistent compliance with your engineering specifications. Xofah provides high-quality, tight-tolerance components machined from bar stock.",
+              "Xofah also finishes as-cast and as-forged components. Additionally, we perform all necessary secondary operations on finished / semi-finished parts such as heat treatment, surface treatment etc."
             ]
           },
           {
             title: "Start Manufacturing Your Precision Machined Components",
             content: [
-              "X provides high-quality, tight toleranced components machined from bar stock.",
+              "Xofah provides high-quality, tight toleranced components machined from bar stock.",
               "Submit the relevant part drawings, 3D files, and other information by clicking on the button below."
             ],
             button: { text: "Get a Quote", href: "#" }
           },
           {
-            title: "X Precision CNC Machining Services (Repeated)",
+            title: "Xofah Precision CNC Machining Services (Repeated)",
             content: [
-              "X’s machining facilities are fully equipped with state-of-the-art equipment and employ experienced, professional staff to ensure consistent compliance to your engineering specifications. X provides high-quality, tight toleranced components machined from bar stock.",
-              "X also finishes as-cast and as-forged components. Additionally, we perform all necessary secondary operations on finished/semi-finished parts such as heat treatment, surface treatment etc."
+              "Xofah’s machining facilities are fully equipped with state-of-the-art equipment and employ experienced, professional staff to ensure consistent compliance to your engineering specifications. Xofah provides high-quality, tight toleranced components machined from bar stock.",
+              "Xofah also finishes as-cast and as-forged components. Additionally, we perform all necessary secondary operations on finished/semi-finished parts such as heat treatment, surface treatment etc."
             ],
             button: { text: "Get a Quote", href: "#" }
           },
           {
-            title: "X has a diverse range of CNC Machining Capabilities",
+            title: "Xofah has a diverse range of CNC Machining Capabilities",
             list: [
               { name: "CNC Milling Sevices", description: "3 Axis, 4 Axis & 5 Axis, Double Column Vertical Machining Center, Multi Spindle Vertical Machining Center, Horizontal Machining Center" },
               { name: "CNC Turning Services", description: "Turn Mill Centres, Mill-Turn Centres, Turning Centres, Profile Grinding" },
               { name: "Finishing Services on machined parts", description: "Cyl, Surface & Profile Grinding, Honing, and Lapping." },
               { name: "Other Miscellaneous Services", description: "EDM, Thread Rolling, Gear Hobbing, Shaping, Broaching, Spline Cutting, Gun Drilling, etc." },
-              { name: "Inspection Facilities", description: "X provides inspection services including Scanning, CMM, VMS, Gauging, Shadowgraph, NDT, Contour Profiling, and Scanning." },
+              { name: "Inspection Facilities", description: "Xofah provides inspection services including Scanning, CMM, VMS, Gauging, Shadowgraph, NDT, Contour Profiling, and Scanning." },
               { name: "3D modeling & CAM Programming Capabilities", description: "includes Master Cam, Hyper Mill, UG NX, and Solid Works." }
             ]
           },
@@ -67,9 +67,9 @@ export const cncMachiningData = {
             ]
           },
           {
-            title: "X Supports Multiple Precision CNC Machining Materials",
+            title: "Xofah Supports Multiple Precision CNC Machining Materials",
             content: [
-              "X can manufacture parts using CNC machining in a variety of materials.",
+              "Xofah can manufacture parts using CNC machining in a variety of materials.",
               "Some of the materials that we can support are:"
             ],
             list: [
@@ -84,13 +84,13 @@ export const cncMachiningData = {
               "… and many more"
             ],
             additionalContent: [
-              "X has global quality expertise in FMEA, APQP, PPAP, SPC, and MSA and is AS 9100D & ISO 9001:2015 certified."
+              "Xofah has global quality expertise in FMEA, APQP, PPAP, SPC, and MSA and is AS 9100D & ISO 9001:2015 certified."
             ]
           },
           {
             title: "Project Management",
             content: [
-              "X offers project management throughout the manufacturing process. After you create a PO, our team will guide you through each step. They will keep you up-to-date with the information you need to monitor production and share project information with internal stakeholders."
+              "Xofah offers project management throughout the manufacturing process. After you create a PO, our team will guide you through each step. They will keep you up-to-date with the information you need to monitor production and share project information with internal stakeholders."
             ]
           },
           {
@@ -103,7 +103,7 @@ export const cncMachiningData = {
           {
             title: "FAIR Approval",
             content: [
-              "A first-article inspection report (FAIR) is a part of any robust product development program. It is also critical to conduct detailed inspections to avoid out-of-tolerance components and rework for CNC machined parts. X’s process incorporates this essential step, giving you complete confidence in the parts you receive."
+              "A first-article inspection report (FAIR) is a part of any robust product development program. It is also critical to conduct detailed inspections to avoid out-of-tolerance components and rework for CNC machined parts. Xofah’s process incorporates this essential step, giving you complete confidence in the parts you receive."
             ]
           },
           {
@@ -120,12 +120,12 @@ export const cncMachiningData = {
           {
             title: "High Quality Rapid CNC Milling Service",
             content: [
-              "X integrates seamlessly with over 10,000 qualified manufacturing partners, including US-based ITAR qualified and AS9100D registered CNC milling facilities. That massive network means that whatever your part, we have a shop and a machine that can make it. We support 3-axis, 4-axis, 5-axis milling, and right angle milling capabilities to help you rapidly create designs from simple straight lines to complex geometric shapes. X offers instant pricing, on-demand lead times, and design-for-manufacturability feedback on materials and manufacturing processes for your custom CNC milled parts, no matter your industry. Get your instant quote today."
+              "Xofah integrates seamlessly with over 10,000 qualified manufacturing partners, including US-based ITAR qualified and AS9100D registered CNC milling facilities. That massive network means that whatever your part, we have a shop and a machine that can make it. We support 3-axis, 4-axis, 5-axis milling, and right angle milling capabilities to help you rapidly create designs from simple straight lines to complex geometric shapes. Xofah offers instant pricing, on-demand lead times, and design-for-manufacturability feedback on materials and manufacturing processes for your custom CNC milled parts, no matter your industry. Get your instant quote today."
             ],
             button: { text: "Get an Instant Quote", href: "#" }
           },
           {
-            title: "Materials Available at X",
+            title: "Materials Available at Xofah",
             table: {
               headers: ["Aluminum", "Bronze/Brass", "Copper", "Plastics", "Steel / Titanium / Zinc"],
               rows: [
@@ -165,10 +165,10 @@ export const cncMachiningData = {
               rows: [
                 ["Maximum Part Size", "Milled parts up to 80” x 48” x 24” (2,032 x 1,219 x 610 mm)."],
                 ["Distance Dimensions", "For features of size (Length, width, height, diameter) and location (position, concentricity, symmetry) +/- 0.005”."],
-                ["Orientation and Form Dimensions", "0-12\" +/- 0.005\", Angularity 1/2 degree. For 24\" and beyond please consult X's Manufacturing Standards."],
-                ["Precision Tolerances", "X can manufacture and inspect to tight tolerances, including sub +/- 0.001\" tolerances, per your drawing specifications and GD&T callouts."],
+                ["Orientation and Form Dimensions", "0-12\" +/- 0.005\", Angularity 1/2 degree. For 24\" and beyond please consult Xofah's Manufacturing Standards."],
+                ["Precision Tolerances", "Xofah can manufacture and inspect to tight tolerances, including sub +/- 0.001\" tolerances, per your drawing specifications and GD&T callouts."],
                 ["Minimum Feature Size", "0.020” (0.50 mm). This may vary depending on part geometry and chosen material."],
-                ["Threads and Tapped Holes", "X can accommodate any standard thread size. We can also machine custom threads; these will require a manual quote review."],
+                ["Threads and Tapped Holes", "Xofah can accommodate any standard thread size. We can also machine custom threads; these will require a manual quote review."],
                 ["Surface Finish", "The standard finish is as-machined: 125 Ra or better. Additional finishing options can be specified when getting a quote."],
                 ["Edge Condition", "Sharp edges will be broken and deburred by default. Critical edges that must be left sharp should be noted and specified on a print."]
               ]
@@ -180,7 +180,7 @@ export const cncMachiningData = {
               { subheading: "The Basics Of CNC Mills", text: "CNC mills are automated cutting machines using a rotating spindle-head to cut away unwanted material. CNC milling machines come in a variety of sizes and different axis configurations. This manufacturing process is mainly utilized to cut harder metals but can work with workpiece materials ranging from plastic and aluminum to stainless steel and titanium." },
               { subheading: "How CNC Milling Works", text: "CNC mills excel at profile cutting harder materials. Like all CNC machines, a CNC mill is controlled with G-Code created through CAM software. The Gg-Code instructs the machine where to move the tool head, how fast to spin the tool, how deep to cut, how to move the workpiece, and other factors relating to speed, feed rate, and coordination. The G-Code complexity depends on how many axes the milling machine has.", additional: "Mills can still be used for profile cutting of softer materials, but are not as cost-effective for that use as CNC routers. The main difference between these machines is that with a CNC router the workpiece remains stationary while the router cutting head is directed around the piece, while a CNC mill may move both tool head and workpiece. CNC mills are mainly used in industrial manufacturing, while CNC routing is more common for lower output manufacturing like woodworking." },
               { subheading: "Types of CNC Mills", text: "", list: [
-                { name: "3-Axis", description: "The most widely used type of CNC milling machine. The full use of the X, Y, and Z directions makes a 3 Axis CNC mill useful for a wide variety of work." },
+                { name: "3-Axis", description: "The most widely used type of CNC milling machine. The full use of the Xofah, Y, and Z directions makes a 3 Axis CNC mill useful for a wide variety of work." },
                 { name: "4-Axis", description: "This type of router allows the machine to rotate on a vertical axis, moving the workpiece to introduce more continuous machining." },
                 { name: "5-Axis", description: "These machines have three traditional axes as well as two additional rotary axes. A 5-axis CNC router is, therefore, able to machine 5 sides of a workpiece at in one machine without having to remove the workpiece and reset. The workpiece rotates, and the spindle head is able to also move around the piece. These are larger and more expensive." }
               ]},
@@ -195,12 +195,12 @@ export const cncMachiningData = {
           {
             title: "CNC Turning Service Overview",
             content: [
-              "With access to a network of over 10,000 shops including those with CNC lathes and turning centers, X provides you with the capacity and capabilities your project needs, while also delivering the most competitive pricing and lead times. X's machine learning-trained technology platform also provides instant manufacturability feedback to ensure that your part is optimized for the CNC turning process and fits the requirements you need. Our on-demand manufacturing platform can deliver high-quality metal and plastic CNC turning parts for rapid prototyping or low-to-high volume production runs. Get an instant quote from your 3D CAD file today."
+              "With access to a network of over 10,000 shops including those with CNC lathes and turning centers, Xofah provides you with the capacity and capabilities your project needs, while also delivering the most competitive pricing and lead times. Xofah's machine learning-trained technology platform also provides instant manufacturability feedback to ensure that your part is optimized for the CNC turning process and fits the requirements you need. Our on-demand manufacturing platform can deliver high-quality metal and plastic CNC turning parts for rapid prototyping or low-to-high volume production runs. Get an instant quote from your 3D CAD file today."
             ],
             button: { text: "Get an Instant Quote", href: "#" }
           },
           {
-            title: "X CNC Materials",
+            title: "Xofah CNC Materials",
             table: {
               headers: ["Material", "Available Varieties"],
               rows: [
@@ -233,7 +233,7 @@ export const cncMachiningData = {
           {
             title: "Advantages of CNC Turning",
             list: [
-              { name: "Rapid Turnaround", description: "Using the latest CNC machines, X produces highly accurate, quick turn parts in as fast as 1 day." },
+              { name: "Rapid Turnaround", description: "Using the latest CNC machines, Xofah produces highly accurate, quick turn parts in as fast as 1 day." },
               { name: "Custom Finishes", description: "Select from a variety of finishes on solid metal and plastic parts, built to precise design specifications." },
               { name: "Material Selection", description: "Choose from over 50 metal and plastic materials. CNC Machining offers a wide variety of certified materials." },
               { name: "Precision", description: "Offers high-precision tolerances ranging from +/-0.001″ – 0.005″, depending on customer specs." },
@@ -246,7 +246,7 @@ export const cncMachiningData = {
               headers: ["Description", "General Tolerance"],
               rows: [
                 ["Distance Dimensions", "For features of size (Length, width, height, diameter) and location (position, concentricity, symmetry) +/- 0.005”."],
-                ["Orientation and Form Dimensions", "0-12\" +/- 0.005\", Angularity 1/2 degree. For 24\" and beyond please consult X's Manufacturing Standards."],
+                ["Orientation and Form Dimensions", "0-12\" +/- 0.005\", Angularity 1/2 degree. For 24\" and beyond please consult Xofah's Manufacturing Standards."],
                 ["Edge Condition", "Sharp edges will be broken and deburred by default. Critical edges that must be left sharp should be noted and specified on a print."]
               ]
             }
@@ -266,10 +266,10 @@ export const cncMachiningData = {
         title: "Wire EDM Machining Service",
         subsections: [
           {
-            title: "Custom Wire EDM Machining With X",
+            title: "Custom Wire EDM Machining With Xofah",
             content: [
-              "X makes high-quality wire EDM parts in days, not months. Our network includes hundreds of shops with wire EDM capabilities, giving you nearly infinite capacity to make simple and complex parts.",
-              "Wire EDM (also called Electrical Discharge Machining) uses a thin single strand of wire, which is fed through the piece or part along with deionized water. The wire is spooled between two guide rollers which are guided by the computers that drive the machine. The process uses electric current to cut away conductive materials from the part and leave behind a smooth surface that does not require post-processing. Though the process is complex, X's suppliers, including ITAR registered, ISO 9001:2015, ISO 13485:2016, IATF 16949:2016 and AS9100D facilities are highly skilled and can get the job done."
+              "Xofah makes high-quality wire EDM parts in days, not months. Our network includes hundreds of shops with wire EDM capabilities, giving you nearly infinite capacity to make simple and complex parts.",
+              "Wire EDM (also called Electrical Discharge Machining) uses a thin single strand of wire, which is fed through the piece or part along with deionized water. The wire is spooled between two guide rollers which are guided by the computers that drive the machine. The process uses electric current to cut away conductive materials from the part and leave behind a smooth surface that does not require post-processing. Though the process is complex, Xofah's suppliers, including ITAR registered, ISO 9001:2015, ISO 13485:2016, IATF 16949:2016 and AS9100D facilities are highly skilled and can get the job done."
             ]
           },
           {
@@ -300,8 +300,8 @@ export const cncMachiningData = {
             title: "Overview",
             content: [
               "The medical manufacturing industry requires parts to satisfy product specifications and end-user needs and comply with various healthcare industry regulations and standards.",
-              "X is an ISO 9001:2015, IATF 16949:2016, and ISO 13485-certified manufacturer that offers high-quality medical CNC machining services for the production of medical products such as implants, medical devices, and surgical instruments. The primary types of CNC machining utilized include wire EDM, 5-axis Precision CNC Machining, and Swiss Lathe CNC Machining. Material options for medical CNC machining include stainless steel, aluminum, titanium, and copper, as well as plastics such as PE, nylon, and PVC.",
-              "With X, you are ensured of precise components, quick turnaround, and excellent customer service. Our robust capabilities and offerings make us a premier supplier for the medical manufacturing industry."
+              "Xofah is an ISO 9001:2015, IATF 16949:2016, and ISO 13485-certified manufacturer that offers high-quality medical CNC machining services for the production of medical products such as implants, medical devices, and surgical instruments. The primary types of CNC machining utilized include wire EDM, 5-axis Precision CNC Machining, and Swiss Lathe CNC Machining. Material options for medical CNC machining include stainless steel, aluminum, titanium, and copper, as well as plastics such as PE, nylon, and PVC.",
+              "With Xofah, you are ensured of precise components, quick turnaround, and excellent customer service. Our robust capabilities and offerings make us a premier supplier for the medical manufacturing industry."
             ]
           },
           {
@@ -324,7 +324,7 @@ export const cncMachiningData = {
             list: [
               "Stethoscopes",
               "Ventilator parts",
-              "Electrocardiograph (EKG), X-ray, and MRI machines",
+              "Electrocardiograph (EKG), Xofah-ray, and MRI machines",
               "Blood pressure monitors",
               "Catheters",
               "Stretchers and hospital beds",
@@ -333,7 +333,7 @@ export const cncMachiningData = {
             ],
             additionalContent: [
               "These devices and associated subcomponents can be machined using various materials, including stainless steel, aluminum, titanium, PE, PVC, and nylon.",
-              "Components in ventilators, EKG, X-ray, and MRI machines, stretchers, hospital beds, and prostheses, can be directly machined via a 5-axis CNC machine, Swiss lathe, or standard CNC milling machine. Other components may require plastic injection molding or plastic extrusion to fabricate parts. In such cases, 5-axis CNC milling or wire EDM can be used to produce plastic injection molding die sets or extrusion die sets."
+              "Components in ventilators, EKG, Xofah-ray, and MRI machines, stretchers, hospital beds, and prostheses, can be directly machined via a 5-axis CNC machine, Swiss lathe, or standard CNC milling machine. Other components may require plastic injection molding or plastic extrusion to fabricate parts. In such cases, 5-axis CNC milling or wire EDM can be used to produce plastic injection molding die sets or extrusion die sets."
             ]
           },
           {
@@ -385,9 +385,9 @@ export const cncMachiningData = {
             ]
           },
           {
-            title: "Types of Medical CNC Machining by X",
+            title: "Types of Medical CNC Machining by Xofah",
             content: [
-              "X has extensive CNC capability for the medical manufacturing industry including: 3-axis milling machines, CNC lathes, 5-axis CNC milling machines, and wire EDM machines.",
+              "Xofah has extensive CNC capability for the medical manufacturing industry including: 3-axis milling machines, CNC lathes, 5-axis CNC milling machines, and wire EDM machines.",
               "See more information below:"
             ],
             list: [
@@ -400,27 +400,27 @@ export const cncMachiningData = {
           {
             title: "Wire EDM Medical Machining",
             content: [
-              "X offers wire EDM medical machining to fabricate medical parts and components. Wire EDM is a non-conventional machining process in which cuts are made with an electrically conductive wire. This results in parts with shallow surface roughnesses (down to 1.5 µm Ra) that satisfy extremely tight tolerances (+0.0025 mm).",
+              "Xofah offers wire EDM medical machining to fabricate medical parts and components. Wire EDM is a non-conventional machining process in which cuts are made with an electrically conductive wire. This results in parts with shallow surface roughnesses (down to 1.5 µm Ra) that satisfy extremely tight tolerances (+0.0025 mm).",
               "Wire EDM is highly applicable for medical CNC machining, as various medical devices like surgical tools and bone plates require precision. This technology is commonly used for the fabrication of plastic injection molds and extrusion dies. Wire EDM can also be used to cut any electrically conductive material."
             ]
           },
           {
             title: "5-Axis CNC Medical Machining",
             content: [
-              "X offers 5-axis CNC medical machining which has an advantage over simpler 3- and 4-axis machining. It allows parts to be moved about 5 degrees of freedom simultaneously. This enables cutting tools to approach parts from any direction. Consequently, it allows complex shapes that otherwise would not be possible to be cut on a 3- or 4-axis machine to be cut with precision.",
+              "Xofah offers 5-axis CNC medical machining which has an advantage over simpler 3- and 4-axis machining. It allows parts to be moved about 5 degrees of freedom simultaneously. This enables cutting tools to approach parts from any direction. Consequently, it allows complex shapes that otherwise would not be possible to be cut on a 3- or 4-axis machine to be cut with precision.",
               "5-axis CNC machining is ideal for medical devices such as joint replacements, prostheses, and various surgical and dental instruments—not to mention its use for the fabrication of molds and dies. Common materials used in the medical industry with 5-axis machining include titanium, stainless steel, chromium-cobalt, and aluminum."
             ]
           },
           {
             title: "Swiss CNC Medical Machining",
             content: [
-              "X offers Swiss CNC medical machining, a precision manufacturing machine that produces very small parts quickly and accurately. The primary advantage of swiss CNC machines over standard CNC lathes is that multiple cutting operations that would normally require multiple setups can occur simultaneously. This is due to the presence of multiple spindles for cutting tools—as well as the ability to make cuts along the Z-axis of the part. What results, are highly precise, complex parts that otherwise could not be cut on a standard lathe. Swiss CNC medical machining is ideal for round parts such as those found in prostheses, joint replacements, and surgical and dental instruments. Common materials include stainless steel, aluminum, titanium, and chromium-cobalt."
+              "Xofah offers Swiss CNC medical machining, a precision manufacturing machine that produces very small parts quickly and accurately. The primary advantage of swiss CNC machines over standard CNC lathes is that multiple cutting operations that would normally require multiple setups can occur simultaneously. This is due to the presence of multiple spindles for cutting tools—as well as the ability to make cuts along the Z-axis of the part. What results, are highly precise, complex parts that otherwise could not be cut on a standard lathe. Swiss CNC medical machining is ideal for round parts such as those found in prostheses, joint replacements, and surgical and dental instruments. Common materials include stainless steel, aluminum, titanium, and chromium-cobalt."
             ]
           },
           {
             title: "Medical CNC Milling",
             content: [
-              "X offers standard 3- and 4-axis medical CNC milling. Medical CNC milling’s advantage is the rapid turnaround of parts and parts that fall within tight tolerances. Common materials include stainless steel, titanium, aluminum, chromium-cobalt, PVC, PEEK, nylon, and PE."
+              "Xofah offers standard 3- and 4-axis medical CNC milling. Medical CNC milling’s advantage is the rapid turnaround of parts and parts that fall within tight tolerances. Common materials include stainless steel, titanium, aluminum, chromium-cobalt, PVC, PEEK, nylon, and PE."
             ]
           },
           {
@@ -429,17 +429,17 @@ export const cncMachiningData = {
               "Any material considered acceptable for medical devices must meet high standards of reliability and performance. Below are some common materials used for medical CNC machining:"
             ],
             list: [
-              "X Includes CNC Machining in Aluminum",
-              "X Includes CNC Machining in Stainless Steel",
-              "X Includes CNC Machining in Titanium and Titanium Alloys",
-              "X Includes CNC Machining in Brass",
-              "X Includes CNC Machining in Polyethylene (PE)",
-              "X Includes CNC Machining in Nylon",
-              "X Includes CNC Machining in Polyvinyl Chloride (PVC)"
+              "Xofah Includes CNC Machining in Aluminum",
+              "Xofah Includes CNC Machining in Stainless Steel",
+              "Xofah Includes CNC Machining in Titanium and Titanium Alloys",
+              "Xofah Includes CNC Machining in Brass",
+              "Xofah Includes CNC Machining in Polyethylene (PE)",
+              "Xofah Includes CNC Machining in Nylon",
+              "Xofah Includes CNC Machining in Polyvinyl Chloride (PVC)"
             ]
           },
           {
-            title: "X Includes CNC Machining in Aluminum",
+            title: "Xofah Includes CNC Machining in Aluminum",
             content: [
               "Aluminum is often used in the medical industry due to its lightweight, high strength-to-weight ratio, durability, and corrosion resistance. It is also biocompatible and can be used for limited internal use in the human body. Common applications include:"
             ],
@@ -455,7 +455,7 @@ export const cncMachiningData = {
             ]
           },
           {
-            title: "X Includes CNC Machining in Stainless Steel",
+            title: "Xofah Includes CNC Machining in Stainless Steel",
             content: [
               "Stainless steel’s desirable properties including strength, toughness, corrosion resistance, impact resistance, and biocompatibility make it ideal for many uses in the medical industry. Its thermal stability and outermost passivation layer allow parts to be easily cleaned and sanitized. Common applications include:"
             ],
@@ -475,7 +475,7 @@ export const cncMachiningData = {
             ]
           },
           {
-            title: "X Includes CNC Machining in Titanium and Titanium Alloys",
+            title: "Xofah Includes CNC Machining in Titanium and Titanium Alloys",
             content: [
               "Titanium and its alloys are used in the medical industry because of their strength, low weight and density, and corrosion resistance. Titanium is one of few inert metals and unaffected by bodily fluids and tissue. Common applications include:"
             ],
@@ -492,7 +492,7 @@ export const cncMachiningData = {
             ]
           },
           {
-            title: "X Includes CNC Machining in Brass",
+            title: "Xofah Includes CNC Machining in Brass",
             content: [
               "Brass is finding increased use in the medical industry due to its antimicrobial properties, cost-effectiveness, ease of recycling, and adequate strength. Copper, the main metal in brass, has inherent antimicrobial properties that mitigate the proliferation of bacteria and pathogens. Common applications include:"
             ],
@@ -504,9 +504,9 @@ export const cncMachiningData = {
             ]
           },
           {
-            title: "X Includes CNC Machining in Polyethylene (PE)",
+            title: "Xofah Includes CNC Machining in Polyethylene (PE)",
             content: [
-              "Polyethylene (PE) is commonly used in the medical field due to its ability to retain structural integrity even after several sanitation cycles and biological inertness. X can both directly machine PE to a finished product and various plastic manufacturing tooling needed to fabricate parts. Common applications include:"
+              "Polyethylene (PE) is commonly used in the medical field due to its ability to retain structural integrity even after several sanitation cycles and biological inertness. Xofah can both directly machine PE to a finished product and various plastic manufacturing tooling needed to fabricate parts. Common applications include:"
             ],
             list: [
               "Personal protective equipment (PPE) (gloves and suits)",
@@ -515,9 +515,9 @@ export const cncMachiningData = {
             ]
           },
           {
-            title: "X Includes CNC Machining in Nylon",
+            title: "Xofah Includes CNC Machining in Nylon",
             content: [
-              "Nylon’s tensile strength, flexibility, abrasion resistance, corrosion resistance, and chemical resistance properties make it an excellent material for the medical industry. X can fabricate the plastic manufacturing tooling needed to produce parts from nylon such as molds and extrusion dies. Common applications include:"
+              "Nylon’s tensile strength, flexibility, abrasion resistance, corrosion resistance, and chemical resistance properties make it an excellent material for the medical industry. Xofah can fabricate the plastic manufacturing tooling needed to produce parts from nylon such as molds and extrusion dies. Common applications include:"
             ],
             list: [
               "Prescription bottles",
@@ -525,7 +525,7 @@ export const cncMachiningData = {
             ]
           },
           {
-            title: "X Includes CNC Machining in Polyvinyl Chloride (PVC)",
+            title: "Xofah Includes CNC Machining in Polyvinyl Chloride (PVC)",
             content: [
               "Polyvinyl chloride (PVC) is an ideal material for use in the medical industry. Some of its desirable properties include flame resistance, chemical resistance, and durability. Common applications are:"
             ],
@@ -537,9 +537,9 @@ export const cncMachiningData = {
             ]
           },
           {
-            title: "Advantages of Medical CNC Machining with X",
+            title: "Advantages of Medical CNC Machining with Xofah",
             content: [
-              "Medical CNC machining with X is easy. Our AI-powered instant quote tool allows you to quickly see the feasibility of manufacturing your part, while our extensive manufacturing network ensures your parts will be made to exact specifications, fast.",
+              "Medical CNC machining with Xofah is easy. Our AI-powered instant quote tool allows you to quickly see the feasibility of manufacturing your part, while our extensive manufacturing network ensures your parts will be made to exact specifications, fast.",
               "For more information see below:"
             ],
             list: [
@@ -551,19 +551,19 @@ export const cncMachiningData = {
           {
             title: "Precision Components",
             content: [
-              "The fabrication of medical devices and components requires precision. With X, precise components that satisfy exceptionally tight tolerances (down to +0.0025 mm) are well within our capabilities. Our robust manufacturing capability and network mean that seemingly any part can be fabricated. Whether it’s surgical and dental tools, components for medical devices, or parts for prostheses, our wire EDM, 5-axis CNC machines, Swiss lathes, and standard CNC milling and lathe machines will ensure your parts satisfy regulatory standards and are made to exact specifications every time."
+              "The fabrication of medical devices and components requires precision. With Xofah, precise components that satisfy exceptionally tight tolerances (down to +0.0025 mm) are well within our capabilities. Our robust manufacturing capability and network mean that seemingly any part can be fabricated. Whether it’s surgical and dental tools, components for medical devices, or parts for prostheses, our wire EDM, 5-axis CNC machines, Swiss lathes, and standard CNC milling and lathe machines will ensure your parts satisfy regulatory standards and are made to exact specifications every time."
             ]
           },
           {
             title: "Rapid Turnaround of Parts",
             content: [
-              "The medical industry’s demand for high-quality parts also requires fast delivery to satisfy their customers. With X, our expansive manufacturing capability and extensive network of partner manufacturers (over 10,000 vetted manufacturing facilities around the world), allow the fabrication and shipping of parts significantly faster than the competition. Whether for prototyping or scaling up to mass production, rapid turnaround of parts is standard with X."
+              "The medical industry’s demand for high-quality parts also requires fast delivery to satisfy their customers. With Xofah, our expansive manufacturing capability and extensive network of partner manufacturers (over 10,000 vetted manufacturing facilities around the world), allow the fabrication and shipping of parts significantly faster than the competition. Whether for prototyping or scaling up to mass production, rapid turnaround of parts is standard with Xofah."
             ]
           },
           {
             title: "Extensive Manufacturing Capability and Capacity",
             content: [
-              "When working with X, businesses are no longer confined to the suppliers local to them. Our network of 10,000+ vetted manufacturing facilities in 44 states and 22 countries around the world means our manufacturing capabilities and capacity are seemingly endless. Our capabilities aren’t limited to just CNC machining for the medical industry; they also include sheet metal fabrication, injection molding, additive manufacturing, and various finishing processes including anodization, passivation, and powder coating. Whatever your medical manufacturing project is, X has the tools and resources available to ensure your project is successful."
+              "When working with Xofah, businesses are no longer confined to the suppliers local to them. Our network of 10,000+ vetted manufacturing facilities in 44 states and 22 countries around the world means our manufacturing capabilities and capacity are seemingly endless. Our capabilities aren’t limited to just CNC machining for the medical industry; they also include sheet metal fabrication, injection molding, additive manufacturing, and various finishing processes including anodization, passivation, and powder coating. Whatever your medical manufacturing project is, Xofah has the tools and resources available to ensure your project is successful."
             ]
           }
         ]

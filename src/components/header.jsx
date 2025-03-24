@@ -47,7 +47,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <div className="text-2xl font-bold">
-            <Link to={"/"}>Logo</Link>
+            <Link to={"/"}>Xofah</Link>
           </div>
           <nav className="hidden md:flex space-x-4">
             {headerData.map((item, index) => (

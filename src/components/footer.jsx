@@ -21,7 +21,7 @@ const Footer = () => {
 const FooterContent = () => {
   return (
     <Typography variant="body2" className="text-muted-foreground mb-4">
-      With a virtually unlimited range of capacities and capabilities, Zetwerk
+      With a virtually unlimited range of capacities and capabilities, Xofah
       offers high quality production, competitive costs and best-in-class lead
       times – whatever the category, product, scale, or geography.
     </Typography>
@@ -34,16 +34,16 @@ const FooterLinks = () => {
     [
       "CAPABILITIES",
       "INDUSTRIES",
-      "WHY ZETWERK",
+      "WHY Xofah",
       "MANUFACTURING SERVICES",
       "RESOURCES",
     ],
     [
-      "ABOUT ZETWERK",
+      "ABOUT Xofah",
       "INSIGHTS",
       "MEDIA RESOURCES",
-      "CONTACT ZETWERK",
-      "ZETWERK BUILD",
+      "CONTACT Xofah",
+      "Xofah BUILD",
     ],
     [
       "SITEMAP",
@@ -79,7 +79,7 @@ const FooterBottom = () => {
   return (
     <div className="flex flex-col md:flex-row justify-between items-center">
       <Typography variant="body2" className="text-muted-foreground">
-        © 2024 Logo
+        © 2024 Xofah
       </Typography>
       <Button variant="outline" className="mt-4 md:mt-0">
         Get a Quote Now

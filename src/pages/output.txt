@@ -89,25 +89,25 @@ const capabilitiesData = [
   {
     title: "EXTRUSIONS",
     description:
-      "Zetwerk manufactures high-quality extrusions produced using a range of aluminum alloys, with cross-sections that are as complex as customers require.",
+      "Xofah manufactures high-quality extrusions produced using a range of aluminum alloys, with cross-sections that are as complex as customers require.",
     imageUrl: "https://via.placeholder.com/300x200?text=Extrusions",
   },
   {
     title: "DIE CASTING",
     description:
-      "Zetwerk provides high-quality die-cast components produced using a range of materials including aluminum, zinc, copper, brass, and bronze alloys.",
+      "Xofah provides high-quality die-cast components produced using a range of materials including aluminum, zinc, copper, brass, and bronze alloys.",
     imageUrl: "https://via.placeholder.com/300x200?text=Die+Casting",
   },
   {
     title: "CNC MACHINING",
     description:
-      "Zetwerk provides high-quality, tight toleranced components machined from bar stock. Zetwerk also finishes as-cast and as-forged components.",
+      "Xofah provides high-quality, tight toleranced components machined from bar stock. Xofah also finishes as-cast and as-forged components.",
     imageUrl: "https://via.placeholder.com/300x200?text=CNC+Machining",
   },
   {
     title: "FORGING",
     description:
-      "Zetwerk offers a variety of forging types, including drop forging, hot/cold forging, rolled ring forging, and press forging.",
+      "Xofah offers a variety of forging types, including drop forging, hot/cold forging, rolled ring forging, and press forging.",
     imageUrl: "https://via.placeholder.com/300x200?text=Forging",
   },
   {
@@ -119,25 +119,25 @@ const capabilitiesData = [
   {
     title: "SHEET METAL STAMPING",
     description:
-      "Zetwerk produces custom sheet metal stampings in a wide range of custom materials.",
+      "Xofah produces custom sheet metal stampings in a wide range of custom materials.",
     imageUrl: "https://via.placeholder.com/300x200?text=Sheet+Metal+Stamping",
   },
   {
     title: "PROTOTYPING AND PRE-PRODUCTION",
     description:
-      "Zetwerk helps companies and entrepreneurs around the world manufacture prototypes for their businesses.",
+      "Xofah helps companies and entrepreneurs around the world manufacture prototypes for their businesses.",
     imageUrl: "https://via.placeholder.com/300x200?text=Prototyping",
   },
   {
     title: "INVESTMENT CASTING",
     description:
-      "Zetwerk produces investment cast components using carbon steel, low-alloy steel, and stainless steel grades, in addition to a wide variety of non-ferrous metals.",
+      "Xofah produces investment cast components using carbon steel, low-alloy steel, and stainless steel grades, in addition to a wide variety of non-ferrous metals.",
     imageUrl: "https://via.placeholder.com/300x200?text=Investment+Casting",
   },
   {
     title: "ASSEMBLIES",
     description:
-      "With large flexible layout factories, Zetwerk is able to set up dedicated assembly lines as per the volume requirements for a wide variety of electro-mechanical products and assemblies.",
+      "With large flexible layout factories, Xofah is able to set up dedicated assembly lines as per the volume requirements for a wide variety of electro-mechanical products and assemblies.",
     imageUrl: "https://via.placeholder.com/300x200?text=Assemblies",
   },
 ];
@@ -156,7 +156,7 @@ const Capabilities = () => {
           With our worldwide network of owned, operated, and partner
           manufacturing plants, we can have components built to your
           specification at your doorstep with industry-best lead times. These
-          are just a few of Zetwerk's manufacturing capabilities.
+          are just a few of Xofah's manufacturing capabilities.
         </Typography>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {capabilitiesData.map((capability, index) => (
@@ -369,12 +369,12 @@ export default AllManufacturingServices;
 
 
 =======================================================================
-C:\My-Projects\Fastners-new\client-new\src\pages\manufacturing-services\HowZetwerk.jsx
+C:\My-Projects\Fastners-new\client-new\src\pages\manufacturing-services\HowXofah.jsx
 
-const HowZetwerk = () => {
-  return <div>How Zetwerk</div>;
+const HowXofah = () => {
+  return <div>How Xofah</div>;
 };
-export default HowZetwerk;
+export default HowXofah;
 
 
 =======================================================================
@@ -414,12 +414,12 @@ export default QualityControl;
 
 
 =======================================================================
-C:\My-Projects\Fastners-new\client-new\src\pages\manufacturing-services\ZetwerkManagedInventory.jsx
+C:\My-Projects\Fastners-new\client-new\src\pages\manufacturing-services\XofahManagedInventory.jsx
 
-const ZetwerkManagedInventory = () => {
-  return <div>Zetwerk Managed Inventory</div>;
+const XofahManagedInventory = () => {
+  return <div>Xofah Managed Inventory</div>;
 };
-export default ZetwerkManagedInventory;
+export default XofahManagedInventory;
 
 
 =======================================================================
